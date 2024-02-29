@@ -1,0 +1,23 @@
+/* Code
+--------------------------------------------- */
+
+.wp-block-code code {
+	overflow-wrap: normal;
+	overflow-x: scroll;
+	white-space: pre;
+}
+
+.is-style-dark-code,
+.editor-styles-wrapper .wp-block-code.is-style-dark-code {
+	color: var(--wp--preset--color--base);
+	background-color: var(--wp--preset--color--main);
+}
+
+*:not(.wp-block-code) > code {
+	font-weight: var(--wp--custom--font-weight--medium);;
+	background-color: var(--wp--preset--color--tertiary);
+	padding: 3px 8px;
+	position: relative;
+	border-radius: 5px;
+}
+
