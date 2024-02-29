@@ -3,7 +3,7 @@
  * Title: Contact Card
  * Slug: card-contact
  * Description:
- * Categories: lexiadesignwp/card
+ * Categories: lexiadesign/card
  * Keywords: card, contact, social, links, email, company
  * Viewport Width: 600
  * Block Types:

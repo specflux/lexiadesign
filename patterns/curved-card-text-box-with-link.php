@@ -3,7 +3,7 @@
  * Title: Curved Card Text Box With Link
  * Slug: curved-card-text-box-with-link
  * Description:
- * Categories: lexiadesignwp/card, lexiadesignwp/call-to-action
+ * Categories: lexiadesign/card, lexiadesign/call-to-action
  * Keywords: box, text, link, arrow, icon, card
  * Viewport Width: 600
  * Block Types:

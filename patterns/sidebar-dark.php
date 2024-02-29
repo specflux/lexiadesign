@@ -3,7 +3,7 @@
  * Title: FAQ
  * Slug: faq
  * Description:
- * Categories: lexiadesignwp/features
+ * Categories: lexiadesign/features
  * Keywords: faq, text, features
  * Viewport Width: 1500
  * Block Types:
@@ -28,7 +28,7 @@
 	
 	<!-- wp:buttons -->
 	<div class="wp-block-buttons"><!-- wp:button {"width":100,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"small"} -->
-	<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size has-small-font-size" style="font-style:normal;font-weight:600"><a class="wp-block-button__link wp-element-button" href="https://lexiadesignwpwp.com">Download LexiaDesign for Free</a></div>
+	<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size has-small-font-size" style="font-style:normal;font-weight:600"><a class="wp-block-button__link wp-element-button" href="https://lexiadesign.com">Download LexiaDesign for Free</a></div>
 	<!-- /wp:button --></div>
 	<!-- /wp:buttons -->
 	

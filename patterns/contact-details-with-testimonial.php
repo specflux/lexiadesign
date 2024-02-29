@@ -3,7 +3,7 @@
  * Title: Contact Details with Testimonial
  * Slug: contact-details-with-testimonial
  * Description: Contact details with call to action buttons and a testimonial
- * Categories: lexiadesignwp/testimonial, lexiadesignwp/call-to-action, lexiadesignwp/hero
+ * Categories: lexiadesign/testimonial, lexiadesign/call-to-action, lexiadesign/hero
  * Keywords: contact, testimonial, about, columns, ratings, email, phone
  * Viewport Width: 1500
  * Block Types:

@@ -3,7 +3,7 @@
  * Title: Blog Post Columns
  * Slug: blog-post-columns
  * Description:
- * Categories: lexiadesignwp/posts
+ * Categories: lexiadesign/posts
  * Keywords: blog, posts, query, pages
  * Viewport Width: 1500
  * Block Types:

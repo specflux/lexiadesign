@@ -3,7 +3,7 @@
  * Title: FAQ
  * Slug: faq
  * Description:
- * Categories: lexiadesignwp/features
+ * Categories: lexiadesign/features
  * Keywords: faq, text, features
  * Viewport Width: 1500
  * Block Types:

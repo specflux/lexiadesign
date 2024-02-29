@@ -3,7 +3,7 @@
  * Title: Feature Boxes With Link
  * Slug: feature-boxes-with-link
  * Description:
- * Categories: lexiadesignwp/features
+ * Categories: lexiadesign/features
  * Keywords: text, features, columns, , cta, button, call to action, box
  * Viewport Width: 1500
  * Block Types:

@@ -3,7 +3,7 @@
  * Title: Text and Image Columns With Icons
  * Slug: text-and-image-columns-with-icons
  * Description:
- * Categories: lexiadesignwp/features
+ * Categories: lexiadesign/features
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
  * Block Types:

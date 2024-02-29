@@ -3,7 +3,7 @@
  * Title: Social Profile Card
  * Slug: social-profile-card
  * Description:
- * Categories: lexiadesignwp/card
+ * Categories: lexiadesign/card
  * Keywords: profile, links, social, twitter, facebook, instagram, linktree, avatar, bio
  * Viewport Width: 600
  * Block Types:

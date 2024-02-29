@@ -3,7 +3,7 @@
  * Title: Numbers
  * Slug: numbers
  * Description:
- * Categories: lexiadesignwp/features
+ * Categories: lexiadesign/features
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
  * Block Types:

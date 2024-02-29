@@ -3,7 +3,7 @@
  * Title: Testimonial Card
  * Slug: card-testimonial
  * Description:
- * Categories: lexiadesignwp/card, lexiadesignwp/testimonial
+ * Categories: lexiadesign/card, lexiadesign/testimonial
  * Keywords: testimonial, card, avatar, text, quote, review, rating
  * Viewport Width: 600
  * Block Types:

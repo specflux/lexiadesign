@@ -3,7 +3,7 @@
  * Title: Details Table
  * Slug: details-Table
  * Description:
- * Categories: lexiadesignwp/card
+ * Categories: lexiadesign/card
  * Keywords: card, table, list, info, details
  * Viewport Width: 600
  * Block Types:

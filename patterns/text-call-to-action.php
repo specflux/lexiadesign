@@ -3,7 +3,7 @@
  * Title: Text Call To Action
  * Slug: text-call-to-action
  * Description: A call to action with text and a button.
- * Categories: lexiadesignwp/call-to-action, lexiadesignwp/hero
+ * Categories: lexiadesign/call-to-action, lexiadesign/hero
  * Keywords: cta, call to action, buttons, heading
  * Viewport Width: 1500
  * Block Types:

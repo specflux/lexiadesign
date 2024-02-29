@@ -3,7 +3,7 @@
  * Title: Call To Action Card with Block Buttons
  * Slug: call-to-action-card-with-block-buttons
  * Description:
- * Categories: lexiadesignwp/card, lexiadesignwp/call-to-action
+ * Categories: lexiadesign/card, lexiadesign/call-to-action
  * Keywords: card, download, box, link, button, cta, call to action
  * Viewport Width: 600
  * Block Types:
@@ -32,7 +32,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"primary","width":100} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button" href="https://lexiadesignwpwp.com">Download Now</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background wp-element-button" href="https://lexiadesign.com">Download Now</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 

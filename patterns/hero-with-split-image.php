@@ -3,7 +3,7 @@
  * Title: Hero with Split Image
  * Slug: hero-with-split-image
  * Description:
- * Categories: lexiadesignwp/call-to-action, lexiadesignwp/hero
+ * Categories: lexiadesign/call-to-action, lexiadesign/hero
  * Keywords: cta, call to action, buttons, homepage, header, hero, heading, screenshot
  * Viewport Width: 1500
  * Block Types:

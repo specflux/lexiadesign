@@ -3,7 +3,7 @@
  * Title: Lead Magnet
  * Slug: lead-magnet
  * Description: A call-to-action box to offer a free download or sign up user to an email list.
- * Categories: lexiadesignwp/call-to-action
+ * Categories: lexiadesign/call-to-action
  * Keywords: download, button, cta, email
  * Viewport Width: 800
  * Block Types:
@@ -33,7 +33,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"width":100} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button" href="https://lexiadesignwpwp.com">Download LexiaDesign for free!</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button" href="https://lexiadesign.com">Download LexiaDesign for free!</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>

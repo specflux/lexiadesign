@@ -3,7 +3,7 @@
  * Title: Author Box Minimalist
  * Slug: author-box-minimalist
  * Description: A call-to-action box to offer a free download or sign up user to an email list.
- * Categories: lexiadesignwp/card
+ * Categories: lexiadesign/card
  * Keywords: author, bio, profile, user
  * Viewport Width: 800
  * Block Types:

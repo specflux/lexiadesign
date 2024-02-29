@@ -3,7 +3,7 @@
  * Title: Content with Image and Testimonial
  * Slug: content-with-image-and-testimonial
  * Description:
- * Categories: lexiadesignwp/call-to-action, lexiadesignwp/hero, lexiadesignwp/features, lexiadesignwp/card
+ * Categories: lexiadesign/call-to-action, lexiadesign/hero, lexiadesign/features, lexiadesign/card
  * Keywords: table, stats, details, list, card
  * Viewport Width: 1500
  * Block Types:

@@ -3,7 +3,7 @@
  * Title: Numbers Stacked
  * Slug: numbers-stacked
  * Description: Display impressive numbers with a short description
- * Categories: lexiadesignwp/features
+ * Categories: lexiadesign/features
  * Keywords: numbers, stats, text, values, count
  * Viewport Width: 1500
  * Block Types:

@@ -3,7 +3,7 @@
  * Title: Features Page
  * Slug: page-features
  * Description: A full page design for a Features page
- * Categories: lexiadesignwp/pages, lexiadesignwp/features
+ * Categories: lexiadesign/pages, lexiadesign/features
  * Keywords: page, layout, design, template, features
  * Viewport Width: 1500
  * Inserter: true

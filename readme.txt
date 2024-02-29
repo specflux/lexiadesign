@@ -18,7 +18,7 @@ Build a stunning website in minutes with LexiaDesign, the WordPress block theme 
 
 == Copyright ==
 
-LexiaDesign Theme, (C) 2023 Specflux Solutions
+LexiaDesign Theme, (C) 2024 Specflux Solutions
 LexiaDesign is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify

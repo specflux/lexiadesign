@@ -3,7 +3,7 @@
  * Title: Blog Post Columns Single Content Below Image
  * Slug: blog-post-columns-single-content-below-image
  * Description:
- * Categories: lexiadesignwp/posts
+ * Categories: lexiadesign/posts
  * Keywords: blog, posts, query, pages
  * Viewport Width: 1500
  * Block Types:

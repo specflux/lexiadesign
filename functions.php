@@ -2,17 +2,17 @@
 /**
  * This file adds functions to the LexiaDesign WordPress theme.
  *
- * @package lexiadesignwp
+ * @package lexiadesign
  * @author  Specflux Solutions
  * @license GNU General Public License v2 or later
- * @link    https://lexiadesignwpwp.com
+ * @link    https://lexiadesign.com
  */
 
 namespace LexiaDesign;
 
 // Define constants
 define('THEME_NAMESPACE', __NAMESPACE__);
-define('THEME_TEXT_DOMAIN', 'lexiadesignwp');
+define('THEME_TEXT_DOMAIN', 'lexiadesign');
 
 /**
  * Set up theme defaults and register various WordPress features.
@@ -135,7 +135,7 @@ function enqueue_custom_block_styles() {
 		wp_enqueue_block_style(
 			$block_name,
 			array(
-				'handle' => "lexiadesignwp-block-{$filename}",
+				'handle' => "lexiadesign-block-{$filename}",
 				'src'    => get_theme_file_uri( "assets/styles/{$filename}.css" ),
 				'path'   => get_theme_file_path( "assets/styles/{$filename}.css" ),
 			)
@@ -151,31 +151,31 @@ add_action( 'init', THEME_NAMESPACE . '\enqueue_custom_block_styles' );
 function pattern_categories() {
 
 	$block_pattern_categories = array(
-		'lexiadesignwp/hero'           => array(
+		'lexiadesign/hero'           => array(
 			'label' => __( 'Hero', THEME_NAMESPACE ),
 		),
-		'lexiadesignwp/call-to-action' => array(
+		'lexiadesign/call-to-action' => array(
 			'label' => __( 'Call To Action', THEME_NAMESPACE ),
 		),
-		'lexiadesignwp/features'       => array(
+		'lexiadesign/features'       => array(
 			'label' => __( 'Features', THEME_NAMESPACE ),
 		),
-		'lexiadesignwp/pages'          => array(
+		'lexiadesign/pages'          => array(
 			'label' => __( 'Pages', THEME_NAMESPACE ),
 		),
-		'lexiadesignwp/card'           => array(
+		'lexiadesign/card'           => array(
 			'label' => __( 'Cards', THEME_NAMESPACE ),
 		),
-		'lexiadesignwp/posts'          => array(
+		'lexiadesign/posts'          => array(
 			'label' => __( 'Posts', THEME_NAMESPACE ),
 		),
-		'lexiadesignwp/pricing'        => array(
+		'lexiadesign/pricing'        => array(
 			'label' => __( 'Pricing', THEME_NAMESPACE ),
 		),
-		'lexiadesignwp/testimonial'    => array(
+		'lexiadesign/testimonial'    => array(
 			'label' => __( 'Testimonials', THEME_NAMESPACE ),
 		),
-		'lexiadesignwp/content'    => array(
+		'lexiadesign/content'    => array(
 			'label' => __( 'Contents', THEME_NAMESPACE ),
 		),
 	);

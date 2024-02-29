@@ -3,7 +3,7 @@
  * Title: Profile Box
  * Slug: profile-box
  * Description: A profile box with an avatar, links to social media, and buttons
- * Categories: lexiadesignwp/call-to-action, lexiadesignwp/pages
+ * Categories: lexiadesign/call-to-action, lexiadesign/pages
  * Keywords: links, linktree, buttons, profile, bio
  * Viewport Width: 1500
  * Block Types:

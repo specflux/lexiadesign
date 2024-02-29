@@ -3,7 +3,7 @@
  * Title: Image and Numbered Features
  * Slug: image-and-numbered-features
  * Description:
- * Categories: lexiadesignwp/features
+ * Categories: lexiadesign/features
  * Keywords: number, list, features, bullet
  * Viewport Width: 1500
  * Block Types:

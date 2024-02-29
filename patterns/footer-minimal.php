@@ -15,7 +15,7 @@
 <div class="wp-block-group alignwide has-main-accent-color has-text-color has-link-color"><!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} /-->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">© 2023 · Powered by WordPress and <a href="https://lexiadesignwpwp.com">LexiaDesign</a></p>
+<p class="has-small-font-size">© 2024 · Powered by WordPress and <a href="https://lexiadesign.com">LexiaDesign</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

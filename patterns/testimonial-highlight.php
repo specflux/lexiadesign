@@ -3,7 +3,7 @@
  * Title: Testimonial Highlight
  * Slug: testimonial-highlight
  * Description:
- * Categories: lexiadesignwp/testimonial
+ * Categories: lexiadesign/testimonial
  * Keywords: testimonial, review, rating, case study, text, heading
  * Viewport Width: 1500
  * Block Types:

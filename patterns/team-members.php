@@ -3,7 +3,7 @@
  * Title: Team Members
  * Slug: team-members
  * Description:
- * Categories: lexiadesignwp/testimonial, lexiadesignwp/features
+ * Categories: lexiadesign/testimonial, lexiadesign/features
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
  * Block Types:

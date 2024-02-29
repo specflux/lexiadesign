@@ -93,7 +93,7 @@
 <!-- wp:group {"align":"wide"} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"},"elements":{"link":{"color":{"text":"var:preset|color|main-accent"}}}},"textColor":"main-accent","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group has-main-accent-color has-text-color has-link-color"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">© 2023 · Powered by WordPress and <a href="https://lexiadesignwpwp.com">LexiaDesign</a></p>
+<p class="has-small-font-size">© 2024 · Powered by WordPress and <a href="https://lexiadesign.com">LexiaDesign</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

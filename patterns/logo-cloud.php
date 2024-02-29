@@ -3,7 +3,7 @@
  * Title: Logo Cloud
  * Slug: logo-cloud
  * Description:
- * Categories: lexiadesignwp/testimonial
+ * Categories: lexiadesign/testimonial
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
  * Block Types:

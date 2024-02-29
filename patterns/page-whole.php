@@ -3,7 +3,7 @@
  * Title: Whole Page
  * Slug: page-whole
  * Description: A full page design for an About page
- * Categories: lexiadesignwp/pages
+ * Categories: lexiadesign/pages
  * Keywords: page, layout, design, template
  * Viewport Width: 1500
  * Inserter: true

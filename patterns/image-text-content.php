@@ -3,7 +3,7 @@
  * Title: Image and Text content
  * Slug: image-text-content
  * Description:
- * Categories: lexiadesignwp/card
+ * Categories: lexiadesign/card
  * Keywords: card, image, text, box, content, link, button
  * Viewport Width: 600
  * Block Types:

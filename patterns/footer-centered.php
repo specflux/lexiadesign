@@ -25,7 +25,7 @@
 <!-- /wp:social-links -->
 
 <!-- wp:paragraph {"align":"center","textColor":"main-accent","fontSize":"small"} -->
-<p class="has-text-align-center has-main-accent-color has-text-color has-small-font-size">© 2023 · Powered by WordPress and <a href="https://lexiadesignwpwp.com">LexiaDesign</a></p>
+<p class="has-text-align-center has-main-accent-color has-text-color has-small-font-size">© 2024 · Powered by WordPress and <a href="https://lexiadesign.com">LexiaDesign</a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

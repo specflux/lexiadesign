@@ -3,7 +3,7 @@
  * Title: Contact with Side by Side Details
  * Slug: contact-side-by-side
  * Description:
- * Categories: lexiadesignwp/contact
+ * Categories: lexiadesign/contact
  * Keywords: card, contact, social, links, email, company
  * Viewport Width: 600
  * Block Types:

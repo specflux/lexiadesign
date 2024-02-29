@@ -3,7 +3,7 @@
  * Title: Hero Call To Action Buttons
  * Slug: hero-call-to-action-buttons
  * Description:
- * Categories: lexiadesignwp/call-to-action, lexiadesignwp/hero
+ * Categories: lexiadesign/call-to-action, lexiadesign/hero
  * Keywords: cta, header, buttons, heading, hero, feature, homepage
  * Viewport Width: 1500
  * Block Types:
