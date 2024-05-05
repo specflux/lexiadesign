@@ -1,100 +1,128 @@
 <?php
 /**
- * Title: Footer
- * Slug: footer
- * Description:
+ * Title: Footer with colophon, 4 columns
+ * Slug: lexia/footer
  * Categories: footer
- * Keywords:
- * Viewport Width: 1500
  * Block Types: core/template-part/footer
- * Post Types:
- * Inserter: true
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large","right":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"margin":{"top":"0px"},"blockGap":"var:preset|spacing|small"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"main","textColor":"base","className":"dark-footer","layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group alignfull dark-footer has-base-color has-main-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"}}}} -->
-<div class="wp-block-columns alignwide"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">Design with LexiaDesign</h4>
-<!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"main-accent","fontSize":"small"} -->
-<p class="has-main-accent-color has-text-color has-small-font-size">Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the LexiaDesign block theme. No coding skills required. Download for free today!</p>
-<!-- /wp:paragraph -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
+	<!-- wp:columns {"align":"wide"} -->
+	<div class="wp-block-columns alignwide">
+		<!-- wp:column {"width":"30%"} -->
+		<div class="wp-block-column" style="flex-basis:30%">
+			<!-- wp:group {"style":{"dimensions":{"minHeight":""},"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","orientation":"vertical"}} -->
+			<div class="wp-block-group">
+				<!-- wp:site-logo {"width":20,"shouldSyncIcon":true,"style":{"layout":{"selfStretch":"fit","flexSize":null}}} /-->
 
-<!-- wp:social-links {"iconColor":"main","iconColorValue":"#150E29","iconBackgroundColor":"base","iconBackgroundColorValue":"#fff","style":{"spacing":{"blockGap":{"top":"20px","left":"20px"}}},"className":"is-style-default","layout":{"type":"flex","justifyContent":"left"}} -->
-<ul class="wp-block-social-links has-icon-color has-icon-background-color is-style-default"><!-- wp:social-link {"url":"#","service":"facebook"} /-->
+				<!-- wp:site-title {"level":0,"fontSize":"medium"} /-->
 
-<!-- wp:social-link {"url":"#","service":"instagram"} /-->
+				<!-- wp:site-tagline {"fontSize":"small"} /-->
+			</div>
+			<!-- /wp:group -->
+		</div>
+		<!-- /wp:column -->
 
-<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
+		<!-- wp:column {"width":"20%"} -->
+		<div class="wp-block-column" style="flex-basis:20%">
+		</div>
+		<!-- /wp:column -->
 
-<!-- wp:social-link {"url":"#","service":"twitter"} /--></ul>
-<!-- /wp:social-links --></div>
-<!-- /wp:column -->
+		<!-- wp:column {"width":"50%"} -->
+		<div class="wp-block-column" style="flex-basis:50%">
+			<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+			<div class="wp-block-group">
+				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+				<div class="wp-block-group">
+					<!-- wp:heading {"level":2,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"body"} -->
+					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'About', 'lexia' ); ?></h2>
+					<!-- /wp:heading -->
 
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:columns -->
-<div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-<p style="font-style:normal;font-weight:600">Company</p>
-<!-- /wp:paragraph -->
+					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+					<div class="wp-block-group">
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"textColor":"main-accent","layout":{"type":"constrained"},"fontSize":"small"} -->
-<div class="wp-block-group has-main-accent-color has-text-color has-small-font-size"><!-- wp:paragraph -->
-<p>About</p>
-<!-- /wp:paragraph -->
+						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e( 'About', 'lexia' ); ?>"} -->
 
-<!-- wp:paragraph -->
-<p>Blog</p>
-<!-- /wp:paragraph -->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Team', 'lexia' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'History', 'lexia' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Careers', 'lexia' ); ?>","url":"#"} /-->
 
-<!-- wp:paragraph -->
-<p>Press</p>
-<!-- /wp:paragraph -->
+						<!-- /wp:navigation -->
 
-<!-- wp:paragraph -->
-<p>Partners</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column -->
+					</div>
+					<!-- /wp:group -->
+				</div>
 
-<!-- wp:column -->
-<div class="wp-block-column"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-<p style="font-style:normal;font-weight:600">Resources</p>
-<!-- /wp:paragraph -->
+				<!-- /wp:group -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"textColor":"main-accent","layout":{"type":"constrained"},"fontSize":"small"} -->
-<div class="wp-block-group has-main-accent-color has-text-color has-small-font-size"><!-- wp:paragraph -->
-<p>Support</p>
-<!-- /wp:paragraph -->
+				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+				<div class="wp-block-group">
+					<!-- wp:heading {"level":2,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"body"} -->
+					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Privacy', 'lexia' ); ?></h2>
+					<!-- /wp:heading -->
 
-<!-- wp:paragraph -->
-<p>Terms &amp; Conditions</p>
-<!-- /wp:paragraph -->
+					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+					<div class="wp-block-group">
 
-<!-- wp:paragraph -->
-<p>Privacy Policy</p>
-<!-- /wp:paragraph -->
+						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e( 'Privacy', 'lexia' ); ?>"} -->
 
-<!-- wp:paragraph -->
-<p>Contact</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Privacy Policy', 'lexia' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Terms and Conditions', 'lexia' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact Us', 'lexia' ); ?>","url":"#"} /-->
 
-<!-- wp:separator {"align":"wide","backgroundColor":"secondary","className":"is-style-separator-dotted"} -->
-<hr class="wp-block-separator alignwide has-text-color has-secondary-color has-alpha-channel-opacity has-secondary-background-color has-background is-style-separator-dotted"/>
-<!-- /wp:separator -->
+						<!-- /wp:navigation -->
 
-<!-- wp:group {"align":"wide"} -->
-<div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"},"elements":{"link":{"color":{"text":"var:preset|color|main-accent"}}}},"textColor":"main-accent","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-<div class="wp-block-group has-main-accent-color has-text-color has-link-color"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">© 2024 · Powered by WordPress and <a href="https://lexiadesign.com">LexiaDesign</a></p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></div>
+					</div>
+					<!-- /wp:group -->
+				</div>
+				<!-- /wp:group -->
+
+				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+				<div class="wp-block-group">
+					<!-- wp:heading {"level":2,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"body"} -->
+					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Social', 'lexia' ); ?></h2>
+					<!-- /wp:heading -->
+
+					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+					<div class="wp-block-group">
+
+						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e( 'Social Media', 'lexia' ); ?>"} -->
+
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Facebook', 'lexia' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Instagram', 'lexia' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Twitter/X', 'lexia' ); ?>","url":"#"} /-->
+
+						<!-- /wp:navigation -->
+
+					</div>
+					<!-- /wp:group -->
+				</div>
+				<!-- /wp:group -->
+			</div>
+			<!-- /wp:group -->
+		</div>
+		<!-- /wp:column -->
+	</div>
+	<!-- /wp:columns -->
+
+	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"0"}}}} -->
+	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:0">
+		<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast-2","fontSize":"small"} -->
+		<p class="has-contrast-2-color has-text-color has-link-color has-small-font-size">
+		<?php
+			/* Translators: WordPress link. */
+			$wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'lexia' ) ) . '" rel="nofollow">WordPress</a>';
+			echo sprintf(
+				/* Translators: Designed with WordPress */
+				esc_html__( 'Designed with %1$s', 'lexia' ),
+				$wordpress_link
+			);
+			?>
+		</p>
+		<!-- /wp:paragraph -->
+	</div>
+	<!-- /wp:group -->
+</div>
 <!-- /wp:group -->

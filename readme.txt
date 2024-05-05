@@ -1,25 +1,32 @@
-=== LexiaDesign WordPress Block Theme ===
-Contributors: Specflux Solutions
-Tags: block-styles, full-site-editing, full-width-template, block-patterns, style-variations, template-editing, theme-options, blog, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, custom-logo, custom-menu, editor-style, featured-images, rtl-language-support, translation-ready, wide-blocks, portfolio
-Requires at least: 6.0
-Tested up to: 6.4
-Requires PHP: 7.4
-Stable tag: 1.0.0
-License: GNU General Public License v3.0 (or later)
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
+=== Lexia Design ===
+Contributors: wordpressdotorg
+Requires at least: 6.4
+Tested up to: 6.5
+Requires PHP: 7.0
+Stable tag: 1.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Build a stunning website in minutes with LexiaDesign, the WordPress block theme designed for speed and ease of use. LexiaDesign offers a wide variety of pre-designed layouts and customizable options to create a website that perfectly reflects your brand. And because it integrates seamlessly with the WordPress editor, you won't need any additional plugins to get started.✶ Full demo: https://lexiadesign.com ✶
+Lexia Design is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Lexia Design comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
 
 == Changelog ==
-= 1.0.0 - 28/02/2024 =
-* Initial release
+
+= 1.1 =
+* Released: April 2, 2024
+
+https://wordpress.org/documentation/article/twenty-twenty-four-changelog/#Version_1.1
+
+= 1.0 =
+* Released: November 7, 2023
+
+https://wordpress.org/documentation/article/twenty-twenty-four-changelog/#Version_1.0
 
 == Copyright ==
 
-LexiaDesign Theme, (C) 2024 Specflux Solutions
-LexiaDesign is distributed under the terms of the GNU GPL.
+Lexia Design WordPress Theme, (C) 2023 WordPress.org
+Lexia Design is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -31,15 +38,44 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
-All media licensed under Creative Commons Zero (CC0) https://creativecommons.org/publicdomain/zero/1.0/
 
-Other assets: 
+This theme bundles the following third-party resources:
 
-- logo-1.webp, logo-2.webp, logo-3.webp, logo-4.webp, logo-5.webp and logo-6.webp are from https://logoipsum.com/
-- avatar-1.webp is Photo by Justin Shaifer from Pexels: https://www.pexels.com/photo/photography-of-a-guy-wearing-green-shirt-1222271/
-- avatar-2.webp is Photo by Andrea Piacquadio from Pexels: https://www.pexels.com/photo/woman-wearing-coat-762020/
-- avatar-3.webp is Photo by Kristin Vogt from Pexels: https://www.pexels.com/photo/woman-in-grey-knit-sweater-61100/
-- avatar-4.webp is Photo by Moose Photos from Pexels: https://www.pexels.com/photo/woman-wearing-pink-collared-half-sleeved-top-1036623/
-- avatar-5.webp is Photo by Simon Robben from Pexels: https://www.pexels.com/photo/man-in-brown-polo-shirt-614810/
-- avatar-6.webp is Photo by Andrea Piacquadio from Pexels: https://www.pexels.com/photo/woman-in-collared-shirt-774909/
-- The Inter font is available via the SIL Open Font License 1.1: https://github.com/rsms/inter/blob/master/LICENSE.txt
+=== Fonts ===
+
+Cardo Font
+Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: http://scholarsfonts.net
+
+Instrument Sans Font
+Copyright 2022 The Instrument Sans Project Authors.
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/Instrument/instrument-sans
+
+Inter Font
+Copyright 2020 The Inter Project Authors.
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/rsms/inter
+
+Jost Font
+Copyright 2020 The Jost Project Authors.
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/indestructible-type/Jost
+
+=== Images ===
+
+License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+
+museum.webp - https://www.rawpixel.com/image/3297419/free-photo-image-interior-hallway-architecture
+tourist-and-building.webp - https://www.rawpixel.com/image/5928004/photo-image-public-domain-hand-person
+building-exterior.webp - https://www.rawpixel.com/image/430335/free-photo-image-architecture-building-roof
+windows.webp - https://www.rawpixel.com/image/3286615/free-photo-image-texture-architecture-building
+abstract-geometric-art.webp - https://www.rawpixel.com/image/3283970/free-photo-image-pattern-artwork-abstract
+angular-roof.webp - https://www.rawpixel.com/image/3289063/free-photo-image-architectural-detail-architecture
+art-gallery.webp - https://www.rawpixel.com/image/3286187/free-photo-image-person-stairs-architecture
+green-staircase.webp - https://www.rawpixel.com/image/430558/free-photo-image-abstract-architecture-art-public-domain
+hotel-facade.webp - https://www.rawpixel.com/image/3286725/free-photo-image-black-and-white-background-photos
+
+License: UNICODE LICENSE V3 https://www.unicode.org/license.txt
+icon-message.webp
