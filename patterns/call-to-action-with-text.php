@@ -1,0 +1,37 @@
+<?php
+/**
+ * Title: Call To Action with Text
+ * Slug: call-to-action-with-text
+ * Description: A call to action with text and a button.
+ * Categories: lexia/call-to-action, lexia/content
+ * Keywords: cta, call to action, buttons, heading
+ * Viewport Width: 1500
+ * Block Types:
+ * Post Types:
+ * Inserter: true
+ */
+
+?>
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","right":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"backgroundColor":"brand-950","textColor":"base-0","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-0-color has-brand-950-background-color has-text-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"align":"wide","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">Ditch the code, embrace the whoosh!</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Ditch the code, embrace the whoosh!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Craft a website that's lightning-fast with the drag-and-drop magic of WordPress and stunning pre-made designs by Lexia. Coding? Not your forte? No worries, friend!</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"brand","textColor":"tertiary"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-tertiary-color has-brand-background-color has-text-color has-background wp-element-button">Get Started Today</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->

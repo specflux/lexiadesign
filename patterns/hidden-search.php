@@ -6,4 +6,4 @@
  */
 ?>
 
-<!-- wp:search {"label":"<?php echo esc_attr_x( 'Search', 'search form label', 'lexia' ); ?>","showLabel":false,"buttonText":"<?php echo esc_attr_x( 'Search', 'search button text', 'lexia' ); ?>","fontSize":"medium"} /-->
+<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0"}}}},"backgroundColor":"brand","textColor":"base-0","fontSize":"medium"} /-->

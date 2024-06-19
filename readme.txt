@@ -9,19 +9,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Lexia Design is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Lexia Design comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
+Lexia Design is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Lexia Design comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
 
 == Changelog ==
 
-= 1.1 =
-* Released: April 2, 2024
+= 0.1.0 =
+* Released: Jun 12,2024
 
-https://wordpress.org/documentation/article/twenty-twenty-four-changelog/#Version_1.1
-
-= 1.0 =
-* Released: November 7, 2023
-
-https://wordpress.org/documentation/article/twenty-twenty-four-changelog/#Version_1.0
+Intial release
 
 == Copyright ==
 
@@ -43,39 +38,28 @@ This theme bundles the following third-party resources:
 
 === Fonts ===
 
-Cardo Font
-Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)
-License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Source: http://scholarsfonts.net
-
-Instrument Sans Font
-Copyright 2022 The Instrument Sans Project Authors.
-License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Source: https://github.com/Instrument/instrument-sans
-
 Inter Font
 Copyright 2020 The Inter Project Authors.
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/rsms/inter
 
-Jost Font
-Copyright 2020 The Jost Project Authors.
-License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Source: https://github.com/indestructible-type/Jost
-
 === Images ===
 
 License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
 
-museum.webp - https://www.rawpixel.com/image/3297419/free-photo-image-interior-hallway-architecture
-tourist-and-building.webp - https://www.rawpixel.com/image/5928004/photo-image-public-domain-hand-person
-building-exterior.webp - https://www.rawpixel.com/image/430335/free-photo-image-architecture-building-roof
-windows.webp - https://www.rawpixel.com/image/3286615/free-photo-image-texture-architecture-building
-abstract-geometric-art.webp - https://www.rawpixel.com/image/3283970/free-photo-image-pattern-artwork-abstract
-angular-roof.webp - https://www.rawpixel.com/image/3289063/free-photo-image-architectural-detail-architecture
-art-gallery.webp - https://www.rawpixel.com/image/3286187/free-photo-image-person-stairs-architecture
-green-staircase.webp - https://www.rawpixel.com/image/430558/free-photo-image-abstract-architecture-art-public-domain
-hotel-facade.webp - https://www.rawpixel.com/image/3286725/free-photo-image-black-and-white-background-photos
-
-License: UNICODE LICENSE V3 https://www.unicode.org/license.txt
-icon-message.webp
+remy_loz-3S0INpfREQc-unsplash_1.webp - https://unsplash.com/photos/black-laptop-computer-on-brown-wooden-table-3S0INpfREQc
+404.webp - https://unsplash.com/photos/grayscale-photo-of-box-robot-on-table-ZnLprInKM7s
+logo-1.webp - https://logoipsum.com/
+logo-2.webp - https://logoipsum.com/
+logo-3.webp - https://logoipsum.com/
+logo-4.webp - https://logoipsum.com/
+logo-5.webp - https://logoipsum.com/
+logo-6.webp - https://logoipsum.com/
+logo-7.webp - https://logoipsum.com/
+logo-8.webp - https://logoipsum.com/
+avatar-1.webp - https://www.pexels.com/photo/photography-of-a-guy-wearing-green-shirt-1222271/
+avatar-2.webp - https://www.pexels.com/photo/woman-wearing-coat-762020/
+avatar-3.webp - https://www.pexels.com/photo/woman-in-grey-knit-sweater-61100/
+avatar-4.webp - https://www.pexels.com/photo/woman-wearing-pink-collared-half-sleeved-top-1036623/
+avatar-5.webp - https://www.pexels.com/photo/man-in-brown-polo-shirt-614810/
+avatar-6.webp - https://www.pexels.com/photo/woman-in-collared-shirt-774909/

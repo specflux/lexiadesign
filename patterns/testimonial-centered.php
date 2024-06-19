@@ -2,45 +2,30 @@
 /**
  * Title: Centered testimonial
  * Slug: lexia/testimonial-centered
- * Keywords: quote, review, about
- * Categories: testimonials, text
+ * Keywords: testimonial, review, rating
+ * Categories: lexia/testimonials
  * Viewport width: 1300
  */
 ?>
 
-<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Testimonial', 'Name of testimonal pattern', 'lexia' ); ?>"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained","contentSize":""}} -->
-<div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
-	<!-- wp:group {"layout":{"type":"constrained"}} -->
-	<div class="wp-block-group">
-		<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.2"}},"textColor":"base","fontSize":"x-large","fontFamily":"heading"} -->
-		<p class="has-text-align-center has-base-color has-text-color has-heading-font-family has-x-large-font-size" style="line-height:1.2">
-			<em><?php echo esc_html_x( '“Études has saved us thousands of hours of work and has unlocked insights we never thought possible.”', 'Testimonial Text or Review Text Got From the Person', 'lexia' ); ?></em>
-		</p>
-		<!-- /wp:paragraph -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","right":"var:preset|spacing|small","left":"var:preset|spacing|small"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"main","textColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-color has-main-background-color has-text-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--small)"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"base","fontSize":"x-large"} -->
+<p class="has-text-align-center has-base-color has-text-color has-x-large-font-size" style="font-style:normal;font-weight:500"><em>"Building my website used to be a daunting task, but Lexia have completely changed the game! With pre-designed patterns, I was able to <mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-main-accent-color">create a beautiful and professional website</mark> even with limited design experience. It's like having a personal design assistant at my fingertips<strong>!</strong>"</em></p>
+<!-- /wp:paragraph -->
 
-		<!-- wp:spacer {"height":"var:preset|spacing|10"} -->
-		<div style="height:var(--wp--preset--spacing--10)" aria-hidden="true" class="wp-block-spacer"></div>
-		<!-- /wp:spacer -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group"><!-- wp:image {"id":59,"width":"60px","height":"60px","sizeSlug":"full","linkDestination":"none","className":"is-style-circle"} -->
+<figure class="wp-block-image size-full is-resized is-style-circle"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/people-4.webp" alt="" class="wp-image-59" style="width:60px;height:60px"/></figure>
+<!-- /wp:image -->
 
-		<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Testimonial source', 'Name of testimonial citation group', 'lexia' ); ?>"},"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center","flexWrap":"nowrap"}} -->
-		<div class="wp-block-group">
-			<!-- wp:image {"align":"center","width":"60px","aspectRatio":"1","scale":"cover","sizeSlug":"thumbnail","linkDestination":"none","style":{"border":{"radius":"100px"}}} -->
-			<figure class="wp-block-image aligncenter size-thumbnail is-resized has-custom-border">
-				<img alt="" style="border-radius:100px;aspect-ratio:1;object-fit:cover;width:60px" />
-			</figure>
-			<!-- /wp:image -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"base"} -->
+<p class="has-base-color has-text-color"><strong>Sarah Jones</strong></p>
+<!-- /wp:paragraph -->
 
-			<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|10","bottom":"0"}}}} -->
-			<p class="has-text-align-center" style="margin-top:var(--wp--preset--spacing--10);margin-bottom:0"><?php echo esc_html_x( 'Annie Steiner', 'Name of Person Provided the Testimonial', 'lexia' ); ?></p>
-			<!-- /wp:paragraph -->
-
-			<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}},"textColor":"contrast-3","fontSize":"small"} -->
-			<p class="has-text-align-center has-contrast-3-color has-text-color has-small-font-size" style="font-style:normal;font-weight:300"><?php echo esc_html_x( 'CEO, Greenprint', 'Designation of Person Provided Testimonial', 'lexia' ); ?></p>
-			<!-- /wp:paragraph -->
-		</div>
-		<!-- /wp:group -->
-
-	</div>
-	<!-- /wp:group -->
-</div>
+<!-- wp:paragraph {"textColor":"main-accent","fontSize":"small"} -->
+<p class="has-main-accent-color has-text-color has-small-font-size">Photographer</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->

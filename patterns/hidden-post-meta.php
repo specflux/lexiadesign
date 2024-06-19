@@ -7,24 +7,17 @@
 ?>
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group">
-	<!-- wp:group {"style":{"spacing":{"blockGap":"0.3em"}},"layout":{"type":"flex","justifyContent":"left"}} -->
-	<div class="wp-block-group">
-		<!-- wp:post-date {"format":"M j, Y","isLink":true} /-->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"0.3em"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"0.5rem"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"textColor":"base-900-lighter","fontSize":"small"} -->
+<p class="has-base-900-lighter-color has-text-color has-small-font-size">by</p>
+<!-- /wp:paragraph -->
 
-		<!-- wp:paragraph {"textColor":"contrast-2"} -->
-		<p class="has-contrast-2-color has-text-color">—</p>
-		<!-- /wp:paragraph -->
+<!-- wp:post-author-name {"isLink":true,"fontSize":"small"} /--></div>
+<!-- /wp:group -->
 
-		<!-- wp:paragraph {"fontSize":"small","textColor":"contrast-2"} -->
-		<p class="has-small-font-size has-contrast-2-color has-text-color"><?php echo esc_html_x( 'by', 'Prefix for the post author block: By author name', 'lexia' ); ?></p>
-		<!-- /wp:paragraph -->
+<!-- wp:post-date {"format":"M j, Y","isLink":true,"fontSize":"small"} /-->
 
-		<!-- wp:post-author-name {"isLink":true} /-->
-
-		<!-- wp:post-terms {"term":"category","prefix":"<?php echo esc_html_x( 'in ', 'Prefix for the post category block: in category name', 'lexia' ); ?>"} /-->
-
-	</div>
-	<!-- /wp:group -->
-</div>
+<!-- wp:post-terms {"term":"category","className":"is-style-pill","fontSize":"x-small"} /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->

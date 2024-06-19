@@ -1,0 +1,135 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Orange",
+	"settings": {
+		"color": {
+            "duotone": [
+                {
+                    "colors": ["#000000", "#ffffff"],
+                    "name": "Black and White",
+                    "slug": "black-and-white-duotone"
+                }
+            ],
+            "gradients": [
+                {
+                    "gradient": "linear-gradient(90deg, rgba(70,31,4,1) 0%, rgba(255,162,12,1) 50%, rgba(255,251,236,1) 100%)",
+                    "name": "Custom Gradient with Angle",
+                    "slug": "first-gradient"
+                }
+            ],
+            "palette": [
+                {
+                    "color": "#ffffff",
+                    "name": "Base 0",
+                    "slug": "base-0"
+                },
+                {
+                    "color": "#f1f5f9",
+                    "name": "Base 100",
+                    "slug": "base-100"
+                },
+                {
+                    "color": "#e3e9f1",
+                    "name": "Base 200",
+                    "slug": "base-200"
+                },
+                {
+                    "color": "#cbd5e1",
+                    "name": "Base 300",
+                    "slug": "base-300"
+                },
+                {
+                    "color": "#94a3b8",
+                    "name": "Base 400",
+                    "slug": "base-400"
+                },
+                {
+                    "color": "#64748b",
+                    "name": "Base 500",
+                    "slug": "base-500"
+                },
+                {
+                    "color": "#475569",
+                    "name": "Base 600",
+                    "slug": "base-600"
+                },
+                {
+                    "color": "#334155",
+                    "name": "Base 700",
+                    "slug": "base-700"
+                },
+                {
+                    "color": "#1e293b",
+                    "name": "Base 800",
+                    "slug": "base-800"
+                },
+                {
+                    "color": "#0f172a",
+                    "name": "Base 900",
+                    "slug": "base-900"
+                },
+                {
+                    "color": "#fffbec",
+                    "name": "Brand 50",
+                    "slug": "brand-50"
+                },
+                {
+                    "color": "#fff6d3",
+                    "name": "Brand 100",
+                    "slug": "brand-100"
+                },
+                {
+                    "color": "#ffe9a6",
+                    "name": "Brand 200",
+                    "slug": "brand-200"
+                },
+                {
+                    "color": "#ffd76e",
+                    "name": "Brand 300",
+                    "slug": "brand-300"
+                },
+                {
+                    "color": "#ffba33",
+                    "name": "Brand 400",
+                    "slug": "brand-400"
+                },
+                {
+                    "color": "#ffa20c",
+                    "name": "Brand",
+                    "slug": "brand"
+                },
+                {
+                    "color": "#f78702",
+                    "name": "Brand 600",
+                    "slug": "brand-600"
+                },
+                {
+                    "color": "#ca6604",
+                    "name": "Brand 700",
+                    "slug": "brand-700"
+                },
+                {
+                    "color": "#a04f0c",
+                    "name": "Brand 800",
+                    "slug": "brand-800"
+                },
+                {
+                    "color": "#81420d",
+                    "name": "Brand 900",
+                    "slug": "brand-900"
+                },
+                {
+                    "color": "#461f04",
+                    "name": "Brand 950",
+                    "slug": "brand-950"
+                },
+                {
+                    "color": "transparent",
+                    "name": "Transparent",
+                    "slug": "transparent"
+                }
+            ]
+        }
+	}
+}
