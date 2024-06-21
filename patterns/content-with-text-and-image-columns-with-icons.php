@@ -80,8 +80,8 @@
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/remy_loz-3S0INpfREQc-unsplash_1.webp","id":1855,"hasParallax":true,"dimRatio":50,"overlayColor":"brand-950","isUserOverlayColor":true,"style":{"dimensions":{"aspectRatio":"9/16"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-cover has-parallax"><span aria-hidden="true" class="wp-block-cover__background has-brand-950-background-color has-background-dim"></span><div class="wp-block-cover__image-background wp-image-1855 has-parallax" style="background-position:50% 50%;background-image:url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/remy_loz-3S0INpfREQc-unsplash_1.webp)"></div><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
+<div class="wp-block-group"><!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/laptop-on-table.webp","id":1855,"hasParallax":true,"dimRatio":50,"overlayColor":"brand-950","isUserOverlayColor":true,"style":{"dimensions":{"aspectRatio":"9/16"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover has-parallax"><span aria-hidden="true" class="wp-block-cover__background has-brand-950-background-color has-background-dim"></span><div class="wp-block-cover__image-background wp-image-1855 has-parallax" style="background-position:50% 50%;background-image:url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/laptop-on-table.webp)"></div><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"large"} -->
 <p class="has-text-align-center has-large-font-size"></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover --></div>

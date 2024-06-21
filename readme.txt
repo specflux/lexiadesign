@@ -47,8 +47,8 @@ Source: https://github.com/rsms/inter
 
 License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
 
-remy_loz-3S0INpfREQc-unsplash_1.webp - https://unsplash.com/photos/black-laptop-computer-on-brown-wooden-table-3S0INpfREQc
-404.webp - https://unsplash.com/photos/grayscale-photo-of-box-robot-on-table-ZnLprInKM7s
+laptop-on-table.webp - https://www.pexels.com/photo/opened-laptop-placed-on-wooden-table-with-book-and-candles-3847604/
+404.webp - https://www.pexels.com/photo/black-crt-tv-showing-gray-screen-704555/
 logo-1.webp - https://logoipsum.com/
 logo-2.webp - https://logoipsum.com/
 logo-3.webp - https://logoipsum.com/
