@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Header Dark With Centered Menu and CTA
- * Slug: header-dark-with-centered-menu-and-cta
+ * Slug: lexiadesign/header-dark-with-centered-menu-and-cta
  * Description: Header with nav and cta
- * Categories: lexia/header
+ * Categories: lexiadesign/header
  * Keywords: header, nav, links, button
  * Viewport Width: 1500
  * Block Types: core/template-part/header

@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Content with Text and Image Columns With Icons
- * Slug: content-with-text-and-image-columns-with-icons
+ * Slug: lexiadesign/content-with-text-and-image-columns-with-icons
  * Description:
- * Categories: lexia/content
+ * Categories: lexiadesign/content
  * Keywords: content, text, image, icon
  * Viewport Width: 1500
  * Block Types:

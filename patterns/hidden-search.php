@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Search
- * Slug: lexia/hidden-search
+ * Slug: lexiadesign/hidden-search
  * Inserter: no
  */
 ?>

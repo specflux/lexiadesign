@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Post navigation
- * Slug: lexia/hidden-post-navigation
+ * Slug: lexiadesign/hidden-post-navigation
  * Inserter: no
  */
 ?>

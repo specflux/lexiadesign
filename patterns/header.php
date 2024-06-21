@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Header
- * Slug: lexia/header
- * Categories: lexia/header
+ * Slug: lexiadesign/header
+ * Categories: lexiadesign/header
  * Block Types: core/template-part/header
  */
 ?>

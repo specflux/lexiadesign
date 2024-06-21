@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Download Page
- * Slug: page-download
+ * Slug: lexiadesign/page-download
  * Description: A full page design for a Download page
- * Categories: lexia/pages
+ * Categories: lexiadesign/pages
  * Keywords: page, layout, design, template, download
  * Viewport Width: 1500
  * Inserter: true

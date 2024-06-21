@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Content FAQ
- * Slug: content-faq
+ * Slug: lexiadesign/content-faq
  * Description:
- * Categories: lexia/content
+ * Categories: lexiadesign/content
  * Keywords: faq, text, content
  * Viewport Width: 1500
  * Block Types:

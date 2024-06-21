@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Header Dark With Banner
- * Slug: header-dark-with-banner
+ * Slug: lexiadesign/header-dark-with-banner
  * Description: Header dark variation with Banner
- * Categories: lexia/header
+ * Categories: lexiadesign/header
  * Keywords: header, nav, links, button
  * Viewport Width: 1500
  * Block Types: core/template-part/header
@@ -26,8 +26,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","right":"var:preset|spacing|small","left":"var:preset|spacing|small"},"margin":{"top":"0px"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"main","textColor":"base","layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-base-color has-main-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
-<div class="wp-block-group alignwide"><!-- wp:site-title {"fontSize":"base"} /-->
+<div class="wp-block-group alignfull has-base-color has-main-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100","layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide has-base-100-color has-text-color has-link-color"><!-- wp:site-title {"fontSize":"base"} /-->
 
 <!-- wp:navigation {"ref":4,"textColor":"base","overlayBackgroundColor":"main","overlayTextColor":"base-900-lighter","layout":{"type":"flex","orientation":"horizontal"},"style":{"spacing":{"blockGap":"20px"}},"fontSize":"small"} /--></div>
 <!-- /wp:group --></div>

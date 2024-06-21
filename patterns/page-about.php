@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: About Page
- * Slug: page-about
+ * Slug: lexiadesign/page-about
  * Description: A full page design for an About page
- * Categories: lexia/pages
+ * Categories: lexiadesign/pages
  * Keywords: page, layout, design, template
  * Viewport Width: 1500
  * Inserter: true

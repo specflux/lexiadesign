@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: ContentNumbers Stacked
- * Slug: content-numbers-stacked
+ * Slug: lexiadesign/content-numbers-stacked
  * Description: Display impressive numbers with a short description
- * Categories: lexia/content
+ * Categories: lexiadesign/content
  * Keywords: numbers, stats, text, values, count
  * Viewport Width: 1500
  * Block Types:
@@ -19,8 +19,8 @@
 <h3 class="wp-block-heading has-base-color has-text-color has-link-color has-x-large-font-size" style="text-decoration:underline">8+ Years of Experience</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"brand-200"} -->
-<p class="has-brand-200-color has-text-color">We've been building websites before AI became a thing</p>
+<!-- wp:paragraph {"textColor":"base-700"} -->
+<p class="has-base-700-color has-text-color">We've been building websites before AI became a thing</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -29,8 +29,8 @@
 <h3 class="wp-block-heading has-base-color has-text-color has-link-color has-x-large-font-size" style="text-decoration:underline">60+ Patterns</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"brand-200"} -->
-<p class="has-brand-200-color has-text-color">No design skills? No problem! Choose from our library of stunning patterns and build a beautiful website in a flash. ✨</p>
+<!-- wp:paragraph {"textColor":"base-700"} -->
+<p class="has-base-700-color has-text-color">No design skills? No problem! Choose from our library of stunning patterns and build a beautiful website in a flash. ✨</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -41,8 +41,8 @@
 <h3 class="wp-block-heading has-base-color has-text-color has-link-color has-x-large-font-size" style="text-decoration:underline">1000+ Hours</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"brand-200"} -->
-<p class="has-brand-200-color has-text-color">We've poured our hearts (and countless cups of coffee) into this theme, so you can be sure it's top-notch. ☕️</p>
+<!-- wp:paragraph {"textColor":"base-700"} -->
+<p class="has-base-700-color has-text-color">We've poured our hearts (and countless cups of coffee) into this theme, so you can be sure it's top-notch. ☕️</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -51,8 +51,8 @@
 <h3 class="wp-block-heading has-base-color has-text-color has-link-color has-x-large-font-size" style="text-decoration:underline">10+ Layouts</h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"brand-200"} -->
-<p class="has-brand-200-color has-text-color">Skip the design headaches and get started with gorgeous pre-built layouts for your homepage, about page, features, and more!</p>
+<!-- wp:paragraph {"textColor":"base-700"} -->
+<p class="has-base-700-color has-text-color">Skip the design headaches and get started with gorgeous pre-built layouts for your homepage, about page, features, and more!</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

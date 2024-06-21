@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Call To Action Card with Block Buttons
- * Slug: call-to-action-card-with-block-buttons
+ * Slug: lexiadesign/call-to-action-card-with-block-buttons
  * Description:
- * Categories: lexia/call-to-action, lexia/card
+ * Categories: lexiadesign/call-to-action, lexiadesign/card
  * Keywords: card, download, box, link, button, cta, call to action
  * Viewport Width: 600
  * Block Types:

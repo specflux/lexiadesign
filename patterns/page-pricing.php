@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Pricing Page
- * Slug: page-pricing
+ * Slug: lexiadesign/page-pricing
  * Description: A full page design for a Pricing page
- * Categories: lexia/pages, lexia/pricing
+ * Categories: lexiadesign/pages, lexiadesign/pricing
  * Keywords: page, layout, design, template, pricing
  * Viewport Width: 1500
  * Inserter: true

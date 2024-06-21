@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Content with Image and Numbered Features
- * Slug: content-with-image-and-numbered-features
+ * Slug: lexiadesign/content-with-image-and-numbered-features
  * Description:
- * Categories: lexia/content
+ * Categories: lexiadesign/content
  * Keywords: content,number, list, features, bullet
  * Viewport Width: 1500
  * Block Types:

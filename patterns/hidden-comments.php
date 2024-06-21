@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Comments
- * Slug: lexia/hidden-comments
+ * Slug: lexiadesign/hidden-comments
  * Inserter: no
  */
 ?>

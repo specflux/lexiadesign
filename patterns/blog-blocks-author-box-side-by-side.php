@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Blog Blocks Author Box Side-by-Side
- * Slug: blog-blocks-author-box-side-by-side
+ * Slug: lexiadesign/blog-blocks-author-box-side-by-side
  * Description: Author Info Box to showcase author information with avatar and info side by side.
- * Categories: lexia/blog-blocks
+ * Categories: lexiadesign/blog-blocks
  * Keywords: author, bio, profile, user
  * Viewport Width: 800
  * Block Types:

@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Hero with Split Image
- * Slug: hero-with-split-image
+ * Slug: lexiadesign/hero-with-split-image
  * Description:
- * Categories: lexia/hero, lexia/call-to-action
+ * Categories: lexiadesign/hero, lexiadesign/call-to-action
  * Keywords: cta, call to action, buttons, homepage, header, hero, heading, screenshot
  * Viewport Width: 1500
  * Block Types:
@@ -16,12 +16,12 @@
 <div class="wp-block-group alignfull has-base-color has-text-color has-background has-brand-900-background-color" style="min-height:70vh"><!-- wp:columns {"align":"full","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|large","left":"var:preset|spacing|large"}}}} -->
 <div class="wp-block-columns alignfull"><!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--large)"><!-- wp:heading {"level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","className":"wp-block-heading has-text-5-xl-font-size"} -->
-<h1 class="wp-block-heading has-text-5-xl-font-size has-base-color has-text-color has-link-color">Design with clicks, not code</h1>
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--large)"><!-- wp:heading {"level":1,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100","className":"wp-block-heading has-text-5-xl-font-size"} -->
+<h1 class="wp-block-heading has-text-5-xl-font-size has-base-100-color has-text-color has-link-color">Design with clicks, not code</h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} -->
-<p class="has-base-color has-text-color has-link-color">Whip up stunning, one-of-a-kind websites like a boss with the new WordPress Site Editor and the Lexia block theme!</p>
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100"} -->
+<p class="has-base-100-color has-text-color has-link-color">Whip up stunning, one-of-a-kind websites like a boss with the new WordPress Site Editor and the Lexia block theme!</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
@@ -29,8 +29,8 @@
 <div class="wp-block-button"><a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button"><strong>Download Lexia</strong></a></div>
 <!-- /wp:button -->
 
-<!-- wp:button {"textColor":"base","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-base-color has-text-color has-link-color wp-element-button">Tell Me More</a></div>
+<!-- wp:button {"textColor":"base-100","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-base-100-color has-text-color has-link-color wp-element-button">Tell Me More</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

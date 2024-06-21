@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Call To Action
- * Slug: call-to-action
+ * Slug: lexiadesign/call-to-action
  * Description:
- * Categories: lexia/call-to-action
+ * Categories: lexiadesign/call-to-action
  * Keywords: card, button, cta, heading, call to action
  * Viewport Width: 600
  * Block Types:

@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Profile Box
- * Slug: profile-box
+ * Slug: lexiadesign/profile-box
  * Description: A profile box with an avatar, links to social media, and buttons
- * Categories: lexia/call-to-action
+ * Categories: lexiadesign/call-to-action
  * Keywords: links, linktree, buttons, profile, bio
  * Viewport Width: 1500
  * Block Types:

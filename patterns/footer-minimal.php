@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Footer Minimal
- * Slug: footer-minimal
+ * Slug: lexiadesign/footer-minimal
  * Description:
- * Categories: lexia/footer
+ * Categories: lexiadesign/footer
  * Keywords:
  * Viewport Width: 1500
  * Block Types: core/template-part/footer

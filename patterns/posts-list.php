@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: List of posts without images, 1 column
- * Slug: lexia/posts
+ * Slug: lexiadesign/posts-list
  * Categories: query, posts
  * Block Types: core/query
  */
@@ -52,7 +52,7 @@
 			<!-- /wp:query-pagination -->
 
 			<!-- wp:query-no-results -->
-			<!-- wp:pattern {"slug":"lexia/hidden-no-results"} /-->
+			<!-- wp:pattern {"slug":"lexiadesign/hidden-no-results"} /-->
 			<!-- /wp:query-no-results -->
 		</div>
 		<!-- /wp:query -->

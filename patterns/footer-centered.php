@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Footer Centered
- * Slug: footer-centered
+ * Slug: lexiadesign/footer-centered
  * Description:
- * Categories: lexia/footer
+ * Categories: lexiadesign/footer
  * Keywords:
  * Viewport Width: 1500
  * Block Types: core/template-part/footer

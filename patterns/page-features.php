@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Features Page
- * Slug: page-features
+ * Slug: lexiadesign/page-features
  * Description: A full page design for a Features page
- * Categories: lexia/pages, lexia/features
+ * Categories: lexiadesign/pages, lexiadesign/features
  * Keywords: page, layout, design, template, features
  * Viewport Width: 1500
  * Inserter: true

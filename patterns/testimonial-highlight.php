@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Testimonial Highlight
- * Slug: testimonial-highlight
+ * Slug: lexiadesign/testimonial-highlight
  * Description:
- * Categories: lexia/testimonial
+ * Categories: lexiadesign/testimonial
  * Keywords: testimonial, review, rating, case study, text, heading
  * Viewport Width: 1500
  * Block Types:

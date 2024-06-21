@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Call to Action with Lead Magnet
- * Slug: call-to-action-with-lead-magnet
+ * Slug: lexiadesign/call-to-action-with-lead-magnet
  * Description: A call-to-action box to offer a free download or sign up user to an email list.
- * Categories: lexia/call-to-action
+ * Categories: lexiadesign/call-to-action
  * Keywords: download, button, cta, email
  * Viewport Width: 800
  * Block Types:

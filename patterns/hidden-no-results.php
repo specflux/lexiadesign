@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: No results
- * Slug: lexia/hidden-no-results
+ * Slug: lexiadesign/hidden-no-results
  * Inserter: no
  */
 ?>

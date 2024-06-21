@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Blog Blocks Author Box
- * Slug: blog-blocks-author-box
+ * Slug: lexiadesign/blog-blocks-author-box
  * Description: Author Info Box to showcase author information including social links.
- * Categories: lexia/blog-blocks
+ * Categories: lexiadesign/blog-blocks
  * Keywords: author, bio, profile, user
  * Viewport Width: 800
  * Block Types:

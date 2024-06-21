@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Content with Image and Testimonial
- * Slug: content-with-image-and-testimonial
+ * Slug: lexiadesign/content-with-image-and-testimonial
  * Description:
- * Categories: lexia/call-to-action, lexia/features, lexia/content
+ * Categories: lexiadesign/call-to-action, lexiadesign/features, lexiadesign/content
  * Keywords: table, stats, details, list, card
  * Viewport Width: 1500
  * Block Types:
@@ -19,8 +19,8 @@
 <div class="wp-block-columns alignwide are-vertically-aligned-center" style="margin-top:0px;margin-bottom:0px"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textColor":"base"} -->
-<h2 class="wp-block-heading has-base-color has-text-color">Download Lexia for free today</h2>
+<div class="wp-block-group"><!-- wp:heading {"textColor":"base-100"} -->
+<h2 class="wp-block-heading has-base-100-color has-text-color">Download Lexia for free today</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"base"} -->
@@ -49,7 +49,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small","padding":{"right":"var:preset|spacing|x-small","left":"var:preset|spacing|x-small","top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small"}},"elements":{"link":{"color":{"text":"var:preset|color|brand-950"}}},"border":{"radius":"15px"}},"backgroundColor":"brand-200","textColor":"brand-950","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-brand-950-color has-brand-200-background-color has-text-color has-background has-link-color" style="border-radius:15px;padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:paragraph {} -->
+<div class="wp-block-group has-brand-950-color has-brand-200-background-color has-text-color has-background has-link-color" style="border-radius:15px;padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--x-small)"><!-- wp:paragraph {"className":"has-text-color"} -->
 <p class="has-text-color">★★★★★</p>
 <!-- /wp:paragraph -->
 

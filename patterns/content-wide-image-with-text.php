@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Content Wide Image with Text
- * Slug: content-wide-image-with-text
+ * Slug: lexiadesign/content-wide-image-with-text
  * Description:
- * Categories: lexia/content
+ * Categories: lexiadesign/content
  * Keywords: content, image, text, box, link, button
  * Viewport Width: 600
  * Block Types:

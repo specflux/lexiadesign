@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: 404
- * Slug: lexia/hidden-404
+ * Slug: lexiadesign/hidden-404
  * Inserter: no
  */
 ?>
@@ -18,12 +18,12 @@
 
 <!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--large)"><!-- wp:heading -->
-<h2 class="wp-block-heading">Page Not Found</h2>
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--large)"><!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100"} -->
+<h2 class="wp-block-heading has-base-100-color has-text-color has-link-color">Page Not Found</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">The page you are looking for does not exist, or it has been moved. Please try searching using the form below.</p>
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100","fontSize":"medium"} -->
+<p class="has-base-100-color has-text-color has-link-color has-medium-font-size">The page you are looking for does not exist, or it has been moved. Please try searching using the form below.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0"}}}},"backgroundColor":"brand","textColor":"base-0","fontSize":"medium"} /--></div>

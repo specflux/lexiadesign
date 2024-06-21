@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Blog Page
- * Slug: lexia/blog-page
+ * Slug: lexiadesign/blog-page
  * Description: A full page design for a blog page
- * Categories: lexia/pages
+ * Categories: lexiadesign/pages
  * Keywords: page, layout, design, template, blog, posts, query
  * Viewport Width: 1500
  * Block Types:
@@ -11,4 +11,4 @@
  * Inserter: true
  */
 ?>
-<!-- wp:pattern {"slug":"lexia/post-loop-grid"} /-->
+<!-- wp:pattern {"slug":"lexiadesign/post-loop-grid"} /-->

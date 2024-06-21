@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Testimonial Single
- * Slug: testimonial-single
+ * Slug: lexiadesign/testimonial-single
  * Description:
- * Categories: lexia/testimonial
+ * Categories: lexiadesign/testimonial
  * Keywords: testimonial, text, review, rating, avatar, card
  * Viewport Width: 600
  * Block Types:

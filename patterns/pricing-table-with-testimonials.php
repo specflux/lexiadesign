@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Pricing Table With Testimonials
- * Slug: pricing-table-with-testimonials
+ * Slug: lexiadesign/pricing-table-with-testimonials
  * Description:
- * Categories: lexia/pricing
+ * Categories: lexiadesign/pricing
  * Keywords: cta, button, call to action, purchase
  * Viewport Width: 1500
  * Block Types:

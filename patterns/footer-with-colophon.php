@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Footer with colophon
- * Slug: lexia/footer-with-colophon
- * Categories: lexia/footer
+ * Slug: lexiadesign/footer-with-colophon
+ * Categories: lexiadesign/footer
  * Block Types: core/template-part/footer
  */
 ?>
@@ -37,7 +37,7 @@
 <p class="has-base-100-color has-text-color has-link-color" style="font-style:normal;font-weight:600">Company</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"},"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100","layout":{"type":"constrained"},"fontSize":"small"} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"},"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100","layout":{"type":"constrained"},"fontSize":"small"} -->
 <div class="wp-block-group has-base-100-color has-text-color has-link-color has-small-font-size"><!-- wp:paragraph -->
 <p>About</p>
 <!-- /wp:paragraph -->
@@ -61,7 +61,7 @@
 <p style="font-style:normal;font-weight:600">Resources</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"},"fontSize":"small"} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"constrained"},"fontSize":"small"} -->
 <div class="wp-block-group has-small-font-size"><!-- wp:paragraph -->
 <p>Support</p>
 <!-- /wp:paragraph -->

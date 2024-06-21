@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Single Blog Post Card
- * Slug: single-blog-post-card
+ * Slug: lexiadesign/posts-single-blog-post-card
  * Description:
- * Categories: lexia/posts
+ * Categories: lexiadesign/posts
  * Keywords: card, image, text, box, content, link, button
  * Viewport Width: 600
  * Block Types:

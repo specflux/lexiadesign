@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Team members, 4 columns
- * Slug: lexia/team-members-4-columns
+ * Slug: lexiadesign/team-members-4-columns
  * Keywords: team
- * Categories: lexia/team
+ * Categories: lexiadesign/team
  * Viewport width: 1400
  */
 ?>

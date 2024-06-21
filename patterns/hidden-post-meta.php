@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Post meta
- * Slug: lexia/hidden-post-meta
+ * Slug: lexiadesign/hidden-post-meta
  * Inserter: no
  */
 ?>

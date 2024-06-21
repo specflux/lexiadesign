@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Testimonials With Big Text
- * Slug: testimonials-with-big-text
+ * Slug: lexiadesign/testimonials-with-big-text
  * Description:
- * Categories: lexia/testimonial
+ * Categories: lexiadesign/testimonial
  * Keywords: testimonial, review, rating, quote, heading, columns, avatar
  * Viewport Width: 1500
  * Block Types:

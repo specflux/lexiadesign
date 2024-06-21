@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Content with 3 columns of Feature grid
- * Slug: lexia/content-with-text-feature-grid-3-col
- * Categories: lexia/content
+ * Slug: lexiadesign/content-with-text-feature-grid-3-col
+ * Categories: lexiadesign/content
  * Viewport width: 1400
  */
 ?>

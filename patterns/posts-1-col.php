@@ -1,15 +1,15 @@
 <?php
 /**
  * Title: List of posts, 1 column
- * Slug: lexia/posts-1-col
- * Categories: lexia/content
+ * Slug: lexiadesign/posts-1-col
+ * Categories: lexiadesign/content
  * Block Types: core/query
  */
 ?>
 <!-- wp:query {"query":{"perPage":3,"pages":0,"offset":"0","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"type":"constrained"}} -->
 <div class="wp-block-query">
 	<!-- wp:query-no-results -->
-	<!-- wp:pattern {"slug":"lexia/hidden-no-results"} /-->
+	<!-- wp:pattern {"slug":"lexiadesign/hidden-no-results"} /-->
 	<!-- /wp:query-no-results -->
 
 	<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"0","right":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->

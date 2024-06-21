@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Team Members 3 Columns
- * Slug: team-members-3-columns
+ * Slug: lexiadesign/team-members-3-columns
  * Description:
- * Categories: lexia/team
+ * Categories: lexiadesign/team
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
  * Block Types:

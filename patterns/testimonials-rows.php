@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Testimonials Rows
- * Slug: testimonials-rows
+ * Slug: lexiadesign/testimonials-rows
  * Description:
- * Categories: lexia/testimonial
+ * Categories: lexiadesign/testimonial
  * Keywords: testimonial, text, review, rating, avatar, card
  * Viewport Width: 1500
  * Block Types:

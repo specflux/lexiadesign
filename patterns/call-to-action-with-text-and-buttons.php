@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Call To Action with Text & Buttons
- * Slug: call-to-action-with-text-and-buttons
+ * Slug: lexiadesign/call-to-action-with-text-and-buttons
  * Description: A call to action with text and a button.
- * Categories: lexia/call-to-action, lexia/content
+ * Categories: lexiadesign/call-to-action, lexiadesign/content
  * Keywords: cta, call to action, buttons, heading
  * Viewport Width: 1500
  * Block Types:
@@ -14,8 +14,8 @@
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","right":"var:preset|spacing|small","left":"var:preset|spacing|small"},"margin":{"top":"0","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|base-0"}}}},"backgroundColor":"brand-900","textColor":"base-0","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-base-0-color has-brand-900-background-color has-text-color has-background has-link-color" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center">Ditch the code and channel your inner design ninja!</h2>
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100"} -->
+<h2 class="wp-block-heading has-text-align-center has-base-100-color has-text-color has-link-color">Ditch the code and channel your inner design ninja!</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 

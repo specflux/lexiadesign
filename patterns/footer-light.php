@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Footer Light
- * Slug: footer-light
+ * Slug: lexiadesign/footer-light
  * Description:
- * Categories: lexia/footer
+ * Categories: lexiadesign/footer
  * Keywords:
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
@@ -39,7 +39,7 @@
 <p style="font-style:normal;font-weight:600">Company</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"},"fontSize":"small"} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"constrained"},"fontSize":"small"} -->
 <div class="wp-block-group has-small-font-size"><!-- wp:paragraph -->
 <p>About</p>
 <!-- /wp:paragraph -->
@@ -63,7 +63,7 @@
 <p style="font-style:normal;font-weight:600">Resources</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"},"fontSize":"small"} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"constrained"},"fontSize":"small"} -->
 <div class="wp-block-group has-small-font-size"><!-- wp:paragraph -->
 <p>Support</p>
 <!-- /wp:paragraph -->

@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Header Dark
- * Slug: header-dark
+ * Slug: lexiadesign/header-dark
  * Description: Header with nav and social icons
- * Categories: lexia/header
+ * Categories: lexiadesign/header
  * Keywords: header, nav, links, button
  * Viewport Width: 1500
  * Block Types: core/template-part/header

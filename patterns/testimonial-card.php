@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Testimonial Card
- * Slug: testimonial-card
+ * Slug: lexiadesign/testimonial-card
  * Description:
- * Categories: lexia/testimonial
+ * Categories: lexiadesign/testimonial
  * Keywords: testimonial, review, rating
  * Viewport Width: 600
  * Block Types:

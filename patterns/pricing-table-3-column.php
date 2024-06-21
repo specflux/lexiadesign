@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Pricing Table - 3 Column
- * Slug: pricing-table-3-column
+ * Slug: lexiadesign/pricing-table-3-column
  * Description:
- * Categories: lexia/pricing
+ * Categories: lexiadesign/pricing
  * Keywords: cta, call, to, action, button
  * Viewport Width: 1500
  * Block Types:
@@ -13,12 +13,12 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","right":"var:preset|spacing|small","left":"var:preset|spacing|small"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|large"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"brand-900","textColor":"base","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-base-color has-brand-900-background-color has-text-color has-background has-link-color" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--x-large);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} -->
-<h2 class="wp-block-heading has-text-align-center has-base-color has-text-color has-link-color">Pay with clarity, gain big</h2>
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100"} -->
+<h2 class="wp-block-heading has-text-align-center has-base-100-color has-text-color has-link-color">Pay with clarity, gain big</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><strong>Lexia's stunning patterns take the design struggle out of the equation,</strong> so you can focus on what truly matters: raking in the dough!</p>
+<!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100"} -->
+<p class="has-text-align-center has-base-100-color has-text-color has-link-color"><strong>Lexia's stunning patterns take the design struggle out of the equation,</strong> so you can focus on what truly matters: raking in the dough!</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -290,7 +290,7 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
-<!-- wp:paragraph {"align":"center","textColor":"secondary","fontSize":"small"} -->
-<p class="has-text-align-center has-secondary-color has-text-color has-small-font-size">Not convinced? We offer a <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color ">100% money back guarantee</mark></strong> for all purchases. Try our product with confidence, and if you don't like it, we'll make it right. </p>
+<!-- wp:paragraph {"align":"center","textColor":"base-100","fontSize":"small"} -->
+<p class="has-text-align-center has-base-100-color has-text-color has-small-font-size">Not convinced? We offer a <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-base-0-color">100% money back guarantee</mark></strong> for all purchases. Try our product with confidence, and if you don't like it, we'll make it right.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

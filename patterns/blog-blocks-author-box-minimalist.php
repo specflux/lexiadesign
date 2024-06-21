@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Blog Blocks Author Box Minimalist
- * Slug: blog-blocks-author-box-minimalist
+ * Slug: lexiadesign/blog-blocks-author-box-minimalist
  * Description: Simple Author Info Box to showcase author information.
- * Categories: lexia/blog-blocks
+ * Categories: lexiadesign/blog-blocks
  * Keywords: author, bio, profile, user
  * Viewport Width: 800
  * Block Types:

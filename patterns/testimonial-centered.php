@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Centered testimonial
- * Slug: lexia/testimonial-centered
+ * Slug: lexiadesign/testimonial-centered
  * Keywords: testimonial, review, rating
- * Categories: lexia/testimonials
+ * Categories: lexiadesign/testimonials
  * Viewport width: 1300
  */
 ?>

@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Testimonial Logo Cloud
- * Slug: testimonial-logo-cloud
+ * Slug: lexiadesign/testimonial-logo-cloud
  * Description:
- * Categories: lexia/testimonial
+ * Categories: lexiadesign/testimonial
  * Keywords: testimonial, review, rating
  * Viewport Width: 1500
  * Block Types:

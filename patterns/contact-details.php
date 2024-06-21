@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Contact Details
- * Slug: contact-details
+ * Slug: lexiadesign/contact-details
  * Description: Contact details with call to action buttons and a testimonial
- * Categories: lexia/contact, lexia/testimonial, lexia/call-to-action
+ * Categories: lexiadesign/contact, lexiadesign/testimonial, lexiadesign/call-to-action
  * Keywords: contact, testimonial, about, columns, ratings, email, phone
  * Viewport Width: 1500
  * Block Types:

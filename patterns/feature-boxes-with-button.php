@@ -1,9 +1,9 @@
 <?php
 /**
  * Title: Feature Boxes With Button
- * Slug: feature-boxes-with-button
+ * Slug: lexiadesign/feature-boxes-with-button
  * Description:
- * Categories: lexia/features
+ * Categories: lexiadesign/features
  * Keywords: cta, button, call to action, features, icon, box
  * Viewport Width: 1500
  * Block Types:
