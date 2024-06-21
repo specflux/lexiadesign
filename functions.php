@@ -8,121 +8,123 @@
  * @since Lexia Design 1.0
  */
 
- // Define constants
+// Define constants
 define('THEME_NAMESPACE', __NAMESPACE__);
-define('THEME_TEXT_DOMAIN', 'Lexia');
+define('THEME_TEXT_DOMAIN', 'lexiadesign');
 
 /**
  * Register block styles.
  */
 
-if ( ! function_exists( 'lexia_block_styles' ) ) :
-	/**
-	 * Register custom block styles
-	 *
-	 * @since Lexia Design 1.0
-	 * @return void
-	 */
-	function lexia_block_styles() {
+if (!function_exists('lexia_block_styles')):
+    /**
+     * Register custom block styles
+     *
+     * @since Lexia Design 1.0
+     * @return void
+     */
+    function lexia_block_styles()
+{
 
-		register_block_style(
-			'core/details',
-			array(
-				'name'         => 'arrow-icon-details',
-				'label'        => esc_html_x( 'Arrow icon', 'lexia' ),
-			)
-		);
-		register_block_style(
-			'core/post-terms',
-			array(
-				'name'         => 'pill',
-				'label'        => esc_html_x( 'Pill', 'lexia' ),
-			)
-		);
-		register_block_style(
-			'core/list',
-			array(
-				'name'         => 'checkmark-list',
-				'label'        => esc_html_x( 'Checkmark', 'lexia' ),
-			)
-		);
-	}
+        register_block_style(
+            'core/details',
+            array(
+                'name' => 'arrow-icon-details',
+                'label' => 'Arrow icon',
+            )
+        );
+        register_block_style(
+            'core/post-terms',
+            array(
+                'name' => 'pill',
+                'label' => 'Pill',
+            )
+        );
+        register_block_style(
+            'core/list',
+            array(
+                'name' => 'checkmark-list',
+                'label' => 'Checkmark',
+            )
+        );
+    }
 endif;
 
-add_action( 'init', 'lexia_block_styles' );
+add_action('init', 'lexia_block_styles');
 
 /**
  * Register pattern categories.
  */
 
-if ( ! function_exists( 'lexia_pattern_categories' ) ) :
-	/**
-	 * Register pattern categories
-	 *
-	 * @since Lexia Design 1.0
-	 * @return void
-	 */
-	function lexia_pattern_categories() {
+if (!function_exists('lexia_pattern_categories')):
+    /**
+     * Register pattern categories
+     *
+     * @since Lexia Design 1.0
+     * @return void
+     */
+    function lexia_pattern_categories()
+{
 
-		$block_pattern_categories = array(
-			'lexiadesign/blog-blocks'           => array(
-				'label' => esc_html_x( 'Blog Blocks', THEME_NAMESPACE ),
-				'description' => esc_html_x( 'A collection of blog block layouts.', THEME_NAMESPACE ),
-			),
-			'lexiadesign/call-to-action' => array(
-				'label' => esc_html_x( 'Call To Action', THEME_NAMESPACE ),
-				'description' => esc_html_x( 'A collection of call to action layouts.', THEME_NAMESPACE ),
-			),
-			'lexiadesign/contact' => array(
-				'label' => esc_html_x( 'Contact', THEME_NAMESPACE ),
-				'description' => esc_html_x( 'A collection of contact layouts.', THEME_NAMESPACE ),
-			),
-			'lexiadesign/content' => array(
-				'label' => esc_html_x( 'Content', THEME_NAMESPACE ),
-				'description' => esc_html_x( 'A collection of content layouts.', THEME_NAMESPACE ),
-			),
-			'lexiadesign/hero'           => array(
-				'label' => esc_html_x( 'Hero', THEME_NAMESPACE ),
-				'description' => esc_html_x( 'A collection of hero layouts.', THEME_NAMESPACE ),
-			),
-			'lexiadesign/features'       => array(
-				'label' => esc_html_x( 'Features', THEME_NAMESPACE ),
-				'description' => esc_html_x( 'A collection of features layouts.', THEME_NAMESPACE ),
-			),
-			'lexiadesign/footer'       => array(
-				'label' => esc_html_x( 'Footer', THEME_NAMESPACE ),
-				'description' => esc_html_x( 'A collection of footer layouts.', THEME_NAMESPACE ),
-			),
-			'lexiadesign/header'       => array(
-				'label' => esc_html_x( 'Header', THEME_NAMESPACE ),
-				'description' => esc_html_x( 'A collection of header layouts.', THEME_NAMESPACE ),
-			),
-			'lexiadesign/pages'          => array(
-				'label' => esc_html_x( 'Pages', THEME_NAMESPACE ),
-				'description' => esc_html_x( 'A collection of pages layouts.', THEME_NAMESPACE ),
-			),
-			'lexiadesign/posts'          => array(
-				'label' => esc_html_x( 'Posts', THEME_NAMESPACE ),
-				'description' => esc_html_x( 'A collection of posts layouts.', THEME_NAMESPACE ),
-			),
-			'lexiadesign/pricing'        => array(
-				'label' => esc_html_x( 'Pricing', THEME_NAMESPACE ),
-				'description' => esc_html_x( 'A collection of pricing layouts.', THEME_NAMESPACE ),
-			),
-			'lexiadesign/team'    => array(
-				'label' => esc_html_x( 'Team', THEME_NAMESPACE ),
-				'description' => esc_html_x( 'A collection of team layouts.', THEME_NAMESPACE ),
-			),
-			'lexiadesign/testimonial'    => array(
-				'label' => esc_html_x( 'Testimonials', THEME_NAMESPACE ),
-				'description' => esc_html_x( 'A collection of testimonial layouts.', THEME_NAMESPACE ),
-			),
-		);
+        $block_pattern_categories = array(
+            'lexiadesign/blog-blocks' => array(
+                'label' => 'Blog Blocks',
+                'description' => 'A collection of blog block layouts.',
+            ),
+            'lexiadesign/call-to-action' => array(
+                'label' => 'Call To Action',
+                'description' => 'A collection of call to action layouts.',
+            ),
+            'lexiadesign/contact' => array(
+                'label' => 'Contact',
+                'description' => 'A collection of contact layouts.',
+            ),
+            'lexiadesign/content' => array(
+                'label' => 'Content',
+                'description' => 'A collection of content layouts.',
+            ),
+            'lexiadesign/hero' => array(
+                'label' => 'Hero',
+                'description' => 'A collection of hero layouts.',
+            ),
+            'lexiadesign/features' => array(
+                'label' => 'Features',
+                'description' => 'A collection of features layouts.',
+            ),
+            'lexiadesign/footer' => array(
+                'label' => 'Footer',
+                'description' => 'A collection of footer layouts.',
+            ),
+            'lexiadesign/header' => array(
+                'label' => 'Header',
+                'description' => 'A collection of header layouts.',
+            ),
+            'lexiadesign/pages' => array(
+                'label' => 'Pages',
+                'description' => 'A collection of pages layouts.',
+            ),
+            'lexiadesign/posts' => array(
+                'label' => 'Posts',
+                'description' => 'A collection of posts layouts.',
+            ),
+            'lexiadesign/pricing' => array(
+                'label' => 'Pricing',
+                'description' => 'A collection of pricing layouts.',
+            ),
+            'lexiadesign/team' => array(
+                'label' => 'Team',
+                'description' => 'A collection of team layouts.',
+            ),
+            'lexiadesign/testimonial' => array(
+                'label' => 'Testimonials',
+                'description' => 'A collection of testimonial layouts.',
+            ),
+        );
 
-		foreach ( $block_pattern_categories as $name => $properties ) {
-			register_block_pattern_category( $name, $properties );
-		}
-	}
+        foreach ($block_pattern_categories as $name => $properties) {
+            register_block_pattern_category($name, $properties);
+        }
+    }
 endif;
 
-add_action( 'init', 'lexia_pattern_categories' );
+add_action('init', 'lexia_pattern_categories');

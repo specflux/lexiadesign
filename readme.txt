@@ -13,8 +13,11 @@ Lexia Design is designed to be flexible, versatile and applicable to any website
 
 == Changelog ==
 
-= 0.1.0 =
-* Released: Jun 12,2024
+= 1.0.0 =
+
+= 1.0.1 =
+* Released: Jun 21,2024
+* Reworked the theme to be more responsive and mobile-friendly
 
 Intial release
 
