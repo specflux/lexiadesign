@@ -12,29 +12,52 @@
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","right":"var:preset|spacing|small","left":"var:preset|spacing|small"},"margin":{"top":"0","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|base-0"}}}},"backgroundColor":"brand-900","textColor":"base-0","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-base-0-color has-brand-900-background-color has-text-color has-background has-link-color" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-<div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100"} -->
-<h2 class="wp-block-heading has-text-align-center has-base-100-color has-text-color has-link-color">Ditch the code and channel your inner design ninja!</h2>
+<div class="wp-block-group alignfull has-base-0-color has-brand-900-background-color has-text-color has-background has-link-color" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">
+<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group alignwide">
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group">
+<!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100"} -->
+<h2 class="wp-block-heading has-text-align-center has-base-100-color has-text-color has-link-color">
+
+    <?php esc_html_x( 'Ditch the code and channel your inner design ninja!', 'Sample heading', 'lexiadesign' ); ?>
+
+</h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":[]},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Pattern power unlocks lightning-fast website creation in WordPress. ⚡️</p>
+<div class="wp-block-group">
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">
+
+    <?php esc_html_x( 'Pattern power unlocks lightning-fast website creation in WordPress.', 'Sample content', 'lexiadesign' ); ?>
+</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Ready to level up your site building game?</p>
+<p class="has-text-align-center">
+
+    <?php esc_html_x( 'Ready to level up your site building game?', 'Sample content', 'lexiadesign' ); ?>
+</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"brand","textColor":"base","style":{"spacing":{"padding":{"left":"var:preset|spacing|small","right":"var:preset|spacing|small","top":"var:preset|spacing|xx-small","bottom":"var:preset|spacing|xx-small"}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-base-color has-brand-background-color has-text-color has-background wp-element-button" style="padding-top:var(--wp--preset--spacing--xx-small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--xx-small);padding-left:var(--wp--preset--spacing--small)">Get Started Today</a></div>
+<div class="wp-block-buttons">
+<!-- wp:button {"backgroundColor":"brand","textColor":"base","style":{"spacing":{"padding":{"left":"var:preset|spacing|small","right":"var:preset|spacing|small","top":"var:preset|spacing|xx-small","bottom":"var:preset|spacing|xx-small"}}}} -->
+<div class="wp-block-button">
+<a class="wp-block-button__link has-base-color has-brand-background-color has-text-color has-background wp-element-button" style="padding-top:var(--wp--preset--spacing--xx-small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--xx-small);padding-left:var(--wp--preset--spacing--small)">
+
+    <?php esc_html_e( 'Get Started Today', 'lexiadesign' ); ?>
+</a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"backgroundColor":"tertiary","textColor":"base-0","style":{"spacing":{"padding":{"left":"var:preset|spacing|small","right":"var:preset|spacing|small","top":"var:preset|spacing|xx-small","bottom":"var:preset|spacing|xx-small"}},"elements":{"link":{"color":{"text":"var:preset|color|base-0"}}},"typography":{"textDecoration":"underline"}},"borderColor":"base-0","className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline" style="text-decoration:underline"><a class="wp-block-button__link has-base-0-color has-tertiary-background-color has-text-color has-background has-link-color has-border-color has-base-0-border-color wp-element-button" style="padding-top:var(--wp--preset--spacing--xx-small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--xx-small);padding-left:var(--wp--preset--spacing--small)">Look Around Longer</a></div>
+<div class="wp-block-button is-style-outline" style="text-decoration:underline">
+<a class="wp-block-button__link has-base-0-color has-tertiary-background-color has-text-color has-background has-link-color has-border-color has-base-0-border-color wp-element-button" style="padding-top:var(--wp--preset--spacing--xx-small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--xx-small);padding-left:var(--wp--preset--spacing--small)">
+
+    <?php esc_html_e( 'Look Around Longer', 'lexiadesign' ); ?>
+</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

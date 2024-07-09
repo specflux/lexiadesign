@@ -13,29 +13,41 @@
 
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|x-small","bottom":"var:preset|spacing|x-small"}},"border":{"radius":"15px"}},"backgroundColor":"brand-50","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-brand-50-background-color has-background" style="border-radius:15px;margin-top:0;padding-top:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small)"><!-- wp:group {"className":"alignfull has-tertiary-background-color has-background"} -->
-<div class="wp-block-group alignfull has-tertiary-background-color has-background"><!-- wp:image {"id":57,"width":"132px","height":"132px","sizeSlug":"full","linkDestination":"none","align":"center","className":"is-style-circle"} -->
-<figure class="wp-block-image aligncenter size-full is-resized is-style-circle"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/people-2.webp" alt="" class="wp-image-57" style="width:132px;height:132px"/></figure>
+<div class="wp-block-group alignfull has-brand-50-background-color has-background" style="border-radius:15px;margin-top:0;padding-top:var(--wp--preset--spacing--x-small);padding-bottom:var(--wp--preset--spacing--x-small)">
+<!-- wp:group {"className":"alignfull has-tertiary-background-color has-background"} -->
+<div class="wp-block-group alignfull has-tertiary-background-color has-background">
+<!-- wp:image {"id":57,"width":"132px","height":"132px","sizeSlug":"full","linkDestination":"none","align":"center","className":"is-style-circle"} -->
+<figure class="wp-block-image aligncenter size-full is-resized is-style-circle">
+<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/people-2.webp" alt="" class="wp-image-57" style="width:132px;height:132px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="wp-block-heading has-text-align-center">Rebecca Martins</h3>
+<h3 class="wp-block-heading has-text-align-center">
+<?php echo esc_html_x( 'Rebecca Martins', 'Sample heading for profile box', 'lexiadesign' ); ?>
+</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"secondary"} -->
-<p class="has-text-align-center has-secondary-color has-text-color">Ditch the LinkTree Jungle and Build Your Link Oasis Here!</p>
+<p class="has-text-align-center has-secondary-color has-text-color">
+<?php echo esc_html_x( 'Ditch the LinkTree Jungle and Build Your Link Oasis Here!', 'Sample paragraph for profile box', 'lexiadesign' ); ?>
+</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","textColor":"secondary"} -->
-<p class="has-text-align-center has-secondary-color has-text-color">Tired of having your followers navigate a maze of links?  This is your one-stop shop for all things you! ✨</p>
+<p class="has-text-align-center has-secondary-color has-text-color">
+<?php echo esc_html_x( 'Tired of having your followers navigate a maze of links?  This is your one-stop shop for all things you! ✨', 'Sample paragraph for profile box', 'lexiadesign' ); ?>
+</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","textColor":"secondary"} -->
-<p class="has-text-align-center has-secondary-color has-text-color">From your dazzling social media presence to your stellar website, connect your followers to everything that matters with just one link.  No more monkeying around, just pure connection magic! 🪄.</p>
+<p class="has-text-align-center has-secondary-color has-text-color">
+<?php echo esc_html_x( 'From your dazzling social media presence to your stellar website, connect your followers to everything that matters with just one link.  No more monkeying around, just pure connection magic! 🪄.', 'Sample paragraph for profile box', 'lexiadesign' ); ?>
+</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconBackgroundColor":"brand","iconBackgroundColorValue":"#4483ed","align":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"margin":{"top":"var:preset|spacing|small"}}},"className":"is-style-default"} -->
-<ul class="wp-block-social-links aligncenter has-icon-background-color is-style-default" style="margin-top:var(--wp--preset--spacing--small)"><!-- wp:social-link {"url":"#","service":"twitter"} /-->
+<ul class="wp-block-social-links aligncenter has-icon-background-color is-style-default" style="margin-top:var(--wp--preset--spacing--small)">
+<!-- wp:social-link {"url":"#","service":"twitter"} /-->
 
 <!-- wp:social-link {"url":"#","service":"dribbble"} /-->
 

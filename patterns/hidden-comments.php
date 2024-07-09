@@ -8,18 +8,23 @@
 
 <!-- wp:comments {"className":"wp-block-comments-query-loop"} -->
 <div class="wp-block-comments wp-block-comments-query-loop">
+
 	<!-- wp:heading -->
-	<h2><?php esc_html_e( 'Comments', 'lexiadesign' ); ?></h2>
+	<h2><?php esc_html_x( 'Comments', 'Sample heading for comments section', 'lexiadesign' ); ?>
+</h2>
 	<!-- /wp:heading -->
 	<!-- wp:comments-title {"level":3} /-->
 	<!-- wp:comment-template -->
 	<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|medium"}}}} -->
 	<div class="wp-block-group" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--medium)">
+
 		<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"},"style":{"spacing":{"blockGap":"0.5em"}}} -->
 		<div class="wp-block-group">
+
 			<!-- wp:avatar {"size":40} /-->
 			<!-- wp:group -->
 			<div class="wp-block-group">
+
 				<!-- wp:comment-author-name /-->
 				<!-- wp:comment-date /-->
 			</div>
@@ -29,6 +34,7 @@
 		<!-- wp:comment-content /-->
 		<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
+
 			<!-- wp:comment-edit-link /-->
 			<!-- wp:comment-reply-link /-->
 		</div>
