@@ -16,14 +16,14 @@ define('THEME_TEXT_DOMAIN', 'lexiadesign');
  * Register block styles.
  */
 
-if (!function_exists('lexia_block_styles')):
+if (!function_exists('lexiadesign_block_styles')):
     /**
      * Register custom block styles
      *
      * @since Lexia Design 1.0
      * @return void
      */
-    function lexia_block_styles()
+    function lexiadesign_block_styles()
 {
 
         register_block_style(
@@ -50,20 +50,20 @@ if (!function_exists('lexia_block_styles')):
     }
 endif;
 
-add_action('init', 'lexia_block_styles');
+add_action('init', 'lexiadesign_block_styles');
 
 /**
  * Register pattern categories.
  */
 
-if (!function_exists('lexia_pattern_categories')):
+if (!function_exists('lexiadesign_pattern_categories')):
     /**
      * Register pattern categories
      *
      * @since Lexia Design 1.0
      * @return void
      */
-    function lexia_pattern_categories()
+    function lexiadesign_pattern_categories()
 {
 
         $block_pattern_categories = array(
@@ -127,4 +127,4 @@ if (!function_exists('lexia_pattern_categories')):
     }
 endif;
 
-add_action('init', 'lexia_pattern_categories');
+add_action('init', 'lexiadesign_pattern_categories');
