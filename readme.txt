@@ -1,5 +1,5 @@
 === Lexia Design ===
-Contributors: wordpressdotorg
+Contributors: Specflux Solutions
 Requires at least: 6.4
 Tested up to: 6.5
 Requires PHP: 7.0
@@ -48,21 +48,20 @@ Source: https://github.com/rsms/inter
 
 === Images ===
 
-License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
-
-laptop-on-table.webp - https://www.pexels.com/photo/opened-laptop-placed-on-wooden-table-with-book-and-candles-3847604/
-404.webp - https://www.pexels.com/photo/black-crt-tv-showing-gray-screen-704555/
-logo-1.webp - https://logoipsum.com/
-logo-2.webp - https://logoipsum.com/
-logo-3.webp - https://logoipsum.com/
-logo-4.webp - https://logoipsum.com/
-logo-5.webp - https://logoipsum.com/
-logo-6.webp - https://logoipsum.com/
-logo-7.webp - https://logoipsum.com/
-logo-8.webp - https://logoipsum.com/
-avatar-1.webp - https://www.pexels.com/photo/photography-of-a-guy-wearing-green-shirt-1222271/
-avatar-2.webp - https://www.pexels.com/photo/woman-wearing-coat-762020/
-avatar-3.webp - https://www.pexels.com/photo/woman-in-grey-knit-sweater-61100/
-avatar-4.webp - https://www.pexels.com/photo/woman-wearing-pink-collared-half-sleeved-top-1036623/
-avatar-5.webp - https://www.pexels.com/photo/man-in-brown-polo-shirt-614810/
-avatar-6.webp - https://www.pexels.com/photo/woman-in-collared-shirt-774909/
+Images used are created by Specflux Solutions and released under Creative Commons ( CC0 ) License.
+laptop-on-table.webp
+404.webp
+logo-1.webp
+logo-2.webp
+logo-3.webp
+logo-4.webp
+logo-5.webp
+logo-6.webp
+logo-7.webp
+logo-8.webp
+avatar-1.webp
+avatar-2.webp
+avatar-3.webp
+avatar-4.webp
+avatar-5.webp
+avatar-6.webp
