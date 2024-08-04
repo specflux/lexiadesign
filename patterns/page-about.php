@@ -16,4 +16,3 @@
 <!-- wp:pattern {"slug":"team-members-3-columns"} /-->
 
 <!-- wp:pattern {"slug":"content-numbers-stacked"} /-->
-

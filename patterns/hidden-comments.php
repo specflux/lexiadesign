@@ -10,8 +10,7 @@
 <div class="wp-block-comments wp-block-comments-query-loop">
 
 	<!-- wp:heading -->
-	<h2><?php esc_html_x( 'Comments', 'Sample heading for comments section', 'lexiadesign' ); ?>
-</h2>
+	<h2><?php esc_html_e( 'Comments', 'lexiadesign' ); ?></h2>
 	<!-- /wp:heading -->
 	<!-- wp:comments-title {"level":3} /-->
 	<!-- wp:comment-template -->

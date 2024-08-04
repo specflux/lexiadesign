@@ -6,4 +6,4 @@
  */
 ?>
 
-<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0"}}}},"backgroundColor":"brand","textColor":"base-0","fontSize":"medium"} /-->
+<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0-color"}}}},"backgroundColor":"brand","textColor":"base-0","fontSize":"medium"} /-->

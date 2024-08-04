@@ -29,21 +29,15 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"textColor":"base-100"} -->
-<h2 class="wp-block-heading has-base-100-color has-text-color">
-<?php esc_html_x( 'Download Lexia for free today', 'Sample heading', 'lexiadesign' ); ?>
-</h2>
+<h2 class="wp-block-heading has-base-100-color has-text-color"><?php esc_html_e( 'Download Lexia for free today', 'lexiadesign' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"textColor":"base"} -->
-<p class="has-base-color has-text-color">
-<?php esc_html_x( 'Let loose your imagination and easily create beautiful websites with the Lexia block theme powered by the new WordPress Site Editor.', 'Sample content', 'lexiadesign' ); ?>
-</p>
+<!-- wp:paragraph {"textColor":"base-100"} -->
+<p class="has-base-100-color has-text-color"><?php esc_html_e( 'Let loose your imagination and easily create beautiful websites with the Lexia block theme powered by the new WordPress Site Editor.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"textColor":"base"} -->
-<p class="has-base-color has-text-color">
-<?php esc_html_x( 'Animating Ideas into Realities!', 'Sample content', 'lexiadesign' ); ?>
-</p>
+<!-- wp:paragraph {"textColor":"base-100"} -->
+<p class="has-base-100-color has-text-color"><?php esc_html_e( 'Animating Ideas into Realities!', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -53,16 +47,13 @@
 <div class="wp-block-buttons">
 <!-- wp:button {"backgroundColor":"brand","className":"is-style-fill"} -->
 <div class="wp-block-button is-style-fill">
-<a class="wp-block-button__link has-brand-background-color has-background wp-element-button">
-<?php esc_html_e( 'Download Lexia', 'lexiadesign' ); ?></a></div>
+<a class="wp-block-button__link has-brand-background-color has-background wp-element-button"><?php esc_html_e( 'Download Lexia', 'lexiadesign' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
-<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"fontSize":"small"} -->
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"fontSize":"small"} -->
 <p class="has-link-color has-small-font-size">
-<a href="https://wordpress.org">
-<?php esc_html_e( 'View on WordPress.org', 'lexiadesign' ); ?>
-</a>
+<a href="https://wordpress.org"><?php esc_html_e( 'View on WordPress.org', 'lexiadesign' ); ?></a>
 </p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
@@ -81,14 +72,11 @@
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
 <p style="font-style:normal;font-weight:600">
-“<?php esc_html_x( 'My work has been easier since using Lexia from start to end.', 'Sample testimonial', 'lexiadesign' ); ?>”
-</p>
+“<?php esc_html_e( 'My work has been easier since using Lexia from start to end.', 'lexiadesign' ); ?>”</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"base","fontSize":"small"} -->
-<p class="has-base-color has-text-color has-small-font-size" style="font-style:normal;font-weight:400">
-<?php esc_html_x( 'Rated 5/5 stars by 1,234 happy reviewers', 'Sample testimonial', 'lexiadesign' ); ?>
-</p>
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"base-700","fontSize":"small"} -->
+<p class="has-base-700-color has-text-color has-small-font-size" style="font-style:normal;font-weight:400"><?php esc_html_e( 'Rated 5/5 stars by 1,234 happy reviewers', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

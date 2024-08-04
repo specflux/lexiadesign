@@ -36,25 +36,19 @@
 <div class="wp-block-group">
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"5px","bottom":"5px","left":"15px","right":"15px"}},"border":{"radius":"100px"}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-background-color has-background" style="border-radius:100px;padding-top:5px;padding-right:15px;padding-bottom:5px;padding-left:15px">
-<!-- wp:paragraph {"textColor":"base"} -->
-<p class="has-base-color has-text-color">
-1
-</p>
+<!-- wp:paragraph {"textColor":"base-700","fontSize":"large"} -->
+<p class="has-base-700-color has-text-color has-large-font-size"><?php esc_html_e( '1', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">
-<?php esc_html_x( 'Pattern Paradise', 'Sample feature', 'lexiadesign' ); ?>
-</h4>
+<h4 class="wp-block-heading"><?php esc_html_e( 'Pattern Paradise', 'lexiadesign' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>
-    <?php esc_html_x( 'Over 60 beautiful built-in patterns let you drag, drop, and design like a pro! ✨ No coding required, just pure creative flow.', 'Sample content', 'lexiadesign' ); ?>
-</p>
+<p><?php esc_html_e( 'Over 60 beautiful built-in patterns let you drag, drop, and design like a pro! ✨ No coding required, just pure creative flow.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -63,25 +57,19 @@
 <div class="wp-block-group">
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"5px","bottom":"5px","left":"15px","right":"15px"}},"border":{"radius":"100px"}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-background-color has-background" style="border-radius:100px;padding-top:5px;padding-right:15px;padding-bottom:5px;padding-left:15px">
-<!-- wp:paragraph {"textColor":"base"} -->
-<p class="has-base-color has-text-color">
-2
-</p>
+<!-- wp:paragraph {"textColor":"base-700","fontSize":"large"} -->
+<p class="has-base-700-color has-text-color has-large-font-size"><?php esc_html_e( '2', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">
-<?php esc_html_x( 'Template Takeoff', 'Sample feature', 'lexiadesign' ); ?>
-</h4>
+<h4 class="wp-block-heading"><?php esc_html_e( 'Template Takeoff', 'lexiadesign' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>
-    <?php esc_html_x( 'Launch your site in no time with 10+ professionally designed page templates! About, profile, download - we\'ve got you covered.', 'Sample content', 'lexiadesign' ); ?>
-</p>
+<p><?php esc_html_e( 'Launch your site in no time with 10+ professionally designed page templates! About, profile, download - we\'ve got you covered.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -90,25 +78,19 @@
 <div class="wp-block-group">
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"5px","bottom":"5px","left":"15px","right":"15px"}},"border":{"radius":"100px"}},"backgroundColor":"primary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-primary-background-color has-background" style="border-radius:100px;padding-top:5px;padding-right:15px;padding-bottom:5px;padding-left:15px">
-<!-- wp:paragraph {"textColor":"base"} -->
-<p class="has-base-color has-text-color">
-3
-</p>
+<!-- wp:paragraph {"textColor":"base-700","fontSize":"large"} -->
+<p class="has-base-700-color has-text-color has-large-font-size"><?php esc_html_e( '3', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">
-<?php esc_html_x( 'Customization Carousel','Sample feature', 'lexiadesign' ); ?>
-</h4>
+<h4 class="wp-block-heading"><?php esc_html_e( 'Customization Carousel','Sample feature', 'lexiadesign' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>
-    <?php esc_html_x( 'Unleash your inner design guru! Lexia lets you customize everything from colors and fonts to layouts and animations. Make your website truly your own and stand out from the crowd.', 'Sample content', 'lexiadesign' ); ?>
-</p>
+<p><?php esc_html_e( 'Unleash your inner design guru! Lexia lets you customize everything from colors and fonts to layouts and animations. Make your website truly your own and stand out from the crowd.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

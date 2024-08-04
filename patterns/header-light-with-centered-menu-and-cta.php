@@ -20,11 +20,9 @@
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
 <div class="wp-block-buttons">
-<!-- wp:button {"backgroundColor":"brand","textColor":"base-0","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0"}}}}} -->
+<!-- wp:button {"backgroundColor":"brand","textColor":"base-0","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0-color"}}}}} -->
 <div class="wp-block-button">
-<a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button">
-<?php echo esc_html_x( 'Download Now', 'Button text of this feature section', 'lexiadesign' ); ?>
-</a></div>
+<a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button"><?php echo esc_html_e( 'Download Now', 'lexiadesign' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

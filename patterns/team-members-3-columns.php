@@ -17,15 +17,11 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center">
-<?php echo esc_html_x( 'A small but mighty team', 'Heading for the team members block', 'lexiadesign' ); ?>
-</h2>
+<h2 class="wp-block-heading has-text-align-center"><?php echo esc_html_e( 'A small but mighty team', 'Heading for the team members block', 'lexiadesign' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">
-<?php echo esc_html_x( 'We\'re a tiny but mighty crew of design wizards, code ninjas, and all-around WordPress enthusiasts!', 'Paragraph for the team members block', 'lexiadesign' ); ?>
-</p>
+<p class="has-text-align-center"><?php echo esc_html_e( 'We\'re a tiny but mighty crew of design wizards, code ninjas, and all-around WordPress enthusiasts!', 'Paragraph for the team members block', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -43,15 +39,11 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"textAlign":"center","level":4,"textColor":"main"} -->
-<h4 class="wp-block-heading has-text-align-center has-main-color has-text-color">
-<?php echo esc_html_x( 'Jane Potter', 'Sample team member name', 'lexiadesign' ); ?>
-</h4>
+<h4 class="wp-block-heading has-text-align-center has-main-color has-text-color"><?php echo esc_html_e( 'Jane Potter', 'lexiadesign' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"main","fontSize":"small"} -->
-<p class="has-text-align-center has-main-color has-text-color has-small-font-size">
-<?php echo esc_html_x( 'Content Alchemist', 'Sample team member job title', 'lexiadesign' ); ?>
-</p>
+<p class="has-text-align-center has-main-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Content Alchemist', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -78,15 +70,11 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"textAlign":"center","level":4,"textColor":"main"} -->
-<h4 class="wp-block-heading has-text-align-center has-main-color has-text-color">
-<?php echo esc_html_x( 'Wong the Man', 'Sample team member name', 'lexiadesign' ); ?>
-</h4>
+<h4 class="wp-block-heading has-text-align-center has-main-color has-text-color"><?php echo esc_html_e( 'Wong the Man', 'lexiadesign' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"main","fontSize":"small"} -->
-<p class="has-text-align-center has-main-color has-text-color has-small-font-size">
-<?php echo esc_html_x( 'Social Media Maverick', 'Sample team member job title', 'lexiadesign' ); ?>
-</p>
+<p class="has-text-align-center has-main-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Social Media Maverick', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -113,15 +101,11 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"textAlign":"center","level":4,"textColor":"main"} -->
-<h4 class="wp-block-heading has-text-align-center has-main-color has-text-color">
-<?php echo esc_html_x( 'Stephen Pain', 'Sample team member name', 'lexiadesign' ); ?>
-</h4>
+<h4 class="wp-block-heading has-text-align-center has-main-color has-text-color"><?php echo esc_html_e( 'Stephen Pain', 'lexiadesign' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"main","fontSize":"small"} -->
-<p class="has-text-align-center has-main-color has-text-color has-small-font-size">
-<?php echo esc_html_x( 'Design Ninja', 'Sample team member job title', 'lexiadesign' ); ?>
-</p>
+<p class="has-text-align-center has-main-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Design Ninja', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

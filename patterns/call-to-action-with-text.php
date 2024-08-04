@@ -18,26 +18,12 @@
 <div class="wp-block-group alignwide">
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
-<!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0"}}}},"textColor":"base-0"} -->
-<h2 class="wp-block-heading has-text-align-center has-base-0-color has-text-color has-link-color">
-
-    <?php esc_html_x( 'Ditch the code, embrace the whoosh!', 'Sample heading', 'lexiadesign' ); ?>
-
-</h2>
+<!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0-color"}}}},"textColor":"base-0"} -->
+<h2 class="wp-block-heading has-text-align-center has-base-0-color has-text-color has-link-color"><?php esc_html_e( 'Ditch the code, embrace the whoosh!', 'lexiadesign' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">
-
-    <?php esc_html_x( 'Ditch the code, embrace the whoosh!', 'Sample content', 'lexiadesign' ); ?>
-</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">
-
-    <?php esc_html_x( 'Craft a website that\'s lightning-fast with the drag-and-drop magic of WordPress and stunning pre-made designs by Lexia. Coding? Not your forte? No worries, friend!', 'Sample content', 'lexiadesign' ); ?>
-</p>
+<p class="has-text-align-center"><?php esc_html_e( 'Craft a website that\'s lightning-fast with the drag-and-drop magic of WordPress and stunning pre-made designs by Lexia. Coding? Not your forte? No worries, friend!', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -45,10 +31,7 @@
 <div class="wp-block-buttons">
 <!-- wp:button {"backgroundColor":"brand","textColor":"tertiary"} -->
 <div class="wp-block-button">
-<a class="wp-block-button__link has-tertiary-color has-brand-background-color has-text-color has-background wp-element-button">
-
-    <?php esc_html_e( 'Get Started Today', 'lexiadesign' ); ?>
-</a></div>
+<a class="wp-block-button__link has-tertiary-color has-brand-background-color has-text-color has-background wp-element-button"><?php esc_html_e( 'Get Started Today', 'lexiadesign' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

@@ -25,25 +25,15 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small)">
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"small"} -->
-<p class="has-text-color has-small-font-size" style="font-style:normal;font-weight:500">
-
-    <?php esc_html_x( 'Contact Us','Sample Content', 'lexiadesign' ); ?>
-</p>
+<p class="has-text-color has-small-font-size" style="font-style:normal;font-weight:500"><?php esc_html_e( 'Contact Us','Sample Content', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">
-
-    <?php esc_html_x( 'Give us a ring, we\'d love to chat with you.', 'Sample heading', 'lexiadesign' ); ?>
-
-</h2>
+<h2 class="wp-block-heading"><?php esc_html_e( 'Give us a ring, we\'d love to chat with you.', 'lexiadesign' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"0px","bottom":"0px"}}}} -->
-<p style="padding-top:0px;padding-bottom:0px">
-
-    <?php esc_html_x( 'Whether you\'re looking for a brand refresh, a new web presence, or are curious about consultation, please drop us a line and let\'s start a blossoming relationship!', 'Sample content', 'lexiadesign' ); ?>
-</p>
+<p style="padding-top:0px;padding-bottom:0px"><?php esc_html_e( 'Whether you\'re looking for a brand refresh, a new web presence, or are curious about consultation, please drop us a line and let\'s start a blossoming relationship!', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -51,10 +41,7 @@
 <div class="wp-block-group">
 <!-- wp:paragraph {"textColor":"base-900"} -->
 <p class="has-base-900-color has-text-color">
-<span style="text-decoration: underline;">
-
-    <?php esc_html_x( 'Social Media', 'Sample content for this section', 'lexiadesign' ); ?>
-</span>
+<span style="text-decoration: underline;"><?php esc_html_e( 'Social Media', 'lexiadesign' ); ?></span>
 </p>
 <!-- /wp:paragraph -->
 
@@ -74,18 +61,12 @@
 <div class="wp-block-group">
 <!-- wp:paragraph {"textColor":"base-900"} -->
 <p class="has-base-900-color has-text-color">
-<span style="text-decoration: underline;">
-
-    <?php esc_html_x( 'Email', 'Sample content for this section', 'lexiadesign' ); ?>
-</span>
+<span style="text-decoration: underline;"><?php esc_html_e( 'Email', 'lexiadesign' ); ?></span>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"base-900-lighter"} -->
-<p class="has-base-900-lighter-color has-text-color">
-
-    <?php esc_html_x( 'mail@example.com', 'Sample content for this section', 'lexiadesign' ); ?>
-</p>
+<p class="has-base-900-lighter-color has-text-color"><?php esc_html_e( 'mail@example.com', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -93,18 +74,12 @@
 <div class="wp-block-group">
 <!-- wp:paragraph {"textColor":"base-900"} -->
 <p class="has-base-900-color has-text-color">
-<span style="text-decoration: underline;">
-
-    <?php esc_html_x( 'Phone', 'Sample content for this section', 'lexiadesign' ); ?>
-</span>
+<span style="text-decoration: underline;"><?php esc_html_e( 'Phone', 'lexiadesign' ); ?></span>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"base-900-lighter"} -->
-<p class="has-base-900-lighter-color has-text-color">
-
-    <?php esc_html_x( '815-420-2024', 'Sample content for this section', 'lexiadesign' ); ?>
-</p>
+<p class="has-base-900-lighter-color has-text-color"><?php esc_html_e( '815-420-2024', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -112,39 +87,26 @@
 <div class="wp-block-group">
 <!-- wp:paragraph {"textColor":"base-900"} -->
 <p class="has-base-900-color has-text-color">
-<span style="text-decoration: underline;">
-
-    <?php esc_html_x( 'Address', 'Sample content for this section', 'lexiadesign' ); ?>
-</span>
+<span style="text-decoration: underline;"><?php esc_html_e( 'Address', 'lexiadesign' ); ?></span>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"base-900-lighter"} -->
-<p class="has-base-900-lighter-color has-text-color">
-
-    <?php esc_html_x( '1234 Theme Street', 'Sample content for this section', 'lexiadesign' ); ?><br>
-    <?php esc_html_x( 'San Francisco, CA 94070', 'Sample content for this section', 'lexiadesign' ); ?>
-</p>
+<p class="has-base-900-lighter-color has-text-color"><?php esc_html_e( '1234 Theme Street', 'lexiadesign' ); ?><br><?php esc_html_e( 'San Francisco, CA 94070', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
 <div class="wp-block-buttons">
-<!-- wp:button {"backgroundColor":"brand","textColor":"base-0","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0"}}}},"className":"is-style-fill"} -->
+<!-- wp:button {"backgroundColor":"brand","textColor":"base-0","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0-color"}}}},"className":"is-style-fill"} -->
 <div class="wp-block-button is-style-fill">
-<a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button">
-
-    <?php esc_html_e( 'Contact Us', 'lexiadesign' ); ?>
-</a></div>
+<a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button"><?php esc_html_e( 'Contact Us', 'lexiadesign' ); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"is-style-secondary-button is-style-outline"} -->
 <div class="wp-block-button is-style-secondary-button is-style-outline">
-<a class="wp-block-button__link wp-element-button">
-
-    <?php esc_html_e( 'Collaboration Enquiries', 'lexiadesign' ); ?>
-</a></div>
+<a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Other Enquiries', 'lexiadesign' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -162,18 +124,12 @@
 </p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} -->
-<p class="has-base-color has-text-color has-link-color" style="font-style:normal;font-weight:600">
-
-        <?php esc_html_x( '“My work has been easier since using Lexia from start to end.”', 'Sample content', 'lexiadesign' ); ?>
-</p>
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100"} -->
+<p class="has-base-100-color has-text-color has-link-color" style="font-style:normal;font-weight:600"><?php esc_html_e( '“My work has been easier since using Lexia from start to end.”', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"base","fontSize":"small"} -->
-<p class="has-base-color has-text-color has-small-font-size" style="font-style:normal;font-weight:400">
-
-    <?php esc_html_x( 'Rated 5/5 stars by 1,234 happy reviewers', 'Sample content', 'lexiadesign' ); ?>
-</p>
+<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"base-100","fontSize":"small"} -->
+<p class="has-base-100-color has-text-color has-small-font-size" style="font-style:normal;font-weight:400"><?php esc_html_e( 'Rated 5/5 stars by 1,234 happy reviewers', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

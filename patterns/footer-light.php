@@ -17,14 +17,12 @@
 <!-- wp:column -->
 <div class="wp-block-column">
 <!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading">
-<?php echo esc_html_x( 'Design with Lexia', 'Sample heading', 'lexiadesign' ); ?>
+<h4 class="wp-block-heading"><?php echo esc_html_e( 'Design with Lexia', 'lexiadesign' ); ?>
 </h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">
-<?php echo esc_html_x( 'Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Lexia block theme. No coding skills required. Download for free today!', 'Sample paragraph', 'lexiadesign' ); ?>
+<p class="has-small-font-size"><?php echo esc_html_e( 'Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Lexia block theme. No coding skills required. Download for free today!', 'lexiadesign' ); ?>
 </p>
 <!-- /wp:paragraph -->
 
@@ -47,34 +45,29 @@
 <!-- wp:column -->
 <div class="wp-block-column">
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-<p style="font-style:normal;font-weight:600">
-<?php echo esc_html_x( 'Company', 'Sample content for section', 'lexiadesign' ); ?>
+<p style="font-style:normal;font-weight:600"><?php echo esc_html_e( 'Company', 'lexiadesign' ); ?>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"constrained"},"fontSize":"small"} -->
 <div class="wp-block-group has-small-font-size">
 <!-- wp:paragraph -->
-<p>
-  <?php echo esc_html_x( 'About', 'Sample content for section', 'lexiadesign' ); ?>
+<p><?php echo esc_html_e( 'About', 'lexiadesign' ); ?>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>
-  <?php echo esc_html_x( 'Blog', 'Sample content for section', 'lexiadesign' ); ?>
+<p><?php echo esc_html_e( 'Blog', 'lexiadesign' ); ?>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>
-  <?php echo esc_html_x( 'Press', 'Sample content for section', 'lexiadesign' ); ?>
+<p><?php echo esc_html_e( 'Press', 'lexiadesign' ); ?>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>
-  <?php echo esc_html_x( 'Partners', 'Sample content for section', 'lexiadesign' ); ?>
+<p><?php echo esc_html_e( 'Partners', 'lexiadesign' ); ?>
 </p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
@@ -83,34 +76,29 @@
 <!-- wp:column -->
 <div class="wp-block-column">
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-<p style="font-style:normal;font-weight:600">
-<?php echo esc_html_x( 'Resources', 'Sample content for section', 'lexiadesign' ); ?>
+<p style="font-style:normal;font-weight:600"><?php echo esc_html_e( 'Resources', 'lexiadesign' ); ?>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"constrained"},"fontSize":"small"} -->
 <div class="wp-block-group has-small-font-size">
 <!-- wp:paragraph -->
-<p>
-  <?php echo esc_html_x( 'Support', 'Sample content for section', 'lexiadesign' ); ?>
+<p><?php echo esc_html_e( 'Support', 'lexiadesign' ); ?>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>
-  <?php echo esc_html_x( 'Terms &amp; Conditions', 'Sample content for section', 'lexiadesign' ); ?>
+<p><?php echo esc_html_e( 'Terms &amp; Conditions', 'lexiadesign' ); ?>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>
-  <?php echo esc_html_x( 'Privacy Policy', 'Sample content for section', 'lexiadesign' ); ?>
+<p><?php echo esc_html_e( 'Privacy Policy', 'lexiadesign' ); ?>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>
-  <?php echo esc_html_x( 'Contact', 'Sample content for section', 'lexiadesign' ); ?>
+<p><?php echo esc_html_e( 'Contact', 'lexiadesign' ); ?>
 </p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
@@ -128,15 +116,14 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group">
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">
-<?php
+<p class="has-small-font-size"><?php
 /* Translators: Site name for the credit line. */
 $site_name = esc_html( get_bloginfo( 'name' ) );
 
 $powered_by_link = sprintf(
-  /* Translators: Powered by WordPress link text. */
-  __( 'Powered by %s', 'lexiadesign' ),
-  '<a href="' . esc_url( __( 'https://wordpress.org/', 'lexiadesign' ) ) . '" rel="nofollow">WordPress</a>'
+/* Translators: Powered by WordPress link text. */
+__( 'Powered by %s', 'lexiadesign' ),
+'<a href="' . esc_url( __( 'https://wordpress.org/', 'lexiadesign' ) ) . '" rel="nofollow">WordPress</a>'
 );
 
 echo "&copy; ".date('Y')." · $powered_by_link and <a href=\"" . site_url() . "\">$site_name</a>";

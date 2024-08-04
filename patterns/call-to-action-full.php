@@ -22,29 +22,19 @@
 <div class="wp-block-group">
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
-<!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0"}}}},"textColor":"base-0"} -->
-<h2 class="wp-block-heading has-text-align-center has-base-0-color has-text-color has-link-color">
-
-    <?php esc_html_x( 'Design with clicks, not code', 'Sample heading', 'lexiadesign' ); ?>
-
-</h2>
+<!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0-color"}}}},"textColor":"base-0"} -->
+<h2 class="wp-block-heading has-text-align-center has-base-0-color has-text-color has-link-color"><?php esc_html_e( 'Design with clicks, not code', 'lexiadesign' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-2"}}}},"textColor":"accent-2"} -->
-<p class="has-text-align-center has-accent-2-color has-text-color has-link-color">
-
-    <?php esc_html_x( 'Let loose your imagination and easily create beautiful websites with the Lexia block theme powered by the new WordPress Site Editor. Animating Ideas into Realities!', 'Sample content', 'lexiadesign' ); ?>
-</p>
+<p class="has-text-align-center has-accent-2-color has-text-color has-link-color"><?php esc_html_e( 'Let loose your imagination and easily create beautiful websites with the Lexia block theme powered by the new WordPress Site Editor. Animating Ideas into Realities!', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons">
 <!-- wp:button {"backgroundColor":"brand","fontSize":"text-base"} -->
 <div class="wp-block-button has-custom-font-size has-text-base-font-size">
-<a class="wp-block-button__link has-brand-background-color has-background wp-element-button">
-
-    <?php esc_html_e('Download Now', 'lexiadesign');?>
-</a></div>
+<a class="wp-block-button__link has-brand-background-color has-background wp-element-button"><?php esc_html_e('Download Now', 'lexiadesign');?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

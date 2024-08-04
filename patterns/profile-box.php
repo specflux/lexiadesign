@@ -22,27 +22,19 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="wp-block-heading has-text-align-center">
-<?php echo esc_html_x( 'Rebecca Martins', 'Sample heading for profile box', 'lexiadesign' ); ?>
-</h3>
+<h3 class="wp-block-heading has-text-align-center"><?php echo esc_html_e( 'Rebecca Martins', 'lexiadesign' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"secondary"} -->
-<p class="has-text-align-center has-secondary-color has-text-color">
-<?php echo esc_html_x( 'Ditch the LinkTree Jungle and Build Your Link Oasis Here!', 'Sample paragraph for profile box', 'lexiadesign' ); ?>
-</p>
+<p class="has-text-align-center has-secondary-color has-text-color"><?php echo esc_html_e( 'Ditch the LinkTree Jungle and Build Your Link Oasis Here!', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","textColor":"secondary"} -->
-<p class="has-text-align-center has-secondary-color has-text-color">
-<?php echo esc_html_x( 'Tired of having your followers navigate a maze of links?  This is your one-stop shop for all things you! ✨', 'Sample paragraph for profile box', 'lexiadesign' ); ?>
-</p>
+<p class="has-text-align-center has-secondary-color has-text-color"><?php echo esc_html_e( 'Tired of having your followers navigate a maze of links?  This is your one-stop shop for all things you! ✨', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","textColor":"secondary"} -->
-<p class="has-text-align-center has-secondary-color has-text-color">
-<?php echo esc_html_x( 'From your dazzling social media presence to your stellar website, connect your followers to everything that matters with just one link.  No more monkeying around, just pure connection magic! 🪄.', 'Sample paragraph for profile box', 'lexiadesign' ); ?>
-</p>
+<p class="has-text-align-center has-secondary-color has-text-color"><?php echo esc_html_e( 'From your dazzling social media presence to your stellar website, connect your followers to everything that matters with just one link.  No more monkeying around, just pure connection magic! 🪄.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconBackgroundColor":"brand","iconBackgroundColorValue":"#4483ed","align":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"margin":{"top":"var:preset|spacing|small"}}},"className":"is-style-default"} -->

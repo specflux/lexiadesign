@@ -17,15 +17,14 @@
 <!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|main"}}}},"textColor":"main"} /-->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">
-<?php
+<p class="has-small-font-size"><?php
 /* Translators: Site name for the credit line. */
 $site_name = esc_html( get_bloginfo( 'name' ) );
 
 $powered_by_link = sprintf(
-  /* Translators: Powered by WordPress link text. */
-  __( 'Powered by %s', 'lexiadesign' ),
-  '<a href="' . esc_url( __( 'https://wordpress.org/', 'lexiadesign' ) ) . '" rel="nofollow">WordPress</a>'
+/* Translators: Powered by WordPress link text. */
+__( 'Powered by %s', 'lexiadesign' ),
+'<a href="' . esc_url( __( 'https://wordpress.org/', 'lexiadesign' ) ) . '" rel="nofollow">WordPress</a>'
 );
 
 echo "&copy; ".date('Y')." · $powered_by_link and <a href=\"" . site_url() . "\">$site_name</a>";
