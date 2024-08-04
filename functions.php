@@ -8,15 +8,14 @@
  * @since Lexia Design 1.0
  */
 
-// Define constants
-define('THEME_NAMESPACE', __NAMESPACE__);
-define('THEME_TEXT_DOMAIN', 'lexiadesign');
+define( 'THEME_NAMESPACE', __NAMESPACE__);
+define( 'THEME_TEXT_DOMAIN', 'lexiadesign' );
 
 /**
  * Register block styles.
  */
 
-if (!function_exists('lexiadesign_block_styles')):
+if ( !function_exists( 'lexiadesign_block_styles' )):
     /**
      * Register custom block styles
      *
@@ -24,7 +23,7 @@ if (!function_exists('lexiadesign_block_styles')):
      * @return void
      */
     function lexiadesign_block_styles()
-{
+    {
 
         register_block_style(
             'core/details',
@@ -47,16 +46,16 @@ if (!function_exists('lexiadesign_block_styles')):
                 'label' => 'Checkmark',
             )
         );
-    }
+    } 
 endif;
 
-add_action('init', 'lexiadesign_block_styles');
+add_action( 'init', 'lexiadesign_block_styles' );
 
 /**
  * Register pattern categories.
  */
 
-if (!function_exists('lexiadesign_pattern_categories')):
+if (!function_exists( 'lexiadesign_pattern_categories' )):
     /**
      * Register pattern categories
      *
@@ -127,4 +126,4 @@ if (!function_exists('lexiadesign_pattern_categories')):
     }
 endif;
 
-add_action('init', 'lexiadesign_pattern_categories');
+add_action( 'init', 'lexiadesign_pattern_categories' );
