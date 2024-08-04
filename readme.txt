@@ -43,7 +43,7 @@ Intial release
 
 == Copyright ==
 
-Lexia Design WordPress Theme, (C) 2023 WordPress.org
+Lexia Design WordPress Theme, (C) 2024 WordPress.org
 Lexia Design is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
