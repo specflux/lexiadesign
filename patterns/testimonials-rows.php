@@ -20,7 +20,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php echo esc_html_e( 'Because happy customers are our secret sauce (and seeing them win makes us do a happy dance). Check out what they\'re raving about below:', 'Paragraph for the testimonial centered block', 'lexiadesign' ); ?></p>
+<p class="has-text-align-center"><?php echo esc_html_e( 'Because happy customers are our secret sauce (and seeing them win makes us do a happy dance). Check out what they\'re raving about below:', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
