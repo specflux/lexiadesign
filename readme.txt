@@ -30,7 +30,14 @@ Lexia Design is designed to be flexible, versatile and applicable to any website
 * Updated style.css to remove Theme URI, demo link,
 * Updated assets to comply with GPL licensing
 
-
+= 1.1.0 =
+* Released: August 4,2024
+* 6.6 section style feature
+* fixed brand-900-lighter reference to base-800
+* Updated screenshot
+* Updated readme for versioning
+* added spacing after bracket
+* updated pattern responsive design
 
 Intial release
 
