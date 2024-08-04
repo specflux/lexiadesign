@@ -364,7 +364,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_e( 'Sarah Jones', 'Testimonial sharer for pricing section', 'lexiadesign' ); ?></p>
+<p class="has-small-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_e( 'Sarah Jones', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

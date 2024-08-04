@@ -6,5 +6,5 @@
  */
 ?>
 <!-- wp:paragraph -->
-<p><?php echo esc_html_e( 'No posts were found.', 'Message explaining that there are no results returned from a search', 'lexiadesign' ); ?></p>
+<p><?php echo esc_html_e( 'No posts were found.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->

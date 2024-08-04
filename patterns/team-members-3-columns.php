@@ -17,11 +17,11 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center"><?php echo esc_html_e( 'A small but mighty team', 'Heading for the team members block', 'lexiadesign' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center"><?php echo esc_html_e( 'A small but mighty team', 'lexiadesign' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php echo esc_html_e( 'We\'re a tiny but mighty crew of design wizards, code ninjas, and all-around WordPress enthusiasts!', 'Paragraph for the team members block', 'lexiadesign' ); ?></p>
+<p class="has-text-align-center"><?php echo esc_html_e( 'We\'re a tiny but mighty crew of design wizards, code ninjas, and all-around WordPress enthusiasts!', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

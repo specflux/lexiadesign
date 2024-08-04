@@ -86,7 +86,7 @@
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading"><?php esc_html_e( 'Customization Carousel','Sample feature', 'lexiadesign' ); ?></h4>
+<h4 class="wp-block-heading"><?php esc_html_e( 'Customization Carousel','lexiadesign' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->

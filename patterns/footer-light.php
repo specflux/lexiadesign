@@ -126,7 +126,7 @@ __( 'Powered by %s', 'lexiadesign' ),
 '<a href="' . esc_url( __( 'https://wordpress.org/', 'lexiadesign' ) ) . '" rel="nofollow">WordPress</a>'
 );
 
-echo "&copy; ".date('Y')." · $powered_by_link and <a href=\"" . site_url() . "\">$site_name</a>";
+echo "&copy; ".date('Y')." · $powered_by_link and <a href=\"" . home_url() . "\">$site_name</a>";
 ?>
 </p>
 <!-- /wp:paragraph --></div>

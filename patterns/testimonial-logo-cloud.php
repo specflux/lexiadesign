@@ -14,7 +14,7 @@
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","right":"var:preset|spacing|small","left":"var:preset|spacing|small"},"blockGap":"var:preset|spacing|large"}},"backgroundColor":"base-0","layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-base-0-background-color has-background" style="margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","textColor":"base-800"} -->
-<h2 class="wp-block-heading has-text-align-center has-base-800-color has-text-color"><?php echo esc_html_e( 'Trusted by companies of all size', 'Heading for the logo cloud block', 'lexiadesign' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center has-base-800-color has-text-color"><?php echo esc_html_e( 'Trusted by companies of all size', 'lexiadesign' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
