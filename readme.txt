@@ -39,6 +39,16 @@ Lexia Design is designed to be flexible, versatile and applicable to any website
 * added spacing after bracket
 * updated pattern responsive design
 
+= 1.1.1 =
+* Released: August 4,2024
+* bug fixes
+
+= 1.1.2 =
+* Released: September 1,2024
+* Updated screenshot
+* Updated readme for versioning
+* added spacing after bracket
+
 Intial release
 
 == Copyright ==
