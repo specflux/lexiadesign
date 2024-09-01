@@ -8,8 +8,8 @@
  * @since Lexia Design 1.0
  */
 
-define( 'THEME_NAMESPACE', __NAMESPACE__);
-define( 'THEME_TEXT_DOMAIN', 'lexiadesign' );
+define( 'LEXIADESIGN_NAMESPACE', __NAMESPACE__);
+define( 'LEXIADESIGN_TEXT_DOMAIN', 'lexiadesign' );
 
 /**
  * Register block styles.
@@ -67,56 +67,56 @@ if (!function_exists( 'lexiadesign_pattern_categories' )):
 
         $block_pattern_categories = array(
             'lexiadesign/blog-blocks' => array(
-                'label' => 'Blog Blocks',
-                'description' => 'A collection of blog block layouts.',
+                'label' => esc_html__( 'Blog Blocks', 'lexiadesign' ),
+                'description' => esc_html__( 'A collection of blog block layouts.', 'lexiadesign' ),
             ),
             'lexiadesign/call-to-action' => array(
-                'label' => 'Call To Action',
-                'description' => 'A collection of call to action layouts.',
+                'label' => esc_html__( 'Call To Action', 'lexiadesign' ),
+                'description' => esc_html__( 'A collection of call to action layouts.', 'lexiadesign' ),
             ),
             'lexiadesign/contact' => array(
-                'label' => 'Contact',
-                'description' => 'A collection of contact layouts.',
+                'label'  => esc_html__( 'Contact', 'lexiadesign' ),
+                'description'  => esc_html__( 'A collection of contact layouts.', 'lexiadesign' ),
             ),
             'lexiadesign/content' => array(
-                'label' => 'Content',
-                'description' => 'A collection of content layouts.',
+                'label'  => esc_html__( 'Content', 'lexiadesign' ),
+                'description'  => esc_html__( 'A collection of content layouts.', 'lexiadesign' ),
             ),
             'lexiadesign/hero' => array(
-                'label' => 'Hero',
-                'description' => 'A collection of hero layouts.',
+                'label'  => esc_html__( 'Hero', 'lexiadesign' ),
+                'description'  => esc_html__( 'A collection of hero layouts.', 'lexiadesign' ),
             ),
             'lexiadesign/features' => array(
-                'label' => 'Features',
-                'description' => 'A collection of features layouts.',
+                'label'  => esc_html__( 'Features', 'lexiadesign' ),
+                'description'  => esc_html__( 'A collection of features layouts.', 'lexiadesign' ),
             ),
             'lexiadesign/footer' => array(
-                'label' => 'Footer',
-                'description' => 'A collection of footer layouts.',
+                'label'  => esc_html__( 'Footer', 'lexiadesign' ),
+                'description'  => esc_html__( 'A collection of footer layouts.', 'lexiadesign' ),
             ),
             'lexiadesign/header' => array(
-                'label' => 'Header',
-                'description' => 'A collection of header layouts.',
+                'label'  => esc_html__( 'Header', 'lexiadesign' ),
+                'description'  => esc_html__( 'A collection of header layouts.', 'lexiadesign' ),
             ),
             'lexiadesign/pages' => array(
-                'label' => 'Pages',
-                'description' => 'A collection of pages layouts.',
+                'label'  => esc_html__( 'Pages', 'lexiadesign' ),
+                'description'  => esc_html__( 'A collection of pages layouts.', 'lexiadesign' ),
             ),
             'lexiadesign/posts' => array(
-                'label' => 'Posts',
-                'description' => 'A collection of posts layouts.',
+                'label'  => esc_html__( 'Posts', 'lexiadesign' ),
+                'description'  => esc_html__( 'A collection of posts layouts.', 'lexiadesign' ),
             ),
             'lexiadesign/pricing' => array(
-                'label' => 'Pricing',
-                'description' => 'A collection of pricing layouts.',
+                'label'  => esc_html__( 'Pricing', 'lexiadesign' ),
+                'description'  => esc_html__( 'A collection of pricing layouts.', 'lexiadesign' ),
             ),
             'lexiadesign/team' => array(
-                'label' => 'Team',
-                'description' => 'A collection of team layouts.',
+                'label'  => esc_html__( 'Team', 'lexiadesign' ),
+                'description'  => esc_html__( 'A collection of team layouts.', 'lexiadesign' ),
             ),
             'lexiadesign/testimonial' => array(
-                'label' => 'Testimonials',
-                'description' => 'A collection of testimonial layouts.',
+                'label'  => esc_html__( 'Testimonials', 'lexiadesign' ),
+                'description'  => esc_html__( 'A collection of testimonial layouts.', 'lexiadesign' ),
             ),
         );
 
