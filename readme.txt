@@ -53,6 +53,10 @@ Lexia Design is designed to be flexible, versatile and applicable to any website
 * Released: September 1,2024
 * Updated screenshot
 
+= 1.1.4 =
+* Released: October 7,2024
+* Fixed bug in theme.json
+
 Intial release
 
 == Copyright ==

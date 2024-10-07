@@ -23,32 +23,50 @@
 			"defaultPalette": false,
 			"duotone": [
 				{
-					"colors": ["#000000", "#ffffff"],
+					"colors": [
+						"#000000",
+						"#ffffff"
+					],
 					"name": "Black and White",
 					"slug": "black-and-white-duotone"
 				},
 				{
-					"colors": ["#111111", "#ff3066"],
+					"colors": [
+						"#111111",
+						"#ff3066"
+					],
 					"name": "Black and Chinese New Year",
 					"slug": "first-duotone"
 				},
 				{
-					"colors": ["#104745", "#66FFC5"],
+					"colors": [
+						"#104745",
+						"#66FFC5"
+					],
 					"name": "Cyprus and rare wind",
 					"slug": "second-duotone"
 				},
 				{
-					"colors": ["#003F69", "#003FD4"],
+					"colors": [
+						"#003F69",
+						"#003FD4"
+					],
 					"name": "Dark Imperial Blue and Merchant Marine Blue",
 					"slug": "third-duotone"
 				},
 				{
-					"colors": ["#0B296A", "#E5B7B9"],
+					"colors": [
+						"#0B296A",
+						"#E5B7B9"
+					],
 					"name": "Dark Sapphire and Bistro Pink",
 					"slug": "fourth-duotone"
 				},
 				{
-					"colors": ["#111111", "#FB78B9"],
+					"colors": [
+						"#111111",
+						"#FB78B9"
+					],
 					"name": "Black and Dream Setting",
 					"slug": "fifth-duotone"
 				}
@@ -213,7 +231,14 @@
 			"wideSize": "1260px"
 		},
 		"spacing": {
-			"units": ["%", "px", "em", "rem", "vh", "vw"],
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			],
 			"spacingScale": {
 				"operator": "*",
 				"increment": 0,
@@ -263,20 +288,20 @@
 			"fluid": true,
 			"fontFamilies": [
 				{
-				"fontFace": [
-					{
-						"fontFamily": "Inter",
-						"fontStretch": "normal",
-						"fontStyle": "normal",
-						"fontWeight": "300 400 700 900",
-						"src": [
-							"file:./assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2"
-						]
-					}
-				],
-				"fontFamily": "\"Inter\", sans-serif",
-				"name": "Inter",
-				"slug": "primary"
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300 400 700 900",
+							"src": [
+								"file:./assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Inter\", sans-serif",
+					"name": "Inter",
+					"slug": "primary"
 				}
 			],
 			"fontSizes": [
@@ -571,7 +596,7 @@
 				}
 			},
 			"core/details": {
-				"css" : "&.is-style-arrow-icon-details {padding-top: var(--wp--preset--spacing--x-small);padding-bottom: var(--wp--preset--spacing--x-small);} &.is-style-arrow-icon-details summary {list-style-type: \"\\2192\\00a0\\00a0\\00a0\";} &.is-style-arrow-icon-details[open]>summary {list-style-type:\"\\2193\\00a0\\00a0\\00a0\" ;var(--wp--preset--color--secondary)}"
+				"css": "&.is-style-arrow-icon-details {padding-top: var(--wp--preset--spacing--x-small);padding-bottom: var(--wp--preset--spacing--x-small);} &.is-style-arrow-icon-details summary {list-style-type: \"\\2192\\00a0\\00a0\\00a0\";} &.is-style-arrow-icon-details[open]>summary {list-style-type:\"\\2193\\00a0\\00a0\\00a0\";background-color:var(--wp--preset--color--secondary)}"
 			},
 			"core/footnotes": {
 				"typography": {
@@ -588,7 +613,7 @@
 				}
 			},
 			"core/image": {
-				"css": "&.alignleft,&.alignright{margin-bottom:var(--wp--preset--spacing--small)}&.is-style-rounded img{border-radius:10px}&.is-style-circle img{border-radius:250px}&.is-style-media-boxed{background-color:var(--wp--preset--color--tertiary);padding:var(--wp--preset--spacing--x-large);border-radius:5px}&.is-style-media-boxed img{box-shadow:2px 2px 2px hsl(233deg 38% 85% / .2),4px 4px 4px hsl(233deg 38% 85% / .2),8px 8px 8px hsl(233deg 38% 85% / .2),16px 16px 16px hsl(233deg 38% 85% / .2),32px 32px 32px hsl(233deg 38% 85% / .2)}&.is-style-media-boxed figcaption{margin-bottom:calc(var(--wp--preset--spacing--medium) * -1)!important}",
+				"css": "&.alignleft{margin-bottom:var(--wp--preset--spacing--small)}&.alignright{margin-bottom:var(--wp--preset--spacing--small)}&.is-style-rounded img{border-radius:10px}&.is-style-circle img{border-radius:250px}&.is-style-media-boxed{background-color:var(--wp--preset--color--tertiary);padding:var(--wp--preset--spacing--x-large);border-radius:5px}&.is-style-media-boxed img{box-shadow:2px 2px 2px hsl(233deg 38% 85% / .2),4px 4px 4px hsl(233deg 38% 85% / .2),8px 8px 8px hsl(233deg 38% 85% / .2),16px 16px 16px hsl(233deg 38% 85% / .2),32px 32px 32px hsl(233deg 38% 85% / .2)}&.is-style-media-boxed figcaption{margin-bottom:calc(var(--wp--preset--spacing--medium) * -1)!important}",
 				"variations": {
 					"rounded": {
 						"border": {
@@ -783,10 +808,6 @@
 						"border": {
 							"radius": "5px",
 							"width": "0"
-						},
-						"color": {
-							"background": "var(--wp--preset--color--base-800)",
-							"text": "var(--wp--preset--color--base)"
 						},
 						"spacing": {
 							"padding": {
