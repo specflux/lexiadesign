@@ -82,6 +82,10 @@ Transform visitors into customers with a theme that marries form and function. C
 * Released: October 16,2024
 * Updated theme Description in style.css to match readme.txt
 
+= 1.2.2 =
+* Released: October 16,2024
+* Updated theme Description in style.css to match readme.txt
+
 Intial release
 
 == Copyright ==
