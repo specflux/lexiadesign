@@ -9,7 +9,19 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Lexia Design is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Lexia Design comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
+Elevate your WordPress site with LexiaDesign, the theme that combines stunning visuals with conversion-focused design.
+
+Sophisticated color palette:
+
+9 carefully selected base shades (black to white spectrum)
+9 brand-specific color codes for cohesive branding
+
+Conversion-optimized layout patterns and elements
+Fully customizable design system with Global Styles
+50+ pre-designed patterns and 7 full-page layouts
+
+LexiaDesign empowers you to create a website that not only looks professional but also drives results. From eye-catching aesthetics to strategic content placement, every aspect of LexiaDesign is engineered to enhance user engagement and boost conversions.
+Transform visitors into customers with a theme that marries form and function. Choose LexiaDesign for a website that performs as good as it looks.
 
 == Changelog ==
 
@@ -65,6 +77,10 @@ Lexia Design is designed to be flexible, versatile and applicable to any website
 * Restructure to support 6.7
 * Added function to add css to blocks in the future
 * Added variation to switch column position for columns in mobile view
+
+= 1.2.1 =
+* Released: October 16,2024
+* Updated theme Description in style.css to match readme.txt
 
 Intial release
 
