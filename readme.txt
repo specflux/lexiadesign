@@ -92,6 +92,10 @@ Transform visitors into customers with a theme that marries form and function. C
 * Added 3 hero patterns
 * Tested up to WordPress 6.7
 
+= 1.2.4 =
+* Released: November 17,2024
+* Added style variations
+
 Intial release
 
 == Copyright ==
