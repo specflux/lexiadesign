@@ -1,7 +1,7 @@
 === Lexia Design ===
 Contributors: Specflux Solutions
 Requires at least: 6.6
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 8.0
 Stable tag: 1.1
 License: GPLv2 or later
@@ -85,6 +85,12 @@ Transform visitors into customers with a theme that marries form and function. C
 = 1.2.2 =
 * Released: October 16,2024
 * Updated theme Description in style.css to match readme.txt
+
+= 1.2.3 =
+* Released: November 17,2024
+* Fixed category label for Centered testimonial & Content with Centered statement
+* Added 3 hero patterns
+* Tested up to WordPress 6.7
 
 Intial release
 
