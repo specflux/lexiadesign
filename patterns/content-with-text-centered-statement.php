@@ -2,7 +2,7 @@
 /**
  * Title: Content with Centered statement
  * Slug: lexiadesign/content-with-text-centered-statement
- * Categories: lexiadesign/text
+ * Categories: lexiadesign/content
  * Keywords: content, text
  * Viewport width: 1400
  */

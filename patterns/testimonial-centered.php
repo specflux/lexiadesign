@@ -3,7 +3,7 @@
  * Title: Centered testimonial
  * Slug: lexiadesign/testimonial-centered
  * Keywords: testimonial, review, rating
- * Categories: lexiadesign/testimonials
+ * Categories: lexiadesign/testimonial
  * Viewport width: 1300
  */
 ?>
