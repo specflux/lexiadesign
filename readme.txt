@@ -87,14 +87,20 @@ Transform visitors into customers with a theme that marries form and function. C
 * Updated theme Description in style.css to match readme.txt
 
 = 1.2.3 =
-* Released: November 17,2024
+* Released: November 14,2024
 * Fixed category label for Centered testimonial & Content with Centered statement
 * Added 3 hero patterns
 * Tested up to WordPress 6.7
 
 = 1.2.4 =
-* Released: November 17,2024
+* Released: November 14,2024
 * Added style variations
+
+= 1.2.5 =
+* Released: November 15,2024
+* Rearranged elements in theme.json
+* Added style sections for json in styles
+* Rearranged colors in json inside colors folder so that style editor palette is a better reflection of the colors available
 
 Intial release
 
