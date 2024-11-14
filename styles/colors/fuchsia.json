@@ -20,6 +20,61 @@
 			],
 			"palette": [
                 {
+                    "color": "#d946ef",
+                    "name": "Brand",
+                    "slug": "brand"
+                },
+                {
+                    "color": "#fdf4ff",
+                    "name": "Brand 50",
+                    "slug": "brand-50"
+                },
+                {
+                    "color": "#fae8ff",
+                    "name": "Brand 100",
+                    "slug": "brand-100"
+                },
+                {
+                    "color": "#f5d0fe",
+                    "name": "Brand 200",
+                    "slug": "brand-200"
+                },
+                {
+                    "color": "#f0abfc",
+                    "name": "Brand 300",
+                    "slug": "brand-300"
+                },
+                {
+                    "color": "#e879f9",
+                    "name": "Brand 400",
+                    "slug": "brand-400"
+                },
+                {
+                    "color": "#c026d3",
+                    "name": "Brand 600",
+                    "slug": "brand-600"
+                },
+                {
+                    "color": "#a21caf",
+                    "name": "Brand 700",
+                    "slug": "brand-700"
+                },
+                {
+                    "color": "#86198f",
+                    "name": "Brand 800",
+                    "slug": "brand-800"
+                },
+                {
+                    "color": "#701a75",
+                    "name": "Brand 900",
+                    "slug": "brand-900"
+                },
+                {
+                    "color": "#4a044e",
+                    "name": "Brand 950",
+                    "slug": "brand-950"
+                },
+                {
                     "color": "#ffffff",
                     "name": "Base 0",
                     "slug": "base-0"
@@ -68,61 +123,6 @@
                     "color": "#0f172a",
                     "name": "Base 900",
                     "slug": "base-900"
-                },
-                {
-                    "color": "#fdf4ff",
-                    "name": "Brand 50",
-                    "slug": "brand-50"
-                },
-                {
-                    "color": "#fae8ff",
-                    "name": "Brand 100",
-                    "slug": "brand-100"
-                },
-                {
-                    "color": "#f5d0fe",
-                    "name": "Brand 200",
-                    "slug": "brand-200"
-                },
-                {
-                    "color": "#f0abfc",
-                    "name": "Brand 300",
-                    "slug": "brand-300"
-                },
-                {
-                    "color": "#e879f9",
-                    "name": "Brand 400",
-                    "slug": "brand-400"
-                },
-                {
-                    "color": "#d946ef",
-                    "name": "Brand",
-                    "slug": "brand"
-                },
-                {
-                    "color": "#c026d3",
-                    "name": "Brand 600",
-                    "slug": "brand-600"
-                },
-                {
-                    "color": "#a21caf",
-                    "name": "Brand 700",
-                    "slug": "brand-700"
-                },
-                {
-                    "color": "#86198f",
-                    "name": "Brand 800",
-                    "slug": "brand-800"
-                },
-                {
-                    "color": "#701a75",
-                    "name": "Brand 900",
-                    "slug": "brand-900"
-                },
-                {
-                    "color": "#4a044e",
-                    "name": "Brand 950",
-                    "slug": "brand-950"
                 },
                 {
                     "color": "transparent",

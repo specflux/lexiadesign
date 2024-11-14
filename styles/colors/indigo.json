@@ -20,6 +20,36 @@
 			],
 			"palette": [
                 {
+                    "color": "#6366f1",
+                    "name": "Brand",
+                    "slug": "brand"
+                },
+                {
+                    "color": "#4f46e5",
+                    "name": "Brand 600",
+                    "slug": "brand-600"
+                },
+                {
+                    "color": "#4338ca",
+                    "name": "Brand 700",
+                    "slug": "brand-700"
+                },
+                {
+                    "color": "#3730a3",
+                    "name": "Brand 800",
+                    "slug": "brand-800"
+                },
+                {
+                    "color": "#312e81",
+                    "name": "Brand 900",
+                    "slug": "brand-900"
+                },
+                {
+                    "color": "#1e1b4b",
+                    "name": "Brand 950",
+                    "slug": "brand-950"
+                },
+                {
                     "color": "#ffffff",
                     "name": "Base 0",
                     "slug": "base-0"
@@ -93,36 +123,6 @@
                     "color": "#818cf8",
                     "name": "Brand 400",
                     "slug": "brand-400"
-                },
-                {
-                    "color": "#6366f1",
-                    "name": "Brand",
-                    "slug": "brand"
-                },
-                {
-                    "color": "#4f46e5",
-                    "name": "Brand 600",
-                    "slug": "brand-600"
-                },
-                {
-                    "color": "#4338ca",
-                    "name": "Brand 700",
-                    "slug": "brand-700"
-                },
-                {
-                    "color": "#3730a3",
-                    "name": "Brand 800",
-                    "slug": "brand-800"
-                },
-                {
-                    "color": "#312e81",
-                    "name": "Brand 900",
-                    "slug": "brand-900"
-                },
-                {
-                    "color": "#1e1b4b",
-                    "name": "Brand 950",
-                    "slug": "brand-950"
                 },
                 {
                     "color": "transparent",
