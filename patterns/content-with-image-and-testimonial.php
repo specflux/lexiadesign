@@ -9,6 +9,12 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: content
+ * @ai-color-scheme: dark
+ * @ai-layout: split, full-width
+ * @ai-suggested-position: middle
+ * @ai-slots: section_heading, section_description, tagline, primary_button_text, link_text, testimonial_quote, testimonial_rating_text
  */
 
 ?>

@@ -9,6 +9,11 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ * @ai-section-type: page
+ * @ai-color-scheme: light
+ * @ai-layout: full-width
+ * @ai-suggested-position: first
+ * @ai-slots:
  */
 ?>
 <!-- wp:pattern {"slug":"lexiadesign/post-loop-grid"} /-->

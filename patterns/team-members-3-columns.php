@@ -9,6 +9,12 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ * @ai-section-type: team
+ * @ai-color-scheme: light
+ * @ai-layout: grid-3col, centered
+ * @ai-suggested-position: middle
+ * @ai-slots: section_heading, section_description, member_1_name, member_1_role, member_2_name, member_2_role, member_3_name, member_3_role
+ * @ai-repeater: team_member, min:3, max:3
  */
 
 ?>

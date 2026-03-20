@@ -9,6 +9,13 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: content
+ * @ai-color-scheme: light
+ * @ai-layout: split, grid-2col
+ * @ai-suggested-position: middle
+ * @ai-slots: section_heading, section_description, feature_1_bold_text, feature_1_description, feature_2_bold_text, feature_2_description, feature_3_bold_text, feature_3_description, feature_4_bold_text, feature_4_description
+ * @ai-repeater: icon_features, min:2, max:4
  */
 
 ?>

@@ -9,6 +9,13 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: pricing
+ * @ai-color-scheme: light
+ * @ai-layout: grid-3col, full-width
+ * @ai-suggested-position: middle
+ * @ai-slots: section-heading, section-description-bold, section-description, tier-1-price, tier-1-period, tier-1-name, tier-1-description, tier-1-cta, tier-1-feature-1, tier-1-feature-2, tier-1-feature-3, tier-1-feature-4, tier-2-price, tier-2-period, tier-2-name, tier-2-description, tier-2-cta, tier-2-feature-1, tier-2-feature-2, tier-2-feature-3, tier-2-feature-4, tier-2-feature-5, tier-3-price, tier-3-period, tier-3-name, tier-3-description, tier-3-cta, tier-3-feature-1, tier-3-feature-2, tier-3-feature-3, tier-3-feature-4, guarantee-prefix, guarantee-highlight, guarantee-text, testimonial-quote, testimonial-author
+ * @ai-repeater: pricing_tier, min:2, max:3
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","right":"var:preset|spacing|small","left":"var:preset|spacing|small"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|large"},"elements":{"link":{"color":{"text":"var:preset|color|base-700"}}}},"backgroundColor":"brand-100","textColor":"base-700","layout":{"type":"constrained"}} -->

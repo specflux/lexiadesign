@@ -7,6 +7,11 @@
  * Keywords: page, layout, design, template, features
  * Viewport Width: 1500
  * Inserter: true
+ * @ai-section-type: page
+ * @ai-color-scheme: light
+ * @ai-layout: full-width
+ * @ai-suggested-position: first
+ * @ai-slots:
  */
 ?>
 <!-- wp:pattern {"slug":"hero-with-call-to-action-buttons"} /-->

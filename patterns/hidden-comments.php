@@ -3,6 +3,11 @@
  * Title: Comments
  * Slug: lexiadesign/hidden-comments
  * Inserter: no
+ * @ai-section-type: hidden
+ * @ai-color-scheme: light
+ * @ai-layout: full-width
+ * @ai-suggested-position: any
+ * @ai-slots: heading
  */
 ?>
 

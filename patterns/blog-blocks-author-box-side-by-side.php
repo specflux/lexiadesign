@@ -9,6 +9,11 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ * @ai-section-type: blog
+ * @ai-color-scheme: light
+ * @ai-layout: split, inline
+ * @ai-suggested-position: any
+ * @ai-slots:
  */
 
 ?>

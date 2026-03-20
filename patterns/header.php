@@ -4,6 +4,12 @@
  * Slug: lexiadesign/header
  * Categories: lexiadesign/header
  * Block Types: core/template-part/header
+ *
+ * @ai-section-type: header
+ * @ai-color-scheme: light
+ * @ai-layout: split
+ * @ai-suggested-position: first
+ * @ai-slots:
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"20px","bottom":"20px"}}},"backgroundColor":"base-0","layout":{"type":"constrained"}} -->

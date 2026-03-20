@@ -4,6 +4,11 @@
  * Slug: lexiadesign/posts-1-col
  * Categories: lexiadesign/content
  * Block Types: core/query
+ * @ai-section-type: blog
+ * @ai-color-scheme: light
+ * @ai-layout: full-width
+ * @ai-suggested-position: middle
+ * @ai-slots:
  */
 ?>
 <!-- wp:query {"queryId":8,"query":{"perPage":12,"pages":0,"offset":"0","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"align":"full","layout":{"type":"constrained"}} -->

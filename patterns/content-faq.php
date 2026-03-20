@@ -9,6 +9,13 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: content
+ * @ai-color-scheme: light
+ * @ai-layout: centered, grid-2col
+ * @ai-suggested-position: middle
+ * @ai-slots: section_label, section_heading, section_description, faq_1_question, faq_1_answer, faq_2_question, faq_2_answer, faq_3_question, faq_3_answer, faq_4_question, faq_4_answer, faq_5_question, faq_5_answer, faq_6_question, faq_6_answer, cta_heading, cta_description, cta_button_text
+ * @ai-repeater: faq_items, min:2, max:6
  */
 
 ?>

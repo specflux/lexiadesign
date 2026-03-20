@@ -3,6 +3,11 @@
  * Title: Search
  * Slug: lexiadesign/hidden-search
  * Inserter: no
+ * @ai-section-type: hidden
+ * @ai-color-scheme: brand
+ * @ai-layout: centered
+ * @ai-suggested-position: any
+ * @ai-slots:
  */
 ?>
 

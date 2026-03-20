@@ -5,6 +5,12 @@
  * Keywords: testimonial, review, rating
  * Categories: lexiadesign/testimonial
  * Viewport width: 1300
+ *
+ * @ai-section-type: testimonial
+ * @ai-color-scheme: dark
+ * @ai-layout: centered, full-width
+ * @ai-suggested-position: middle
+ * @ai-slots: testimonial-quote, author-name, author-role
  */
 ?>
 

@@ -9,6 +9,12 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: cta
+ * @ai-color-scheme: dark
+ * @ai-layout: centered, full-width
+ * @ai-suggested-position: last
+ * @ai-slots: heading, description, call_to_action_text, primary_button_text, secondary_button_text
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","right":"var:preset|spacing|small","left":"var:preset|spacing|small"},"margin":{"top":"0","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|base-0-color"}}}},"backgroundColor":"brand-900","textColor":"base-0","layout":{"type":"constrained"}} -->

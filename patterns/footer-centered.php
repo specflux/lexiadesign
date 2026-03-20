@@ -8,6 +8,12 @@
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
  * Inserter: true
+ *
+ * @ai-section-type: footer
+ * @ai-color-scheme: dark
+ * @ai-layout: centered
+ * @ai-suggested-position: last
+ * @ai-slots:
  */
 ?>
 <!-- wp:group {"align":"wide","className":"alignfull dark-footer has-base-100-color has-main-background-color","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}},"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small"}}},"backgroundColor":"brand-950","textColor":"base-100"} -->

@@ -9,6 +9,12 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: testimonial
+ * @ai-color-scheme: light
+ * @ai-layout: centered, full-width
+ * @ai-suggested-position: middle
+ * @ai-slots: section-heading
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","right":"var:preset|spacing|small","left":"var:preset|spacing|small"},"blockGap":"var:preset|spacing|large"}},"backgroundColor":"base-0","layout":{"inherit":true,"type":"constrained"}} -->

@@ -9,6 +9,13 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: content
+ * @ai-color-scheme: light
+ * @ai-layout: split
+ * @ai-suggested-position: middle
+ * @ai-slots: feature_1_number, feature_1_title, feature_1_description, feature_2_number, feature_2_title, feature_2_description, feature_3_number, feature_3_title, feature_3_description
+ * @ai-repeater: numbered_features, min:2, max:3
  */
 
 ?>

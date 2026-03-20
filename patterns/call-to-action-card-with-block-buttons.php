@@ -9,6 +9,12 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: cta
+ * @ai-color-scheme: dark
+ * @ai-layout: centered, full-width
+ * @ai-suggested-position: last
+ * @ai-slots: heading, description, button_text, link_text
  */
 
 ?>

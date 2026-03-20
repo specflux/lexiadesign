@@ -4,6 +4,11 @@
  * Slug: lexiadesign/posts-list
  * Categories: query, posts
  * Block Types: core/query
+ * @ai-section-type: blog
+ * @ai-color-scheme: light
+ * @ai-layout: full-width
+ * @ai-suggested-position: middle
+ * @ai-slots: section_heading
  */
 ?>
 

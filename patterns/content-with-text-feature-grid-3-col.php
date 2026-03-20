@@ -4,6 +4,13 @@
  * Slug: lexiadesign/content-with-text-feature-grid-3-col
  * Categories: lexiadesign/content
  * Viewport width: 1400
+ *
+ * @ai-section-type: content
+ * @ai-color-scheme: brand
+ * @ai-layout: centered, grid-3col, full-width
+ * @ai-suggested-position: middle
+ * @ai-slots: section_heading, section_description, feature_1_title, feature_1_description, feature_2_title, feature_2_description, feature_3_title, feature_3_description, feature_4_title, feature_4_description, feature_5_title, feature_5_description, feature_6_title, feature_6_description
+ * @ai-repeater: feature_cards, min:3, max:6
  */
 ?>
 

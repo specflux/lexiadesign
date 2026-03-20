@@ -9,6 +9,11 @@
  * Block Types: core/query
  * Post Types:
  * Inserter: false
+ * @ai-section-type: blog
+ * @ai-color-scheme: light
+ * @ai-layout: grid-3col, full-width
+ * @ai-suggested-position: middle
+ * @ai-slots:
  */
 ?>
 <!-- wp:query {"queryId":1,"query":{"perPage":12,"pages":"0","offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":true},"align":"full"} -->

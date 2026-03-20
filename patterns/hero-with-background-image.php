@@ -9,6 +9,12 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: hero
+ * @ai-color-scheme: dark
+ * @ai-layout: centered, full-width
+ * @ai-suggested-position: first
+ * @ai-slots: heading, subheading, button_text
  */
 ?>
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/laptop-on-table.webp","id":1886,"dimRatio":50,"isUserOverlayColor":true,"customGradient":"linear-gradient(180deg,#006EF3 0%,#002A5D 100%)","metadata":{"categories":["lexiadesign/hero"],"patternName":"lexiadesign/hero-with-background-image","name":"Hero with background image"},"align":"full","style":{"color":{"duotone":"unset"}},"layout":{"type":"constrained"}} -->

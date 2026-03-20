@@ -9,6 +9,12 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: content
+ * @ai-color-scheme: light
+ * @ai-layout: centered
+ * @ai-suggested-position: middle
+ * @ai-slots: card_heading, card_description, primary_button_text, secondary_button_text
  */
 
 ?>

@@ -7,6 +7,11 @@
  * Keywords: page, layout, design, template, pricing
  * Viewport Width: 1500
  * Inserter: true
+ * @ai-section-type: page
+ * @ai-color-scheme: light
+ * @ai-layout: full-width
+ * @ai-suggested-position: first
+ * @ai-slots:
  */
 ?>
 <!-- wp:pattern {"slug":"pricing-table-with-testimonials"} /-->

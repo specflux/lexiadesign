@@ -3,6 +3,11 @@
  * Title: Post navigation
  * Slug: lexiadesign/hidden-post-navigation
  * Inserter: no
+ * @ai-section-type: hidden
+ * @ai-color-scheme: light
+ * @ai-layout: full-width
+ * @ai-suggested-position: any
+ * @ai-slots: previous-label, next-label
  */
 ?>
 

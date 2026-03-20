@@ -8,6 +8,12 @@
  * Viewport Width: 1500
  * Block Types: core/template-part/header
  * Inserter: true
+ *
+ * @ai-section-type: header
+ * @ai-color-scheme: dark
+ * @ai-layout: split
+ * @ai-suggested-position: first
+ * @ai-slots: cta_button_text
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","right":"var:preset|spacing|small","left":"var:preset|spacing|small"},"margin":{"top":"0px"}},"elements":{"link":{"color":{"text":"var:preset|color|base-0-color"}}}},"backgroundColor":"brand-950","textColor":"base-0","layout":{"inherit":true,"type":"constrained"}} -->

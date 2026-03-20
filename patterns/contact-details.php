@@ -9,6 +9,12 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: contact
+ * @ai-color-scheme: brand
+ * @ai-layout: centered
+ * @ai-suggested-position: middle
+ * @ai-slots: section-label, section-heading, section-description, social-label, email-label, email-address, phone-label, phone-number, address-label, address-line-1, address-line-2, primary-cta, secondary-cta
  */
 
 ?>

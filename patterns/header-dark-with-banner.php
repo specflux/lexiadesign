@@ -8,6 +8,12 @@
  * Viewport Width: 1500
  * Block Types: core/template-part/header
  * Inserter: true
+ *
+ * @ai-section-type: header
+ * @ai-color-scheme: dark
+ * @ai-layout: split
+ * @ai-suggested-position: first
+ * @ai-slots: banner_text, banner_cta_button_text
  */
 ?>
 <!-- wp:group {"align":"full","backgroundColor":"brand-900","layout":{"type":"constrained"}} -->

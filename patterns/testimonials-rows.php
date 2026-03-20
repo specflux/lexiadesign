@@ -9,6 +9,13 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: testimonial
+ * @ai-color-scheme: light
+ * @ai-layout: grid-2col, full-width
+ * @ai-suggested-position: middle
+ * @ai-slots: section-heading, section-description, testimonial-quote-1, author-name-1, author-role-1, testimonial-quote-2, author-name-2, author-role-2, testimonial-quote-3, author-name-3, author-role-3, testimonial-quote-4, author-name-4, author-role-4, testimonial-quote-5, author-name-5, author-role-5, testimonial-quote-6, author-name-6, author-role-6
+ * @ai-repeater: testimonial_card, min:2, max:6
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"},"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","right":"var:preset|spacing|small","left":"var:preset|spacing|small"},"blockGap":"var:preset|spacing|large"}},"backgroundColor":"brand-50","layout":{"inherit":true,"type":"constrained"}} -->

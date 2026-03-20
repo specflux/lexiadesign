@@ -9,6 +9,11 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ * @ai-section-type: content
+ * @ai-color-scheme: light
+ * @ai-layout: centered
+ * @ai-suggested-position: middle
+ * @ai-slots: profile_name, profile_tagline, profile_description_1, profile_description_2
  */
 
 ?>

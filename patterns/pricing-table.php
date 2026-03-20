@@ -9,6 +9,13 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: pricing
+ * @ai-color-scheme: brand
+ * @ai-layout: centered, full-width
+ * @ai-suggested-position: middle
+ * @ai-slots: section-heading, section-description-bold, section-description, price, price-period, plan-name, plan-description, cta-button, feature-1, feature-2, feature-3, feature-4, feature-5, guarantee-prefix, guarantee-highlight, guarantee-text
+ * @ai-repeater: feature_item, min:3, max:6
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","right":"var:preset|spacing|small","left":"var:preset|spacing|small"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|large"}},"layout":{"type":"constrained"}} -->

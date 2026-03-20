@@ -9,6 +9,13 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: pricing
+ * @ai-color-scheme: dark
+ * @ai-layout: split, full-width
+ * @ai-suggested-position: middle
+ * @ai-slots: section-heading, section-description, cta-text, plan-name, plan-description, feature-1, feature-2, feature-3, feature-4, price, price-description, guarantee-text, guarantee-highlight, testimonial-quote-1, author-name-1, testimonial-quote-2, author-name-2
+ * @ai-repeater: feature_item, min:2, max:6
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","right":"var:preset|spacing|small","left":"var:preset|spacing|small"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|x-large"}},"backgroundColor":"brand-900","layout":{"type":"constrained"}} -->

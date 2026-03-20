@@ -3,6 +3,11 @@
  * Title: 404
  * Slug: lexiadesign/hidden-404
  * Inserter: no
+ * @ai-section-type: hidden
+ * @ai-color-scheme: dark
+ * @ai-layout: split
+ * @ai-suggested-position: any
+ * @ai-slots: heading, description
  */
 ?>
 

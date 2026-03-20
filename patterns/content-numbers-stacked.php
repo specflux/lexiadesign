@@ -9,6 +9,13 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: content
+ * @ai-color-scheme: brand
+ * @ai-layout: grid-2col, full-width
+ * @ai-suggested-position: middle
+ * @ai-slots: stat_1_value, stat_1_description, stat_2_value, stat_2_description, stat_3_value, stat_3_description, stat_4_value, stat_4_description
+ * @ai-repeater: stats, min:2, max:4
  */
 
 ?>

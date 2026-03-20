@@ -5,6 +5,12 @@
  * Categories: lexiadesign/content
  * Keywords: content, text
  * Viewport width: 1400
+ *
+ * @ai-section-type: content
+ * @ai-color-scheme: brand
+ * @ai-layout: centered, full-width
+ * @ai-suggested-position: middle
+ * @ai-slots: statement_heading
  */
 ?>
 

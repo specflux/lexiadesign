@@ -1,3 +1,7 @@
 node_modules/
 vendor/
 categories.txt
+.claude
+designer.md
+plan.md
+todo.md

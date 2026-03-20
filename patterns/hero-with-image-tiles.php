@@ -9,10 +9,16 @@
  * Block Types: 
  * Post Types: 
  * Inserter: true
+ *
+ * @ai-section-type: hero
+ * @ai-color-scheme: light
+ * @ai-layout: split, full-width
+ * @ai-suggested-position: first
+ * @ai-slots: eyebrow, heading, subheading, button_text, social_proof_text
  */
 ?>
-<!-- wp:group {"metadata":{"categories":["lexiadesign/hero"],"patternName":"lexiadesign/hero-with-image-tiles","name":"Hero with gallery image"},"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"backgroundColor":"brand-50"} -->
-<div class="wp-block-group alignfull has-brand-50-background-color has-background" style="padding-right:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:columns {"verticalAlignment":null,"align":"wide"} -->
+<!-- wp:group {"metadata":{"categories":["lexiadesign/hero"],"patternName":"lexiadesign/hero-with-image-tiles","name":"Hero with gallery image"},"className":"lexia-hero lexia-hero--image-tiles","align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"backgroundColor":"brand-50"} -->
+<div class="wp-block-group alignfull lexia-hero lexia-hero--image-tiles has-brand-50-background-color has-background" style="padding-right:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:columns {"verticalAlignment":null,"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"},"minHeight":"100%"},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
@@ -36,8 +42,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"className":"ollie-avatar-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-<div class="wp-block-group ollie-avatar-row"><!-- wp:image {"width":"60px","sizeSlug":"thumbnail","className":"is-resized","style":{"border":{"radius":"100px","width":"0px","style":"none"}}} -->
+<div class="wp-block-group"><!-- wp:group {"className":"lexia-avatar-row","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"left"}} -->
+<div class="wp-block-group lexia-avatar-row"><!-- wp:image {"width":"60px","sizeSlug":"thumbnail","className":"is-resized","style":{"border":{"radius":"100px","width":"0px","style":"none"}}} -->
 <figure class="wp-block-image size-thumbnail is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/people-3.webp" alt="" style="border-style:none;border-width:0px;border-radius:100px;width:60px"/></figure>
 <!-- /wp:image -->
 
@@ -50,7 +56,7 @@
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap","justifyContent":"left"}} -->
+<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","flexWrap":"wrap","justifyContent":"left"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"textColor":"brand-900"} -->
 <p class="has-brand-900-color has-text-color">★★★★★</p>
 <!-- /wp:paragraph -->
@@ -64,7 +70,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"50%","style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"aspectRatio":"9/16","scale":"cover","sizeSlug":"large","style":{"border":{"radius":"30px"}}} -->
 <figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/people-4.webp" alt="" style="border-radius:30px;aspect-ratio:9/16;object-fit:cover"/></figure>
 <!-- /wp:image -->

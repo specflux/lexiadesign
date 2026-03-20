@@ -8,6 +8,12 @@
  * Viewport Width: 1500
  * Block Types: core/template-part/footer
  * Inserter: true
+ *
+ * @ai-section-type: footer
+ * @ai-color-scheme: dark
+ * @ai-layout: split
+ * @ai-suggested-position: last
+ * @ai-slots:
  */
 ?>
 <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small","top":"var:preset|spacing|small","bottom":"var:preset|spacing|small"}},"elements":{"link":{"color":{"text":"var:preset|color|base-0-color"}}}},"backgroundColor":"brand-950","textColor":"base-0","className":"alignfull dark-footer has-base-100-color has-main-background-color has-text-color has-background has-link-color"} -->

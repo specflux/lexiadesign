@@ -4,6 +4,12 @@
  * Slug: lexiadesign/footer-with-colophon
  * Categories: lexiadesign/footer
  * Block Types: core/template-part/footer
+ *
+ * @ai-section-type: footer
+ * @ai-color-scheme: dark
+ * @ai-layout: grid-2col
+ * @ai-suggested-position: last
+ * @ai-slots: footer_heading, footer_description, column_heading_1, nav_link_1, nav_link_2, nav_link_3, nav_link_4, column_heading_2, nav_link_5, nav_link_6, nav_link_7, nav_link_8
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["lexiadesign/footer"],"patternName":"lexiadesign/footer-with-colophon","name":"Footer with colophon"},"className":"alignfull dark-footer has-main-color has-tertiary-background-color has-base-color","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small","top":"var:preset|spacing|small","bottom":"var:preset|spacing|small"}}},"backgroundColor":"base-900","textColor":"base-100"} -->

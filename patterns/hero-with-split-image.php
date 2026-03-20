@@ -9,6 +9,12 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: hero
+ * @ai-color-scheme: dark
+ * @ai-layout: split, full-width
+ * @ai-suggested-position: first
+ * @ai-slots: heading, subheading, primary_button_text, secondary_button_text
  */
 ?>
 

@@ -5,6 +5,12 @@
  * Keywords: team
  * Categories: lexiadesign/team
  * Viewport width: 1400
+ * @ai-section-type: team
+ * @ai-color-scheme: light
+ * @ai-layout: grid-4col, centered
+ * @ai-suggested-position: middle
+ * @ai-slots: section_heading, section_description, member_1_name, member_1_role, member_2_name, member_2_role, member_3_name, member_3_role, member_4_name, member_4_role
+ * @ai-repeater: team_member, min:4, max:4
  */
 ?>
 

@@ -3,6 +3,11 @@
  * Title: Post meta
  * Slug: lexiadesign/hidden-post-meta
  * Inserter: no
+ * @ai-section-type: hidden
+ * @ai-color-scheme: light
+ * @ai-layout: inline
+ * @ai-suggested-position: any
+ * @ai-slots:
  */
 ?>
 

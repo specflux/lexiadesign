@@ -9,6 +9,12 @@
  * Block Types: 
  * Post Types: 
  * Inserter: true
+ *
+ * @ai-section-type: hero
+ * @ai-color-scheme: light
+ * @ai-layout: split, full-width
+ * @ai-suggested-position: first
+ * @ai-slots: eyebrow, heading, subheading, button_text, social_proof_text
  */
 ?>
 
@@ -38,8 +44,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"className":"ollie-avatar-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
-<div class="wp-block-group ollie-avatar-row"><!-- wp:image {"width":"60px","sizeSlug":"thumbnail","className":"is-resized","style":{"border":{"radius":"100px","width":"0px","style":"none"}}} -->
+<div class="wp-block-group"><!-- wp:group {"className":"lexia-avatar-row","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
+<div class="wp-block-group lexia-avatar-row"><!-- wp:image {"width":"60px","sizeSlug":"thumbnail","className":"is-resized","style":{"border":{"radius":"100px","width":"0px","style":"none"}}} -->
 <figure class="wp-block-image size-thumbnail is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/people-3.webp" alt="" style="border-style:none;border-width:0px;border-radius:100px;width:60px"/></figure>
 <!-- /wp:image -->
 
