@@ -29,7 +29,7 @@
 
 <!-- wp:heading -->
 <h2 class="wp-block-heading">
-<strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color "><?php echo esc_html_e( 'Ditch the code, embrace the whoosh!', 'lexiadesign' ); ?></mark></strong> <?php echo esc_html_e( 'Build beautiful websites in a flash with the drag-and-drop power of the WordPress Site Editor.', 'lexiadesign' ); ?></h2>
+<strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color "><?php echo esc_html_e( 'What our clients say about working with us.', 'lexiadesign' ); ?></mark></strong> <?php echo esc_html_e( 'Real results from real partnerships. Here\'s how we\'ve helped businesses grow through design and strategy.', 'lexiadesign' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -37,7 +37,7 @@
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"className":"is-style-column-box-shadow","style":{"spacing":{"blockGap":"var:preset|spacing|medium","padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}},"border":{"radius":"15px"}},"backgroundColor":"brand-100","layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-column-box-shadow has-brand-100-background-color has-background" style="border-radius:15px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:paragraph -->
-<p><?php echo esc_html_e( 'Building my website used to be a daunting task, but block themes have completely changed the game! With pre-designed patterns, I was able to create a beautiful and professional website even with limited design experience. It\'s like having a personal design assistant at my fingertips!', 'lexiadesign' ); ?></p>
+<p><?php echo esc_html_e( 'From our first strategy call to the final launch, the process was seamless. They took the time to understand our audience and built a site that actually converts. Our online sales jumped 40% in the first quarter after the redesign. Truly outstanding work.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -47,7 +47,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500"><?php echo esc_html_e( 'Sarah Jones', 'lexiadesign' ); ?></p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_e( 'Priya Kapoor', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -55,7 +55,7 @@
 
 <!-- wp:group {"className":"is-style-column-box-shadow","style":{"spacing":{"blockGap":"var:preset|spacing|medium","padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}},"border":{"radius":"15px"}},"backgroundColor":"brand-100","layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-column-box-shadow has-brand-100-background-color has-background" style="border-radius:15px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:paragraph -->
-<p><?php echo esc_html_e( 'As a busy entrepreneur, I don\'t have time to mess around with code. Block themes have been a lifesaver! I can quickly add stunning layouts with relevant functionalities like contact forms and testimonials, all within the user-friendly block editor. It\'s saved me time and money, and most importantly, my website looks amazing!', 'lexiadesign' ); ?></p>
+<p><?php echo esc_html_e( 'Communication was the biggest standout. Weekly updates, clear timelines, and zero surprises. They delivered our brand refresh on schedule and the final product was exactly what we described in our brief. It\'s rare to find an agency that actually listens.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -65,7 +65,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500"><?php echo esc_html_e( 'David Lee', 'lexiadesign' ); ?></p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_e( 'Marcus Webb', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

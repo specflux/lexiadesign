@@ -35,15 +35,15 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"textColor":"base-100"} -->
-<h2 class="wp-block-heading has-base-100-color has-text-color"><?php esc_html_e( 'Download Lexia for free today', 'lexiadesign' ); ?></h2>
+<h2 class="wp-block-heading has-base-100-color has-text-color"><?php esc_html_e( 'Let us help you build what is next', 'lexiadesign' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"base-100"} -->
-<p class="has-base-100-color has-text-color"><?php esc_html_e( 'Let loose your imagination and easily create beautiful websites with the Lexia block theme powered by the new WordPress Site Editor.', 'lexiadesign' ); ?></p>
+<p class="has-base-100-color has-text-color"><?php esc_html_e( 'Our team brings together strategy, design, and technology to deliver solutions that drive real business outcomes.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"base-100"} -->
-<p class="has-base-100-color has-text-color"><?php esc_html_e( 'Animating Ideas into Realities!', 'lexiadesign' ); ?></p>
+<p class="has-base-100-color has-text-color"><?php esc_html_e( 'From concept to launch, we are with you every step of the way.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -53,13 +53,13 @@
 <div class="wp-block-buttons">
 <!-- wp:button {"backgroundColor":"brand","className":"is-style-fill"} -->
 <div class="wp-block-button is-style-fill">
-<a class="wp-block-button__link has-brand-background-color has-background wp-element-button"><?php esc_html_e( 'Download Lexia', 'lexiadesign' ); ?></a></div>
+<a class="wp-block-button__link has-brand-background-color has-background wp-element-button"><?php esc_html_e( 'Get Started', 'lexiadesign' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"fontSize":"small"} -->
 <p class="has-link-color has-small-font-size">
-<a href="https://wordpress.org"><?php esc_html_e( 'View on WordPress.org', 'lexiadesign' ); ?></a>
+<a href="https://wordpress.org"><?php esc_html_e( 'View Our Work', 'lexiadesign' ); ?></a>
 </p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
@@ -78,11 +78,11 @@
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
 <p style="font-style:normal;font-weight:600">
-“<?php esc_html_e( 'My work has been easier since using Lexia from start to end.', 'lexiadesign' ); ?>”</p>
+“<?php esc_html_e( 'Working with this team transformed our online presence and exceeded every expectation.', 'lexiadesign' ); ?>”</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"base-700","fontSize":"small"} -->
-<p class="has-base-700-color has-text-color has-small-font-size" style="font-style:normal;font-weight:400"><?php esc_html_e( 'Rated 5/5 stars by 1,234 happy reviewers', 'lexiadesign' ); ?></p>
+<p class="has-base-700-color has-text-color has-small-font-size" style="font-style:normal;font-weight:400"><?php esc_html_e( 'Rated 5/5 stars by over 200 satisfied clients', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

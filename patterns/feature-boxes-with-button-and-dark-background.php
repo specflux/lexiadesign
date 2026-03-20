@@ -80,7 +80,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"text-sm"} -->
-<p class="has-text-sm-font-size"><?php esc_html_e( 'Focus on your content, not loading times. Lexia is lightweight and optimized for top performance.', 'lexiadesign' ); ?></p>
+<p class="has-text-sm-font-size"><?php esc_html_e( 'Focus on what matters most. Our solutions are lightweight and optimized for maximum performance.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

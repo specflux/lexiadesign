@@ -1,0 +1,7 @@
+/* Cover
+--------------------------------------------- */
+
+.wp-block-cover.is-style-rounded-cover {
+	border-radius: 16px;
+	overflow: hidden;
+}

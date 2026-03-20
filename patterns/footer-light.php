@@ -23,12 +23,12 @@
 <!-- wp:column -->
 <div class="wp-block-column">
 <!-- wp:heading {"level":4} -->
-<h4 class="wp-block-heading"><?php echo esc_html_e( 'Design with Lexia', 'lexiadesign' ); ?>
+<h4 class="wp-block-heading"><?php echo esc_html_e( 'About Us', 'lexiadesign' ); ?>
 </h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php echo esc_html_e( 'Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Lexia block theme. No coding skills required. Download for free today!', 'lexiadesign' ); ?>
+<p class="has-small-font-size"><?php echo esc_html_e( 'A full-service design studio specializing in brand identity, digital experiences, and creative strategy that drives growth.', 'lexiadesign' ); ?>
 </p>
 <!-- /wp:paragraph -->
 

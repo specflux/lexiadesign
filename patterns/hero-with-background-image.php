@@ -28,7 +28,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"main-accent","fontSize":"medium"} -->
-<p class="has-main-accent-color has-text-color has-medium-font-size"><?php echo esc_html_e( 'Whip up stunning, one-of-a-kind websites like a boss with the new WordPress Site Editor and the Lexia block theme!', 'lexiadesign' ); ?></p>
+<p class="has-main-accent-color has-text-color has-medium-font-size"><?php echo esc_html_e( 'We blend strategy, design, and technology to build digital experiences that set your brand apart.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->

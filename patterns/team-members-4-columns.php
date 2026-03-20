@@ -23,7 +23,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php echo esc_html_e( 'We\'re a tiny but mighty crew of design wizards, code ninjas, and all-around WordPress enthusiasts!', 'lexiadesign' ); ?></p>
+<p class="has-text-align-center"><?php echo esc_html_e( 'Our team of seasoned designers, strategists, and engineers is dedicated to delivering exceptional results for every client.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

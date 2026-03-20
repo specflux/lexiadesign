@@ -33,11 +33,15 @@ if ( !function_exists( 'lexiadesign_block_styles' )):
             ),
             'core/list' => array(
                 array( 'name' => 'checkmark-list', 'label' => 'Checkmark' ),
+                array( 'name' => 'arrow-list', 'label' => 'Arrow' ),
+                array( 'name' => 'no-marker', 'label' => 'No Marker' ),
             ),
             'core/button' => array(
                 array( 'name' => 'outline', 'label' => 'Outline' ),
                 array( 'name' => 'ghost', 'label' => 'Ghost' ),
                 array( 'name' => 'pill', 'label' => 'Pill' ),
+                array( 'name' => 'elevated', 'label' => 'Elevated' ),
+                array( 'name' => 'text-only', 'label' => 'Text Only' ),
             ),
             'core/separator' => array(
                 array( 'name' => 'separator-dotted', 'label' => 'Dotted' ),
@@ -47,14 +51,39 @@ if ( !function_exists( 'lexiadesign_block_styles' )):
                 array( 'name' => 'rounded', 'label' => 'Rounded' ),
                 array( 'name' => 'circle', 'label' => 'Circle' ),
                 array( 'name' => 'shadow', 'label' => 'Shadow' ),
+                array( 'name' => 'border-frame', 'label' => 'Border Frame' ),
+                array( 'name' => 'grayscale-hover', 'label' => 'Grayscale Hover' ),
             ),
             'core/group' => array(
                 array( 'name' => 'background-blur', 'label' => 'Background Blur' ),
                 array( 'name' => 'shadow-light', 'label' => 'Shadow Light' ),
                 array( 'name' => 'shadow-dark', 'label' => 'Shadow Dark' ),
+                array( 'name' => 'glass', 'label' => 'Glass' ),
+                array( 'name' => 'hover-lift', 'label' => 'Hover Lift' ),
+                array( 'name' => 'card-elevated', 'label' => 'Card Elevated' ),
+                array( 'name' => 'border-left-accent', 'label' => 'Left Accent Border' ),
+                array( 'name' => 'gradient-subtle', 'label' => 'Subtle Gradient' ),
             ),
             'core/columns' => array(
                 array( 'name' => 'column-box-shadow', 'label' => 'Box Shadow' ),
+                array( 'name' => 'columns-gap-none', 'label' => 'No Gap' ),
+            ),
+            'core/heading' => array(
+                array( 'name' => 'underline-accent', 'label' => 'Underline Accent' ),
+                array( 'name' => 'overline', 'label' => 'Overline' ),
+            ),
+            'core/quote' => array(
+                array( 'name' => 'left-border', 'label' => 'Left Border' ),
+            ),
+            'core/paragraph' => array(
+                array( 'name' => 'lead', 'label' => 'Lead Text' ),
+                array( 'name' => 'highlight', 'label' => 'Highlight' ),
+            ),
+            'core/cover' => array(
+                array( 'name' => 'rounded-cover', 'label' => 'Rounded' ),
+            ),
+            'core/table' => array(
+                array( 'name' => 'striped', 'label' => 'Striped Rows' ),
             ),
         );
 

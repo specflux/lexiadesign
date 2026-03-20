@@ -26,7 +26,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100"} -->
-<p class="has-text-align-center has-base-100-color has-text-color has-link-color"><?php esc_html_e( 'Lexia\'s stunning patterns take the design struggle out of the equation, so you can focus on what truly matters: raking in the dough!', 'lexiadesign' ); ?></p>
+<p class="has-text-align-center has-base-100-color has-text-color has-link-color"><?php esc_html_e( 'One plan, everything included. No hidden fees, no surprise charges. Just results-driven digital services you can count on.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100"} -->
@@ -136,7 +136,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php echo esc_html_e( 'Using Block in Lexia has been a game-changer! I used to spend hours wrestling with code, but now I can easily create beautiful and functional websites in no time. It\'s like having a superpower for design!', 'lexiadesign' ); ?></p>
+<p class="has-small-font-size"><?php echo esc_html_e( 'The team\'s expertise made all the difference. They understood our vision from day one and delivered a solution that exceeded every expectation. Our engagement metrics have never been better.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"small"} -->
@@ -156,7 +156,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-700"}}}},"textColor":"base-700","fontSize":"small"} -->
-<p class="has-base-700-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_e( 'As a freelancer, I need a website that reflects my professionalism but also saves me time. Lexia are the perfect solution! The pre-designed patterns are stylish and easy to customize, allowing me to create a unique website that stands out from the crowd.', 'lexiadesign' ); ?></p>
+<p class="has-base-700-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_e( 'As a growing business, we needed a partner who could deliver quality work on a tight timeline. The results speak for themselves — our online presence has never looked more professional, and our conversion rates have improved significantly.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"small"} -->

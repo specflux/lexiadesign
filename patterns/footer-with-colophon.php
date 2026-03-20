@@ -16,11 +16,11 @@
 <div class="wp-block-group alignfull dark-footer has-main-color has-tertiary-background-color has-base-color has-base-100-color has-base-900-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|small","left":"var:preset|spacing|large"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100"} -->
 <div class="wp-block-column has-base-100-color has-text-color has-link-color"><!-- wp:heading {"level":4,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100"} -->
-<h4 class="wp-block-heading has-base-100-color has-text-color has-link-color"><?php esc_html_e( 'Design with Lexia', 'lexiadesign' ); ?></h4>
+<h4 class="wp-block-heading has-base-100-color has-text-color has-link-color"><?php esc_html_e( 'About Us', 'lexiadesign' ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php esc_html_e( 'Easily create beautiful, fully-customizable websites with the new WordPress Site Editor and the Lexia block theme. No coding skills required. Download for free today!', 'lexiadesign' ); ?></p>
+<p class="has-small-font-size"><?php esc_html_e( 'A full-service design studio specializing in brand identity, digital experiences, and creative strategy that drives growth.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"base","iconColorValue":"#fff","iconBackgroundColor":"main","iconBackgroundColorValue":"#14111f","className":"is-style-default","style":{"spacing":{"blockGap":{"top":"20px","left":"20px"}}},"layout":{"type":"flex","justifyContent":"left"}} -->

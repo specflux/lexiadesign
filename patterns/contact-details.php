@@ -27,11 +27,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading"><?php esc_html_e( 'Give us a ring, we\'d love to chat with you.', 'lexiadesign' ); ?></h2>
+<h2 class="wp-block-heading"><?php esc_html_e( 'Let\'s Start a Conversation', 'lexiadesign' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e( 'Whether you\'re looking for a brand refresh, a new web presence, or are curious about consultation, please drop us a line and let\'s start a blossoming relationship!', 'lexiadesign' ); ?></p>
+<p><?php esc_html_e( 'Whether you need a brand refresh, a new digital platform, or strategic consultation, we are here to help. Reach out and let\'s discuss how we can support your goals.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->

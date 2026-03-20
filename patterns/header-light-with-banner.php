@@ -23,14 +23,14 @@
 <!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide">
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-0","fontSize":"small"} -->
-<p class="has-base-0-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_e( 'Lexia is available now', 'lexiadesign' ); ?></p>
+<p class="has-base-0-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_e( 'New: Free consultation for new clients', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons">
 <!-- wp:button {"backgroundColor":"brand","textColor":"base-0","fontSize":"small"} -->
 <div class="wp-block-button has-custom-font-size has-small-font-size">
-<a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background wp-element-button"><?php echo esc_html_e( 'Download Now', 'lexiadesign' ); ?></a></div>
+<a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background wp-element-button"><?php echo esc_html_e( 'Get Started', 'lexiadesign' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

@@ -21,11 +21,11 @@
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","right":"var:preset|spacing|small","left":"var:preset|spacing|small"},"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|large"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","className":"wp-block-heading"} -->
-<h2 class="wp-block-heading has-text-align-center"><?php echo esc_html_e( 'Pay with clarity, gain big', 'lexiadesign' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center"><?php echo esc_html_e( 'Simple, Transparent Pricing', 'lexiadesign' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><strong><?php echo esc_html_e( 'Lexia\'s stunning patterns take the design struggle out of the equation,', 'lexiadesign' ); ?></strong> <?php echo esc_html_e( 'so you can focus on what truly matters: raking in the dough!', 'lexiadesign' ); ?></p>
+<p class="has-text-align-center"><strong><?php echo esc_html_e( 'No hidden fees, no surprises.', 'lexiadesign' ); ?></strong> <?php echo esc_html_e( 'Choose a plan that fits your needs and scale as your business grows.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"className":"alignwide are-vertically-aligned-top has-base-100-color","style":{"border":{"radius":"15px","width":"1px"},"spacing":{"padding":{"right":"var:preset|spacing|medium","left":"var:preset|spacing|medium","top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium"}},"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"backgroundColor":"brand-800","borderColor":"brand-900"} -->
@@ -45,7 +45,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"main-accent","fontSize":"small"} -->
-<p class="has-main-accent-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Great for professionals who are building a lot of WordPress websites and need all the tools.', 'lexiadesign' ); ?></p>
+<p class="has-main-accent-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Ideal for growing businesses that need a full suite of tools and dedicated support.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -131,6 +131,6 @@
 <!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"center","textColor":"base-900-lighter","fontSize":"small"} -->
-<p class="has-text-align-center has-base-900-lighter-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Not convinced?', 'lexiadesign' ); ?> <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color "><?php echo esc_html_e( '100% money back guarantee ', 'lexiadesign' ); ?></mark></strong> <?php echo esc_html_e( 'Try our product with confidence, and if you don\'t like it, we\'ll make it right. ', 'lexiadesign' ); ?></p>
+<p class="has-text-align-center has-base-900-lighter-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Every plan includes a', 'lexiadesign' ); ?> <strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color "><?php echo esc_html_e( '30-day money back guarantee.', 'lexiadesign' ); ?></mark></strong> <?php echo esc_html_e( 'Try risk-free and see the results for yourself.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->

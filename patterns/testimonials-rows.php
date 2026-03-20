@@ -23,11 +23,11 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-x-large-font-size"><?php echo esc_html_e( 'Our customers love us', 'lexiadesign' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center has-x-large-font-size"><?php echo esc_html_e( 'Trusted by businesses like yours', 'lexiadesign' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php echo esc_html_e( 'Because happy customers are our secret sauce (and seeing them win makes us do a happy dance). Check out what they\'re raving about below:', 'lexiadesign' ); ?></p>
+<p class="has-text-align-center"><?php echo esc_html_e( 'We measure our success by the results our clients achieve. Here\'s what they have to say about working with our team.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -40,7 +40,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small","right":"var:preset|spacing|small"}},"border":{"radius":"14px"}},"backgroundColor":"brand-100","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-brand-100-background-color has-background" style="border-radius:14px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php echo esc_html_e( '"Using Block in Lexia has been a game-changer! I used to spend hours wrestling with code, but now I can easily create beautiful and functional websites in no time. It\'s like having a superpower for design!"', 'lexiadesign' ); ?></p>
+<p class="has-small-font-size"><?php echo esc_html_e( '"Our revenue grew 35% within six months of launching the new website. The design team nailed our brand voice, and the site practically sells for us now. The ROI on this project has been incredible."', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -53,12 +53,12 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group">
 <!-- wp:paragraph -->
-<p><strong><?php echo esc_html_e( 'Sarah Jones', 'lexiadesign' ); ?></strong>
+<p><strong><?php echo esc_html_e( 'Lauren Chen', 'lexiadesign' ); ?></strong>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
-<p class="has-secondary-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Graphic Designer', 'lexiadesign' ); ?></p>
+<p class="has-secondary-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Founder, Bloom Skincare', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -70,7 +70,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small","right":"var:preset|spacing|small"}},"border":{"radius":"14px"}},"backgroundColor":"brand-100","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-brand-100-background-color has-background" style="border-radius:14px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php echo esc_html_e( '"As a freelancer, I need a website that reflects my professionalism but also saves me time. Lexia are the perfect solution! The pre-designed patterns are stylish and easy to customize, allowing me to create a unique website that stands out from the crowd."', 'lexiadesign' ); ?></p>
+<p class="has-small-font-size"><?php echo esc_html_e( '"The quality of the design work is outstanding. Every detail was considered, from typography to mobile responsiveness. Our customers constantly compliment the site, and our bounce rate dropped by half after the redesign."', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -83,12 +83,12 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group">
 <!-- wp:paragraph -->
-<p><strong><strong><?php echo esc_html_e( 'David Lee', 'lexiadesign' ); ?></strong></strong>
+<p><strong><strong><?php echo esc_html_e( 'Tom Ashworth', 'lexiadesign' ); ?></strong></strong>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
-<p class="has-secondary-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Content Writer', 'lexiadesign' ); ?></p>
+<p class="has-secondary-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Director, Ashworth Legal', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -103,7 +103,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small","right":"var:preset|spacing|small"}},"border":{"radius":"14px"}},"backgroundColor":"brand-100","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-brand-100-background-color has-background" style="border-radius:14px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php echo esc_html_e( 'Lexia reignited my passion for website building! After years of frustration with clunky platforms, the user-friendly interface and customization options of block themes made the process fun and rewarding again. Now, I can experiment with different designs and create truly unique websites for my clients, exceeding their expectations with every project.', 'lexiadesign' ); ?></p>
+<p class="has-small-font-size"><?php echo esc_html_e( 'They turned our project around in just four weeks. We needed a full site rebuild before our product launch and they delivered ahead of schedule without cutting corners. The speed and professionalism were exactly what we needed during a critical growth phase.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -116,12 +116,12 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group">
 <!-- wp:paragraph -->
-<p><strong><strong><?php echo esc_html_e( 'William Smith', 'lexiadesign' ); ?></strong></strong>
+<p><strong><strong><?php echo esc_html_e( 'James Okafor', 'lexiadesign' ); ?></strong></strong>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
-<p class="has-secondary-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Web Developer', 'lexiadesign' ); ?></p>
+<p class="has-secondary-color has-text-color has-small-font-size"><?php echo esc_html_e( 'CTO, Peakline Software', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -133,7 +133,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small","right":"var:preset|spacing|small"}},"border":{"radius":"14px"}},"backgroundColor":"brand-100","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-brand-100-background-color has-background" style="border-radius:14px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php echo esc_html_e( 'My blog has never looked so good! Lexia allowed me to create a visually engaging and user-friendly experience for my readers. The flexibility of the patterns lets me experiment with different layouts and keep things fresh, which has definitely boosted my readership.', 'lexiadesign' ); ?></p>
+<p class="has-small-font-size"><?php echo esc_html_e( 'What impressed me most was how well they communicated throughout the project. No jargon, no disappearing acts. Every question was answered within hours and they proactively flagged things we hadn\'t even thought of. It felt like working with an extension of our own team.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -146,12 +146,12 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group">
 <!-- wp:paragraph -->
-<p><strong><?php echo esc_html_e( 'Michael Chen', 'lexiadesign' ); ?></strong>
+<p><strong><?php echo esc_html_e( 'Nina Alvarez', 'lexiadesign' ); ?></strong>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
-<p class="has-secondary-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Blogger', 'lexiadesign' ); ?></p>
+<p class="has-secondary-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Operations Manager, Relay Logistics', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -163,7 +163,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small","right":"var:preset|spacing|small"}},"border":{"radius":"14px"}},"backgroundColor":"brand-100","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-brand-100-background-color has-background" style="border-radius:14px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php echo esc_html_e( 'Lexia is like magic for anyone who wants a professional website but doesn\'t have a design background. It\'s intuitive, user-friendly, and allows for endless customization. I\'ve even recommended it to my friends and family!', 'lexiadesign' ); ?></p>
+<p class="has-small-font-size"><?php echo esc_html_e( 'They didn\'t just build us a website, they helped us rethink our entire digital strategy. From SEO recommendations to content structure, their insights have shaped how we approach marketing. We\'ve referred three other businesses to them already.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -176,12 +176,12 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group">
 <!-- wp:paragraph -->
-<p><strong><?php echo esc_html_e( 'Maria Rodriguez', 'lexiadesign' ); ?></strong>
+<p><strong><?php echo esc_html_e( 'Daniel Ortiz', 'lexiadesign' ); ?></strong>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
-<p class="has-secondary-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Teacher', 'lexiadesign' ); ?></p>
+<p class="has-secondary-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Owner, Ortiz Dental Group', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -196,7 +196,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small","right":"var:preset|spacing|small"}},"border":{"radius":"14px"}},"backgroundColor":"brand-100","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-brand-100-background-color has-background" style="border-radius:14px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php echo esc_html_e( 'As a musician, I needed a website that captured the essence of my music and brand. Lexia helped me achieve just that! I can now share my music, connect with fans, and even sell merchandise, all through my beautiful and functional website.', 'lexiadesign' ); ?></p>
+<p class="has-small-font-size"><?php echo esc_html_e( 'We came in with a vague brief and they turned it into something we\'re genuinely proud of. The branding package and website work together perfectly. Every time someone visits our site, they immediately understand who we are and what we stand for.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -209,12 +209,12 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group">
 <!-- wp:paragraph -->
-<p><strong><?php echo esc_html_e( 'John Williams', 'lexiadesign' ); ?></strong>
+<p><strong><?php echo esc_html_e( 'Sophie Brennan', 'lexiadesign' ); ?></strong>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
-<p class="has-secondary-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Musician', 'lexiadesign' ); ?></p>
+<p class="has-secondary-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Co-founder, Kindred Coffee Roasters', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -226,7 +226,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small","right":"var:preset|spacing|small"}},"border":{"radius":"14px"}},"backgroundColor":"brand-100","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-brand-100-background-color has-background" style="border-radius:14px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)">
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php echo esc_html_e( 'I\'m not very tech-savvy, but Lexia made creating a website surprisingly easy and enjoyable! The visual interface and drag-and-drop functionality make it accessible even for beginners like me. Now I have a website I can be proud of, and it only took me a few hours!', 'lexiadesign' ); ?></p>
+<p class="has-small-font-size"><?php echo esc_html_e( 'As a small business owner, I was nervous about the investment. But they walked me through every step, kept things on budget, and the finished site has already paid for itself through new customer enquiries. I wish I\'d done this years ago.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -239,12 +239,12 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group">
 <!-- wp:paragraph -->
-<p><strong><strong><strong><?php echo esc_html_e( 'Jane Miller', 'lexiadesign' ); ?></strong></strong></strong>
+<p><strong><strong><strong><?php echo esc_html_e( 'Karen Whitfield', 'lexiadesign' ); ?></strong></strong></strong>
 </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"secondary","fontSize":"small"} -->
-<p class="has-secondary-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Entrepreneur', 'lexiadesign' ); ?></p>
+<p class="has-secondary-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Owner, The Pressed Flower Studio', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

@@ -6,3 +6,7 @@
     flex-direction: column-reverse;
   }
 }
+
+.wp-block-columns.is-style-columns-gap-none {
+	gap: 0 !important;
+}

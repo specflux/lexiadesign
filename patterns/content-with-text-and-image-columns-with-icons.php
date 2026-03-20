@@ -32,7 +32,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-800"}}}},"textColor":"base-800"} -->
-<p class="has-base-800-color has-text-color has-link-color"><?php esc_html_e( 'Lexia ships with over 50 pixel-perfect pattern designs you can use to build a stunning website with a few clicks.', 'lexiadesign' ); ?></p>
+<p class="has-base-800-color has-text-color has-link-color"><?php esc_html_e( 'Our team delivers pixel-perfect designs that help you launch faster and convert more visitors into customers.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:columns -->

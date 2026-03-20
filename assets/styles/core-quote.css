@@ -1,0 +1,12 @@
+/* Quote
+--------------------------------------------- */
+
+.wp-block-quote.is-style-left-border {
+	border-left: 4px solid var(--wp--preset--color--brand);
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-radius: 0;
+	padding-left: var(--wp--preset--spacing--small);
+	background: transparent;
+}

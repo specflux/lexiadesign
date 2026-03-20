@@ -25,11 +25,11 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0-color"}}}},"textColor":"base-0"} -->
-<h2 class="wp-block-heading has-text-align-center has-base-0-color has-text-color has-link-color"><?php esc_html_e( 'Ditch the code, embrace the whoosh!', 'lexiadesign' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center has-base-0-color has-text-color has-link-color"><?php esc_html_e( 'Start Your Next Project Today', 'lexiadesign' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php esc_html_e( 'Craft a website that\'s lightning-fast with the drag-and-drop magic of WordPress and stunning pre-made designs by Lexia. Coding? Not your forte? No worries, friend!', 'lexiadesign' ); ?></p>
+<p class="has-text-align-center"><?php esc_html_e( 'Whether you need a brand refresh, a new digital platform, or a growth strategy, our team is ready to help you achieve your goals. Let us bring your vision to life.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

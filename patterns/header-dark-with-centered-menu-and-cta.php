@@ -28,7 +28,7 @@
 <div class="wp-block-buttons">
 <!-- wp:button {"backgroundColor":"brand"} -->
 <div class="wp-block-button">
-<a class="wp-block-button__link has-brand-background-color has-background wp-element-button"><?php echo esc_html_e( 'Download Now', 'lexiadesign' ); ?></a></div>
+<a class="wp-block-button__link has-brand-background-color has-background wp-element-button"><?php echo esc_html_e( 'Get Started', 'lexiadesign' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

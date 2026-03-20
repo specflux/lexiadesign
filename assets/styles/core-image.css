@@ -35,3 +35,20 @@ html .is-layout-flex .wp-block-image {
 .is-style-shadow img {
 	box-shadow: var(--wp--preset--shadow--medium-light);
 }
+
+.wp-block-image.is-style-border-frame img {
+	border: 4px solid var(--wp--preset--color--base-200);
+	border-radius: 8px;
+	padding: 6px;
+	background: var(--wp--preset--color--base-0);
+	box-shadow: var(--wp--preset--shadow--small-light);
+}
+
+.wp-block-image.is-style-grayscale-hover img {
+	filter: grayscale(100%);
+	transition: filter 0.3s ease;
+}
+
+.wp-block-image.is-style-grayscale-hover:hover img {
+	filter: grayscale(0%);
+}

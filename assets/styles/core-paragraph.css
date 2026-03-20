@@ -1,0 +1,17 @@
+/* Paragraph
+--------------------------------------------- */
+
+.wp-block-paragraph.is-style-lead {
+	font-size: var(--wp--preset--font-size--large);
+	line-height: 1.6;
+	color: var(--wp--preset--color--base-600);
+}
+
+.wp-block-paragraph.is-style-highlight {
+	background-color: var(--wp--preset--color--brand-50);
+	padding: var(--wp--preset--spacing--xx-small) var(--wp--preset--spacing--x-small);
+	border-radius: 6px;
+	display: inline;
+	box-decoration-break: clone;
+	-webkit-box-decoration-break: clone;
+}

@@ -24,14 +24,14 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100"} -->
-<h2 class="wp-block-heading has-text-align-center has-base-100-color has-text-color has-link-color"><?php esc_html_e( 'Ditch the code and channel your inner design ninja!', 'lexiadesign' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center has-base-100-color has-text-color has-link-color"><?php esc_html_e( 'Ready to Build Something Great?', 'lexiadesign' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":[]},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php esc_html_e( 'Pattern power unlocks lightning-fast website creation in WordPress.', 'lexiadesign' ); ?></p>
+<p class="has-text-align-center"><?php esc_html_e( 'Strategic design and expert execution to accelerate your business growth.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center"} -->

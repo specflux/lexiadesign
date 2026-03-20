@@ -19,7 +19,7 @@
 ?>
 <!-- wp:group {"style":{"border":{"radius":"15px","width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|medium","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"blockGap":"var:preset|spacing|small"}},"borderColor":"brand-100","backgroundColor":"brand-50","layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group has-border-color has-brand-100-border-color has-brand-50-background-color has-background" style="border-width:1px;border-radius:15px;padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:paragraph {"textColor":"base-700","fontSize":"small"} -->
-<p class="has-base-700-color has-text-color has-small-font-size"><?php esc_html_e( 'This product has completely transformed our workflow. The results speak for themselves and we couldn\'t be happier with the outcome.', 'lexiadesign' ); ?></p>
+<p class="has-base-700-color has-text-color has-small-font-size"><?php esc_html_e( 'They redesigned our entire client portal and the feedback has been phenomenal. Support tickets dropped by 60% because customers can finally find what they need. Worth every penny.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center"}} -->
@@ -29,11 +29,11 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"base-900","fontSize":"small"} -->
-<p class="has-base-900-color has-text-color has-small-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Sarah Jones', 'lexiadesign' ); ?></p>
+<p class="has-base-900-color has-text-color has-small-font-size" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Emma Lawson', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"base-700","fontSize":"text-sm"} -->
-<p class="has-base-700-color has-text-color has-text-sm-font-size"><?php esc_html_e( 'Product Designer', 'lexiadesign' ); ?></p>
+<p class="has-base-700-color has-text-color has-text-sm-font-size"><?php esc_html_e( 'Head of Digital, Finch &amp; Partners', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

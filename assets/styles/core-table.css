@@ -1,0 +1,15 @@
+/* Table
+--------------------------------------------- */
+
+.wp-block-table.is-style-striped tbody tr:nth-child(odd) {
+	background-color: var(--wp--preset--color--base-100);
+}
+
+.wp-block-table.is-style-striped thead {
+	border-bottom: 2px solid var(--wp--preset--color--base-300);
+}
+
+.wp-block-table.is-style-striped th,
+.wp-block-table.is-style-striped td {
+	padding: var(--wp--preset--spacing--xx-small) var(--wp--preset--spacing--x-small);
+}

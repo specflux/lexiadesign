@@ -34,7 +34,7 @@
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size"><?php esc_html_e('Unleash your inner website wizard with the brand new WordPress Site Editor and Lexia block theme!', 'lexiadesign');?></p>
+<p class="has-medium-font-size"><?php esc_html_e('Download our free guide to building a digital presence that converts visitors into loyal customers.', 'lexiadesign');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -48,7 +48,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"brand","width":100} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-brand-background-color has-background wp-element-button" href="#"><?php esc_html_e('Download Lexia for Free !', 'lexiadesign');?></a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-brand-background-color has-background wp-element-button" href="#"><?php esc_html_e('Get Your Free Guide', 'lexiadesign');?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>

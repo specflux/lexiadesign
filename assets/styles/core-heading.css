@@ -1,0 +1,16 @@
+/* Heading
+--------------------------------------------- */
+
+.wp-block-heading.is-style-underline-accent {
+	display: inline-block;
+	padding-bottom: 0.3em;
+	border-bottom: 3px solid var(--wp--preset--color--brand);
+}
+
+.wp-block-heading.is-style-overline {
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: var(--wp--preset--color--brand);
+}

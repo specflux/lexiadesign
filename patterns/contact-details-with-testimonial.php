@@ -131,7 +131,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}},"textColor":"base-100"} -->
-<p class="has-base-100-color has-text-color has-link-color" style="font-style:normal;font-weight:600"><?php esc_html_e( '“My work has been easier since using Lexia from start to end.”', 'lexiadesign' ); ?></p>
+<p class="has-base-100-color has-text-color has-link-color" style="font-style:normal;font-weight:600"><?php esc_html_e( '“Working with this team transformed how we approach our digital presence.”', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"base-100","fontSize":"small"} -->

@@ -8,23 +8,40 @@ For the AI Bridge plugin architecture, see [parent CLAUDE.md](../CLAUDE.md). The
 
 ## Theme Overview
 
-WordPress Full Site Editing block theme. 75 patterns, 3 font families, fluid design system, 6 style variations.
+WordPress Full Site Editing block theme. 81 patterns, 4 font families, fluid design system, 6 industry persona style variations, 34 block styles.
 
 ---
 
 ## Design System (theme.json)
 
-### Colors — 21 palette entries
+### Colors — 34 palette entries
 Numbered scale: `brand`, `brand-50` through `brand-950`, `base-0` through `base-900`, `main-accent`, `transparent`.
+
+Semantic colors: `success`, `success-light`, `success-dark`, `error`, `error-light`, `error-dark`, `warning`, `warning-light`, `warning-dark`, `info`, `info-light`, `info-dark`.
 
 AI semantic roles in `custom.ai.colorRoles` map brand concepts to token slugs (e.g., `primary` → `brand`, `surface` → `base-100`).
 
-### Typography — 3 font families
+### AI Bridge Metadata (theme.json `custom.ai`)
+Version 2.0. Ships with the theme so the AI bridge plugin (and any AI tool) can read it via REST API.
+
+- **`colorRoles`** — Maps semantic concepts (primary, surface, text, success, error) to palette slugs
+- **`typographyRoles`** — Maps roles (heading, body, display, editorial) to font family slugs
+- **`spacingRoles`** — Maps layout concepts (sectionPadding, contentGap) to spacing presets
+- **`tailwindMap`** — Complete translation layer: Tailwind utility concepts → WordPress tokens
+  - `colors`: Tailwind color names → palette slugs (e.g., `blue-500` → `brand`)
+  - `spacing`: Tailwind spacing scale → spacing presets (e.g., `8` → `medium`)
+  - `fontSize`: Tailwind text sizes → font size presets (e.g., `xl` → `x-large`)
+  - `fontFamily`: Tailwind font stacks → font family slugs (e.g., `sans` → `primary`)
+  - `shadow`: Tailwind shadow utils → shadow presets (e.g., `lg` → `large-light`)
+  - `blockStyles`: Tailwind-like concepts → WordPress block style classes (e.g., `btn-pill` → `is-style-pill`)
+
+### Typography — 4 font families
 | Slug | Font | Use | File |
 |------|------|-----|------|
 | `primary` | Inter | Body text | `assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2` |
 | `secondary` | DM Sans | Headings | `assets/fonts/dm-sans/DMSans-VariableFont_opsz,wght.woff2` |
 | `serif` | Source Serif 4 | Editorial style variations | `assets/fonts/source-serif/SourceSerif4-VariableFont_opsz,wght.woff2` |
+| `display` | Space Grotesk | Bold display/Agency/Commerce personas | `assets/fonts/space-grotesk/SpaceGrotesk-VariableFont_wght.woff2` |
 
 All are variable fonts. Patterns reference headings via `has-secondary-font-family` class.
 
@@ -42,26 +59,31 @@ x-large:  clamp(3.5rem, 8vw, 5.2rem)
 xx-large: clamp(4.5rem, 11vw, 7.8rem)
 ```
 
-### Shadows — 6 presets
-`small-light`, `medium-light`, `large-light`, `small-dark`, `medium-dark`, `large-dark`. Use via `var(--wp--preset--shadow--medium-light)` in CSS or `"shadow":"var:preset|shadow|medium-light"` in block JSON.
+### Shadows — 12 presets
+Light: `small-light`, `medium-light`, `large-light`. Dark: `small-dark`, `medium-dark`, `large-dark`. Interactive: `hover-lift`, `floating`, `dropdown`, `focus-ring`, `inner-light`, `card-elevated`. Use via `var(--wp--preset--shadow--medium-light)` in CSS or `"shadow":"var:preset|shadow|medium-light"` in block JSON.
 
 ---
 
-## Block Styles (15 registered)
+## Block Styles (34 registered)
 
 Registered in `functions.php` via array-loop pattern. CSS auto-discovered from `assets/styles/core-*.css`.
 
 | Block | Styles | CSS File |
 |-------|--------|----------|
-| `core/button` | outline, ghost, pill | `core-button.css` |
+| `core/button` | outline, ghost, pill, elevated, text-only | `core-button.css` |
 | `core/separator` | separator-dotted, separator-thin | `core-separator.css` |
-| `core/image` | rounded, circle, shadow | `core-image.css` |
-| `core/group` | background-blur, shadow-light, shadow-dark | `core-group.css` |
-| `core/columns` | column-box-shadow | `core-columns.css` |
+| `core/image` | rounded, circle, shadow, border-frame, grayscale-hover | `core-image.css` |
+| `core/group` | background-blur, shadow-light, shadow-dark, glass, hover-lift, card-elevated, border-left-accent, gradient-subtle | `core-group.css` |
+| `core/heading` | underline-accent, overline | `core-heading.css` |
+| `core/quote` | left-border | `core-quote.css` |
+| `core/paragraph` | lead, highlight | `core-paragraph.css` |
+| `core/list` | checkmark-list, arrow-list, no-marker | `core-list.css` |
+| `core/cover` | rounded-cover | `core-cover.css` |
+| `core/table` | striped | `core-table.css` |
+| `core/columns` | column-box-shadow, columns-gap-none | `core-columns.css` |
 | `core/navigation` | (base styles, no named variants) | `core-navigation.css` |
 | `core/details` | arrow-icon-details | (inline) |
 | `core/post-terms` | pill | (inline) |
-| `core/list` | checkmark-list | (inline) |
 
 To add a new block style:
 1. Add entry to `$block_styles` array in `functions.php`
@@ -86,17 +108,21 @@ Prefixed with `_atom-`. `Inserter: false`. Only used by the AI bridge assembler.
 
 ---
 
-## Templates (8)
+## Templates (12)
 
 | Template | Use |
 |----------|-----|
 | `page.html` | Default page |
 | `page-no-title.html` | Pattern-composed pages (no title block) |
 | `page-with-featured-image.html` | Pages with hero image |
+| `page-with-sidebar.html` | Sidebar layout |
+| `page-landing.html` | Landing page (no header/footer) |
+| `page-services.html` | Services page with branded title area |
 | `single.html` | Blog posts |
 | `archive.html` | Archive listings |
 | `search.html` | Search results |
 | `404.html` | Not found |
+| `coming-soon.html` | Coming soon |
 | `index.html` | Fallback |
 
 ## Template Parts (3)
@@ -108,12 +134,22 @@ All delegate to patterns:
 
 ---
 
-## Style Variations (6 color schemes)
+## Style Variations (6 industry personas)
 
-JSON files in `styles/`: emerald, fuchsia, indigo, lime, orange, rose.
+Each variation changes colors, typography, spacing, and shadow treatment — not just hue.
+
+| File | Persona | Brand Color | Body Font | Heading Font | Border Radius | Feel |
+|------|---------|------------|-----------|-------------|--------------|------|
+| `emerald.json` | Clinic | Emerald green | Inter | DM Sans | 12px rounded | Calming, airy, trustworthy |
+| `indigo.json` | SaaS | Indigo | Inter | Inter | 6px sharp | Compact, efficient, modern |
+| `rose.json` | Consultant | Rose | Source Serif | Source Serif | 4px refined | Editorial, warm, professional |
+| `fuchsia.json` | Studio | Fuchsia | DM Sans | Space Grotesk | 0px sharp | Bold, dramatic, creative |
+| `orange.json` | Commerce | Orange | Inter | Space Grotesk | 8px friendly | Conversion-heavy, energetic |
+| `lime.json` | Startup | Lime | Inter | DM Sans | 10px modern | Fresh, energetic, growth |
 
 Additional overrides in subdirectories:
-- `styles/colors/` — color-only variations (same 6)
+- `styles/colors/` — color-only variations (same 6 personas)
+- `styles/typography/` — typography-only variations: Editorial (serif body), Modern (DM Sans body), Sans Serif (Inter body), Display (Space Grotesk headings)
 - `styles/blocks/` — block-level overrides (`reverse-column.json`)
 - `styles/sections/` — section overrides (`section-dark.json`, `section-light.json`)
 

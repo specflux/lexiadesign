@@ -28,7 +28,7 @@
 
 <!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center">
-<strong><?php echo esc_html_e( 'Lexia\'s stunning patterns take the design struggle out of the equation,', 'lexiadesign' ); ?></strong> <?php echo esc_html_e( 'so you can focus on what truly matters: raking in the dough!', 'lexiadesign' ); ?></p>
+<strong><?php echo esc_html_e( 'No long-term contracts or hidden fees.', 'lexiadesign' ); ?></strong> <?php echo esc_html_e( 'Choose the plan that fits your business and scale as you grow.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -155,7 +155,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"textColor":"main-accent","fontSize":"small"} -->
-<p class="has-main-accent-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Great for professionals who are building a lot of WordPress websites and need all the tools.', 'lexiadesign' ); ?></p>
+<p class="has-main-accent-color has-text-color has-small-font-size"><?php echo esc_html_e( 'Great for growing teams that need a full-service digital partner.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -367,7 +367,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group">
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size"><?php echo esc_html_e( 'Using Block in Lexia has been a game-changer! I used to spend hours wrestling with code, but now I can easily create beautiful and functional websites in no time. It\'s like having a superpower for design!', 'lexiadesign' ); ?></p>
+<p class="has-small-font-size"><?php echo esc_html_e( 'Partnering with this team was one of the best decisions we made. Their strategic approach and creative execution helped us stand out in a competitive market. The results exceeded all our expectations.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"small"} -->

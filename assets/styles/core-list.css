@@ -1,0 +1,15 @@
+/* List
+--------------------------------------------- */
+
+.wp-block-list.is-style-arrow-list {
+	list-style-type: "\2192\00a0\00a0";
+}
+
+.wp-block-list.is-style-arrow-list li {
+	padding-inline-start: 0.5rem;
+}
+
+.wp-block-list.is-style-no-marker {
+	list-style-type: none;
+	padding-left: 0;
+}

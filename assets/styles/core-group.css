@@ -30,3 +30,38 @@
 	box-shadow: var(--wp--preset--shadow--small-light);
 	border-radius: 15px;
 }
+
+.is-style-glass {
+	background: rgba(255, 255, 255, 0.7);
+	-webkit-backdrop-filter: blur(16px) saturate(180%);
+	backdrop-filter: blur(16px) saturate(180%);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.is-style-hover-lift {
+	box-shadow: var(--wp--preset--shadow--small-light);
+	transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.is-style-hover-lift:hover {
+	box-shadow: var(--wp--preset--shadow--hover-lift);
+	transform: translateY(-4px);
+}
+
+.is-style-card-elevated {
+	box-shadow: var(--wp--preset--shadow--card-elevated);
+	border-radius: 12px;
+}
+
+.is-style-border-left-accent {
+	border-left: 4px solid var(--wp--preset--color--brand);
+	padding-left: var(--wp--preset--spacing--small);
+}
+
+.is-style-gradient-subtle {
+	background: linear-gradient(
+		180deg,
+		var(--wp--preset--color--brand-50) 0%,
+		var(--wp--preset--color--base-0) 100%
+	);
+}

@@ -191,12 +191,72 @@
           "color": "transparent",
           "name": "Transparent",
           "slug": "transparent"
+        },
+        {
+          "color": "#16a34a",
+          "name": "Success",
+          "slug": "success"
+        },
+        {
+          "color": "#dcfce7",
+          "name": "Success Light",
+          "slug": "success-light"
+        },
+        {
+          "color": "#15803d",
+          "name": "Success Dark",
+          "slug": "success-dark"
+        },
+        {
+          "color": "#dc2626",
+          "name": "Error",
+          "slug": "error"
+        },
+        {
+          "color": "#fee2e2",
+          "name": "Error Light",
+          "slug": "error-light"
+        },
+        {
+          "color": "#b91c1c",
+          "name": "Error Dark",
+          "slug": "error-dark"
+        },
+        {
+          "color": "#d97706",
+          "name": "Warning",
+          "slug": "warning"
+        },
+        {
+          "color": "#fef3c7",
+          "name": "Warning Light",
+          "slug": "warning-light"
+        },
+        {
+          "color": "#b45309",
+          "name": "Warning Dark",
+          "slug": "warning-dark"
+        },
+        {
+          "color": "#0284c7",
+          "name": "Info",
+          "slug": "info"
+        },
+        {
+          "color": "#e0f2fe",
+          "name": "Info Light",
+          "slug": "info-light"
+        },
+        {
+          "color": "#0369a1",
+          "name": "Info Dark",
+          "slug": "info-dark"
         }
       ]
     },
     "custom": {
       "ai": {
-        "version": "1.0",
+        "version": "2.0",
         "colorRoles": {
           "primary": "brand",
           "primaryLight": "brand-100",
@@ -206,17 +266,144 @@
           "text": "base-900",
           "textInverse": "base-100",
           "textMuted": "base-500",
-          "accent": "main-accent"
+          "accent": "main-accent",
+          "success": "success",
+          "successLight": "success-light",
+          "error": "error",
+          "errorLight": "error-light",
+          "warning": "warning",
+          "warningLight": "warning-light",
+          "info": "info",
+          "infoLight": "info-light"
         },
         "typographyRoles": {
           "heading": "secondary",
           "body": "primary",
-          "display": "secondary"
+          "display": "display",
+          "editorial": "serif"
         },
         "spacingRoles": {
           "sectionPadding": "x-large",
           "contentGap": "medium",
           "componentGap": "small"
+        },
+        "tailwindMap": {
+          "_description": "Maps Tailwind CSS utility concepts to WordPress theme.json tokens. AI tools should read this to translate Tailwind-style intents into valid WordPress block markup.",
+          "colors": {
+            "blue-50": "brand-50",
+            "blue-100": "brand-100",
+            "blue-200": "brand-200",
+            "blue-300": "brand-300",
+            "blue-400": "brand-400",
+            "blue-500": "brand",
+            "blue-600": "brand-600",
+            "blue-700": "brand-700",
+            "blue-800": "brand-800",
+            "blue-900": "brand-900",
+            "blue-950": "brand-950",
+            "gray-50": "base-0",
+            "gray-100": "base-100",
+            "gray-200": "base-200",
+            "gray-300": "base-300",
+            "gray-400": "base-400",
+            "gray-500": "base-500",
+            "gray-600": "base-600",
+            "gray-700": "base-700",
+            "gray-800": "base-800",
+            "gray-900": "base-900",
+            "white": "base-0",
+            "black": "base-900",
+            "transparent": "transparent",
+            "green-500": "success",
+            "green-100": "success-light",
+            "green-700": "success-dark",
+            "red-500": "error",
+            "red-100": "error-light",
+            "red-700": "error-dark",
+            "amber-500": "warning",
+            "amber-100": "warning-light",
+            "amber-700": "warning-dark",
+            "sky-500": "info",
+            "sky-100": "info-light",
+            "sky-700": "info-dark"
+          },
+          "spacing": {
+            "1": "xx-small",
+            "2": "xx-small",
+            "3": "x-small",
+            "4": "x-small",
+            "5": "small",
+            "6": "small",
+            "8": "medium",
+            "10": "medium",
+            "12": "large",
+            "16": "large",
+            "20": "x-large",
+            "24": "x-large",
+            "32": "xx-large"
+          },
+          "fontSize": {
+            "xs": "x-small",
+            "sm": "small",
+            "base": "medium",
+            "lg": "large",
+            "xl": "x-large",
+            "2xl": "xx-large",
+            "3xl": "xxx-large",
+            "4xl": "xxxx-large"
+          },
+          "fontFamily": {
+            "sans": "primary",
+            "serif": "serif",
+            "mono": "primary",
+            "display": "display"
+          },
+          "fontWeight": {
+            "light": "300",
+            "normal": "400",
+            "medium": "500",
+            "semibold": "600",
+            "bold": "700",
+            "extrabold": "900"
+          },
+          "borderRadius": {
+            "none": "0",
+            "sm": "0.25rem",
+            "md": ".33rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "2xl": "1rem",
+            "full": "9999px"
+          },
+          "shadow": {
+            "sm": "small-light",
+            "md": "medium-light",
+            "lg": "large-light",
+            "xl": "floating",
+            "inner": "inner-light",
+            "none": "none"
+          },
+          "blockStyles": {
+            "btn-outline": "is-style-outline",
+            "btn-ghost": "is-style-ghost",
+            "btn-pill": "is-style-pill",
+            "btn-elevated": "is-style-elevated",
+            "btn-text": "is-style-text-only",
+            "card": "is-style-card-elevated",
+            "card-hover": "is-style-hover-lift",
+            "glass": "is-style-glass",
+            "img-rounded": "is-style-rounded",
+            "img-circle": "is-style-circle",
+            "img-frame": "is-style-border-frame",
+            "list-check": "is-style-checkmark-list",
+            "list-arrow": "is-style-arrow-list",
+            "list-none": "is-style-no-marker",
+            "table-striped": "is-style-striped",
+            "lead": "is-style-lead",
+            "highlight": "is-style-highlight",
+            "overline": "is-style-overline",
+            "underline-accent": "is-style-underline-accent"
+          }
         }
       }
     },
@@ -321,6 +508,22 @@
           "fontFamily": "\"Source Serif 4\", Georgia, serif",
           "name": "Source Serif",
           "slug": "serif"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Space Grotesk",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "300 700",
+              "src": [
+                "file:./assets/fonts/space-grotesk/SpaceGrotesk-VariableFont_wght.woff2"
+              ]
+            }
+          ],
+          "fontFamily": "\"Space Grotesk\", sans-serif",
+          "name": "Space Grotesk",
+          "slug": "display"
         }
       ],
       "fontSizes": [
@@ -431,6 +634,36 @@
           "name": "Large Dark",
           "slug": "large-dark",
           "shadow": "0px 219px 61px 0px rgba(20, 17, 31, 0.00), 0px 140px 56px 0px rgba(20, 17, 31, 0.01), 0px 79px 47px 0px rgba(20, 17, 31, 0.05), 0px 35px 35px 0px rgba(20, 17, 31, 0.09), 0px 9px 19px 0px rgba(20, 17, 31, 0.10)"
+        },
+        {
+          "name": "Hover Lift",
+          "slug": "hover-lift",
+          "shadow": "0px 20px 25px -5px rgba(20, 17, 31, 0.08), 0px 8px 10px -6px rgba(20, 17, 31, 0.06)"
+        },
+        {
+          "name": "Floating",
+          "slug": "floating",
+          "shadow": "0px 25px 50px -12px rgba(20, 17, 31, 0.15), 0px 12px 24px -8px rgba(20, 17, 31, 0.08)"
+        },
+        {
+          "name": "Dropdown",
+          "slug": "dropdown",
+          "shadow": "0px 10px 15px -3px rgba(20, 17, 31, 0.08), 0px 4px 6px -4px rgba(20, 17, 31, 0.05)"
+        },
+        {
+          "name": "Focus Ring",
+          "slug": "focus-ring",
+          "shadow": "0px 0px 0px 3px rgba(68, 131, 237, 0.35)"
+        },
+        {
+          "name": "Inner Light",
+          "slug": "inner-light",
+          "shadow": "inset 0px 2px 4px 0px rgba(20, 17, 31, 0.04), inset 0px 1px 2px 0px rgba(20, 17, 31, 0.06)"
+        },
+        {
+          "name": "Card Elevated",
+          "slug": "card-elevated",
+          "shadow": "0px 1px 3px 0px rgba(20, 17, 31, 0.06), 0px 6px 16px 0px rgba(20, 17, 31, 0.08), 0px 1px 1px 0px rgba(20, 17, 31, 0.04)"
         }
       ]
     },
@@ -446,6 +679,16 @@
       "name": "page-with-featured-image",
       "postTypes": ["page"],
       "title": "Page with Featured Image"
+    },
+    {
+      "name": "page-landing",
+      "postTypes": ["page"],
+      "title": "Landing Page (No Header/Footer)"
+    },
+    {
+      "name": "page-services",
+      "postTypes": ["page"],
+      "title": "Services Page"
     }
   ],
   "styles": {
@@ -1121,8 +1364,8 @@
     "spacing": {
       "blockGap": "1.2rem",
       "padding": {
-        "left": "var(--wp--preset--spacing--x-large)",
-        "right": "var(--wp--preset--spacing--x-large)"
+        "left": "var(--wp--preset--spacing--medium)",
+        "right": "var(--wp--preset--spacing--medium)"
       }
     },
     "typography": {

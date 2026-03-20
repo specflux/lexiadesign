@@ -24,7 +24,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px","lineHeight":"2"},"color":{"text":"#d1d5db"}}} -->
-<p class="has-text-align-center has-text-color" style="color:#d1d5db;font-size:18px;line-height:2"><?php esc_html_e( 'Let loose your imagination and easily create beautiful websites with the Lexia block theme powered by the new WordPress Site Editor.', 'lexiadesign' ); ?></p>
+<p class="has-text-align-center has-text-color" style="color:#d1d5db;font-size:18px;line-height:2"><?php esc_html_e( 'We craft bespoke digital experiences that captivate your audience and drive measurable results for your business.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"18px","lineHeight":"2"},"color":{"text":"#d1d5db"}}} -->
@@ -33,7 +33,7 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"brand","textColor":"base-0","className":"custom-main-cta","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0-color"}}}}} -->
-<div class="wp-block-button custom-main-cta"><a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button"><?php esc_html_e('Download Now', 'lexiadesign');?></a></div>
+<div class="wp-block-button custom-main-cta"><a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button"><?php esc_html_e('Get Started', 'lexiadesign');?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"custom-sub-cta","style":{"color":{"text":"#ffffff","background":"transparent"}}} -->

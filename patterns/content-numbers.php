@@ -26,33 +26,33 @@
 <!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
 <div class="wp-block-column">
 <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"x-large"} -->
-<h3 class="wp-block-heading has-text-align-center has-x-large-font-size"><strong><?php esc_html_e( '44 million', 'lexiadesign' ); ?></strong></h3>
+<h3 class="wp-block-heading has-text-align-center has-x-large-font-size"><strong><?php esc_html_e( '2,400+', 'lexiadesign' ); ?></strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"base-700","fontSize":"small"} -->
-<p class="has-text-align-center has-base-700-color has-text-color has-small-font-size"><?php esc_html_e( 'No Idea what this number is illustrating', 'lexiadesign' ); ?></p>
+<p class="has-text-align-center has-base-700-color has-text-color has-small-font-size"><?php esc_html_e( 'Projects delivered for clients across 30 industries', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"},"elements":{"link":{"color":{"text":"var:preset|color|base-100-700"}}}},"textColor":"base-700"} -->
 <div class="wp-block-column has-base-700-color has-text-color has-link-color">
 <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"x-large"} -->
-<h3 class="wp-block-heading has-text-align-center has-x-large-font-size"><strong><?php esc_html_e( '100%', 'lexiadesign' ); ?></strong></h3>
+<h3 class="wp-block-heading has-text-align-center has-x-large-font-size"><strong><?php esc_html_e( '99.9%', 'lexiadesign' ); ?></strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"base-700","fontSize":"small"} -->
-<p class="has-text-align-center has-base-700-color has-text-color has-small-font-size"><?php esc_html_e( 'No Idea what this number is illustrating', 'lexiadesign' ); ?></p>
+<p class="has-text-align-center has-base-700-color has-text-color has-small-font-size"><?php esc_html_e( 'Uptime guaranteed with enterprise-grade hosting', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
 <div class="wp-block-column">
 <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"x-large"} -->
-<h3 class="wp-block-heading has-text-align-center has-x-large-font-size"><strong><?php esc_html_e( '4.5', 'lexiadesign' ); ?></strong></h3>
+<h3 class="wp-block-heading has-text-align-center has-x-large-font-size"><strong><?php esc_html_e( '4.9 / 5', 'lexiadesign' ); ?></strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","textColor":"base-700","fontSize":"small"} -->
-<p class="has-text-align-center has-base-700-color has-text-color has-small-font-size"><?php esc_html_e( 'Still no Idea what this number is illustrating', 'lexiadesign' ); ?></p>
+<p class="has-text-align-center has-base-700-color has-text-color has-small-font-size"><?php esc_html_e( 'Average client satisfaction rating on Clutch', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

@@ -97,7 +97,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><?php esc_html_e( 'Unleash your inner design guru! Lexia lets you customize everything from colors and fonts to layouts and animations. Make your website truly your own and stand out from the crowd.', 'lexiadesign' ); ?></p>
+<p><?php esc_html_e( 'Take full control of your brand. From colors and typography to layouts and interactions, every detail is crafted to reflect your unique identity.', 'lexiadesign' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
