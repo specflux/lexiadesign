@@ -3,7 +3,7 @@ Contributors: Specflux Solutions
 Requires at least: 6.6
 Tested up to: 6.7
 Requires PHP: 8.0
-Stable tag: 1.1
+Stable tag: 1.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,7 +18,11 @@ Sophisticated color palette:
 
 Conversion-optimized layout patterns and elements
 Fully customizable design system with Global Styles
-50+ pre-designed patterns and 7 full-page layouts
+80+ pre-designed patterns and 7 full-page layouts
+3 font families with 3 typography style variations
+6 color scheme style variations
+8 atomic sub-patterns for AI-powered page assembly
+15 registered block styles
 
 LexiaDesign empowers you to create a website that not only looks professional but also drives results. From eye-catching aesthetics to strategic content placement, every aspect of LexiaDesign is engineered to enhance user engagement and boost conversions.
 Transform visitors into customers with a theme that marries form and function. Choose LexiaDesign for a website that performs as good as it looks.
@@ -28,11 +32,11 @@ Transform visitors into customers with a theme that marries form and function. C
 = 1.0.0 =
 
 = 1.0.1 =
-* Released: Jun 21,2024
+* Released: Jun 21, 2024
 * Reworked the theme to be more responsive and mobile-friendly
 
 = 1.0.2 =
-* Released: July 9,2024
+* Released: July 9, 2024
 * Fixed contributors string in readme.txt
 * GPL licensing for images updated accordingly
 * Removed files from the theme that were not needed
@@ -43,7 +47,7 @@ Transform visitors into customers with a theme that marries form and function. C
 * Updated assets to comply with GPL licensing
 
 = 1.1.0 =
-* Released: August 4,2024
+* Released: August 4, 2024
 * 6.6 section style feature
 * fixed brand-900-lighter reference to base-800
 * Updated screenshot
@@ -52,25 +56,25 @@ Transform visitors into customers with a theme that marries form and function. C
 * updated pattern responsive design
 
 = 1.1.1 =
-* Released: August 4,2024
+* Released: August 4, 2024
 * bug fixes
 
 = 1.1.2 =
-* Released: September 1,2024
+* Released: September 1, 2024
 * Updated screenshot
 * Updated readme for versioning
 * added spacing after bracket
 
 = 1.1.3 =
-* Released: September 1,2024
+* Released: September 1, 2024
 * Updated screenshot
 
 = 1.1.4 =
-* Released: October 7,2024
+* Released: October 7, 2024
 * Fixed bug in theme.json
 
 = 1.2.0 =
-* Released: October 16,2024
+* Released: October 16, 2024
 * Fixed body background color
 * removed x padding from footer group
 * increased number of posts from 10 to 12
@@ -79,30 +83,39 @@ Transform visitors into customers with a theme that marries form and function. C
 * Added variation to switch column position for columns in mobile view
 
 = 1.2.1 =
-* Released: October 16,2024
+* Released: October 16, 2024
 * Updated theme Description in style.css to match readme.txt
 
 = 1.2.2 =
-* Released: October 16,2024
+* Released: October 16, 2024
 * Updated theme Description in style.css to match readme.txt
 
 = 1.2.3 =
-* Released: November 14,2024
+* Released: November 14, 2024
 * Fixed category label for Centered testimonial & Content with Centered statement
 * Added 3 hero patterns
 * Tested up to WordPress 6.7
 
 = 1.2.4 =
-* Released: November 14,2024
+* Released: November 14, 2024
 * Added style variations
 
 = 1.2.5 =
-* Released: November 15,2024
+* Released: November 15, 2024
 * Rearranged elements in theme.json
 * Added style sections for json in styles
 * Rearranged colors in json inside colors folder so that style editor palette is a better reflection of the colors available
 
-Intial release
+= 1.3.0 =
+* Released: March 20, 2026
+* AI-first theme enhancements: fluid spacing, shadows, fonts, block styles, pattern metadata
+* Added @ai-* metadata to all 81 patterns (100% AI bridge coverage)
+* Created 6 new atomic sub-patterns: button-outline, heading-group, testimonial-card, pricing-column, stat-item, team-member
+* Added 3 typography style variations: Sans Serif, Editorial, Modern
+* Added page-profile composition pattern
+* Added sidebar template part and page-with-sidebar template
+* Added coming-soon template
+* Bumped version to 1.3.0
 
 == Copyright ==
 
@@ -128,6 +141,16 @@ Inter Font
 Copyright 2020 The Inter Project Authors.
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/rsms/inter
+
+DM Sans Font
+Copyright 2014-2022 Indian Type Foundry, Jonny Pinhorn, Phaedra Charles.
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/googlefonts/dm-fonts
+
+Source Serif 4 Font
+Copyright 2014-2021 Adobe Systems Incorporated, Frank Griesshammer.
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/adobe-fonts/source-serif
 
 === Images ===
 
