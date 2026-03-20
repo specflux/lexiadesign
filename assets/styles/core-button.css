@@ -1,0 +1,32 @@
+/* Button
+--------------------------------------------- */
+
+.wp-block-button.is-style-outline .wp-block-button__link {
+	border: none;
+	background-color: transparent;
+	outline: 2px solid currentColor;
+	outline-offset: -3.5px;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:hover {
+	color: currentColor;
+	outline-color: currentColor;
+}
+
+.wp-block-button.is-style-ghost .wp-block-button__link {
+	border: none;
+	background-color: transparent;
+	color: currentColor;
+	padding-left: 0;
+	padding-right: 0;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+.wp-block-button.is-style-ghost .wp-block-button__link:hover {
+	text-decoration-thickness: 2px;
+}
+
+.wp-block-button.is-style-pill .wp-block-button__link {
+	border-radius: 999px;
+}

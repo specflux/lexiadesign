@@ -194,6 +194,32 @@
         }
       ]
     },
+    "custom": {
+      "ai": {
+        "version": "1.0",
+        "colorRoles": {
+          "primary": "brand",
+          "primaryLight": "brand-100",
+          "primaryDark": "brand-900",
+          "surface": "base-100",
+          "surfaceDark": "base-800",
+          "text": "base-900",
+          "textInverse": "base-100",
+          "textMuted": "base-500",
+          "accent": "main-accent"
+        },
+        "typographyRoles": {
+          "heading": "secondary",
+          "body": "primary",
+          "display": "secondary"
+        },
+        "spacingRoles": {
+          "sectionPadding": "x-large",
+          "contentGap": "medium",
+          "componentGap": "small"
+        }
+      }
+    },
     "layout": {
       "contentSize": "764px",
       "wideSize": "1260px"
@@ -211,37 +237,37 @@
         {
           "name": "XX Small",
           "slug": "xx-small",
-          "size": "calc(1.3rem/1.5)"
+          "size": "clamp(0.5rem, 1.5vw, 0.875rem)"
         },
         {
           "name": "X Small",
           "slug": "x-small",
-          "size": "1.3rem"
+          "size": "clamp(0.875rem, 2.5vw, 1.3rem)"
         },
         {
           "name": "Small",
           "slug": "small",
-          "size": "calc(1.3rem*1.5)"
+          "size": "clamp(1.3rem, 3.5vw, 2rem)"
         },
         {
           "name": "Medium",
           "slug": "medium",
-          "size": "calc(1.3rem*2)"
+          "size": "clamp(1.75rem, 4.5vw, 2.6rem)"
         },
         {
           "name": "Large",
           "slug": "large",
-          "size": "calc(1.3rem*3)"
+          "size": "clamp(2.5rem, 6vw, 3.9rem)"
         },
         {
           "name": "X Large",
           "slug": "x-large",
-          "size": "calc(1.3rem*4)"
+          "size": "clamp(3.5rem, 8vw, 5.2rem)"
         },
         {
           "name": "XX Large",
           "slug": "xx-large",
-          "size": "calc(1.3rem*6)"
+          "size": "clamp(4.5rem, 11vw, 7.8rem)"
         }
       ]
     },
@@ -263,6 +289,38 @@
           "fontFamily": "\"Inter\", sans-serif",
           "name": "Inter",
           "slug": "primary"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "DM Sans",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "100 900",
+              "src": [
+                "file:./assets/fonts/dm-sans/DMSans-VariableFont_opsz,wght.woff2"
+              ]
+            }
+          ],
+          "fontFamily": "\"DM Sans\", sans-serif",
+          "name": "DM Sans",
+          "slug": "secondary"
+        },
+        {
+          "fontFace": [
+            {
+              "fontFamily": "Source Serif 4",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "200 900",
+              "src": [
+                "file:./assets/fonts/source-serif/SourceSerif4-VariableFont_opsz,wght.woff2"
+              ]
+            }
+          ],
+          "fontFamily": "\"Source Serif 4\", Georgia, serif",
+          "name": "Source Serif",
+          "slug": "serif"
         }
       ],
       "fontSizes": [
@@ -340,6 +398,41 @@
         }
       ],
       "writingMode": true
+    },
+    "shadow": {
+      "defaultPresets": false,
+      "presets": [
+        {
+          "name": "Small Light",
+          "slug": "small-light",
+          "shadow": "0px 16px 5px 0px rgba(20, 17, 31, 0.00), 0px 10px 4px 0px rgba(20, 17, 31, 0.00), 0px 6px 4px 0px rgba(20, 17, 31, 0.02), 0px 3px 3px 0px rgba(20, 17, 31, 0.03), 0px 1px 1px 0px rgba(20, 17, 31, 0.03)"
+        },
+        {
+          "name": "Medium Light",
+          "slug": "medium-light",
+          "shadow": "0px 69px 19px 0px rgba(20, 17, 31, 0.00), 0px 44px 18px 0px rgba(20, 17, 31, 0.01), 0px 25px 15px 0px rgba(20, 17, 31, 0.03), 0px 11px 11px 0px rgba(20, 17, 31, 0.04), 0px 3px 6px 0px rgba(20, 17, 31, 0.05)"
+        },
+        {
+          "name": "Large Light",
+          "slug": "large-light",
+          "shadow": "0px 219px 61px 0px rgba(20, 17, 31, 0.00), 0px 140px 56px 0px rgba(20, 17, 31, 0.01), 0px 79px 47px 0px rgba(20, 17, 31, 0.03), 0px 35px 35px 0px rgba(20, 17, 31, 0.04), 0px 9px 19px 0px rgba(20, 17, 31, 0.05)"
+        },
+        {
+          "name": "Small Dark",
+          "slug": "small-dark",
+          "shadow": "0px 16px 4px 0px rgba(20, 17, 31, 0.00), 0px 10px 4px 0px rgba(20, 17, 31, 0.01), 0px 6px 3px 0px rgba(20, 17, 31, 0.05), 0px 3px 3px 0px rgba(20, 17, 31, 0.09), 0px 1px 1px 0px rgba(20, 17, 31, 0.10)"
+        },
+        {
+          "name": "Medium Dark",
+          "slug": "medium-dark",
+          "shadow": "0px 66px 18px 0px rgba(20, 17, 31, 0.00), 0px 42px 17px 0px rgba(20, 17, 31, 0.01), 0px 24px 14px 0px rgba(20, 17, 31, 0.05), 0px 10px 10px 0px rgba(20, 17, 31, 0.09), 0px 3px 6px 0px rgba(20, 17, 31, 0.10)"
+        },
+        {
+          "name": "Large Dark",
+          "slug": "large-dark",
+          "shadow": "0px 219px 61px 0px rgba(20, 17, 31, 0.00), 0px 140px 56px 0px rgba(20, 17, 31, 0.01), 0px 79px 47px 0px rgba(20, 17, 31, 0.05), 0px 35px 35px 0px rgba(20, 17, 31, 0.09), 0px 9px 19px 0px rgba(20, 17, 31, 0.10)"
+        }
+      ]
     },
     "useRootPaddingAwareAlignments": true
   },
@@ -913,7 +1006,7 @@
       "background": "var(--wp--preset--color--base-100)",
       "text": "var(--wp--preset--color--base-900)"
     },
-    "css": ":where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid}",
+    "css": ":where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid} .wp-site-blocks > .wp-block-template-part, .wp-site-blocks > .wp-block-group {margin-top: 0 !important;}",
     "elements": {
       "button": {
         ":active": {

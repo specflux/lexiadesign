@@ -9,6 +9,13 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: features
+ * @ai-color-scheme: light
+ * @ai-layout: grid-3col, full-width
+ * @ai-suggested-position: middle
+ * @ai-slots: section_heading, section_description, feature_1_title, feature_1_description, feature_1_button_text, feature_2_title, feature_2_description, feature_2_button_text, feature_3_title, feature_3_description, feature_3_button_text, feature_4_title, feature_4_description, feature_4_button_text, feature_5_title, feature_5_description, feature_5_button_text, feature_6_title, feature_6_description, feature_6_button_text
+ * @ai-repeater: features, min:1, max:6
  */
 
 ?>
@@ -39,7 +46,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"brand","textColor":"base-0","width":100,"className":"is-style-secondary-button","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0-color"}}}},"fontSize":"small"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-secondary-button has-small-font-size"><a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button">Tell Me More</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-secondary-button has-small-font-size"><a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button"><?php esc_html_e( 'Tell Me More', 'lexiadesign' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -59,7 +66,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"brand","textColor":"base-0","width":100,"className":"is-style-secondary-button","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0-color"}}}},"fontSize":"small"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-secondary-button has-small-font-size"><a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button">Tell Me More</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-secondary-button has-small-font-size"><a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button"><?php esc_html_e( 'Tell Me More', 'lexiadesign' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -79,7 +86,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"brand","textColor":"base-0","width":100,"className":"is-style-secondary-button","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0-color"}}}},"fontSize":"small"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-secondary-button has-small-font-size"><a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button" href="#">Tell Me More</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-secondary-button has-small-font-size"><a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button"><?php esc_html_e( 'Tell Me More', 'lexiadesign' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -101,7 +108,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"brand","textColor":"base-0","width":100,"className":"is-style-secondary-button","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0-color"}}}},"fontSize":"small"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-secondary-button has-small-font-size"><a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button">Tell Me More</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-secondary-button has-small-font-size"><a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button"><?php esc_html_e( 'Tell Me More', 'lexiadesign' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -121,7 +128,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"brand","textColor":"base-0","width":100,"className":"is-style-secondary-button","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0-color"}}}},"fontSize":"small"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-secondary-button has-small-font-size"><a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button">Tell Me More</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-secondary-button has-small-font-size"><a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button"><?php esc_html_e( 'Tell Me More', 'lexiadesign' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -141,7 +148,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"brand","textColor":"base-0","width":100,"className":"is-style-secondary-button","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-0-color"}}}},"fontSize":"small"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-secondary-button has-small-font-size"><a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button">Tell Me More</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 has-custom-font-size is-style-secondary-button has-small-font-size"><a class="wp-block-button__link has-base-0-color has-brand-background-color has-text-color has-background has-link-color wp-element-button"><?php esc_html_e( 'Tell Me More', 'lexiadesign' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

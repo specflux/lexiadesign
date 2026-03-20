@@ -9,6 +9,12 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: testimonial
+ * @ai-color-scheme: light
+ * @ai-layout: centered, full-width
+ * @ai-suggested-position: middle
+ * @ai-slots: quote, avatar_image_url, author_name, author_title
  */
 
 ?>

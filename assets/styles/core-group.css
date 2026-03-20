@@ -1,0 +1,32 @@
+/* Group
+--------------------------------------------- */
+
+.is-style-blur-image {
+	-webkit-backdrop-filter: blur(20px);
+	backdrop-filter: blur(20px);
+}
+
+.is-style-background-blur {
+	-webkit-backdrop-filter: blur(20px);
+	backdrop-filter: blur(20px);
+}
+
+@media (max-width: 600px) {
+	header div.is-style-background-blur {
+		backdrop-filter: none;
+	}
+}
+
+.is-style-shadow-light {
+	box-shadow: var(--wp--preset--shadow--medium-light);
+}
+
+.is-style-shadow-dark {
+	box-shadow: var(--wp--preset--shadow--medium-dark);
+}
+
+/* Column box shadow style (used in pricing patterns) */
+.is-style-column-box-shadow {
+	box-shadow: var(--wp--preset--shadow--small-light);
+	border-radius: 15px;
+}

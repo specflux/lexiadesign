@@ -24,29 +24,46 @@ if ( !function_exists( 'lexiadesign_block_styles' )):
      */
     function lexiadesign_block_styles()
     {
+        $block_styles = array(
+            'core/details' => array(
+                array( 'name' => 'arrow-icon-details', 'label' => 'Arrow icon' ),
+            ),
+            'core/post-terms' => array(
+                array( 'name' => 'pill', 'label' => 'Pill' ),
+            ),
+            'core/list' => array(
+                array( 'name' => 'checkmark-list', 'label' => 'Checkmark' ),
+            ),
+            'core/button' => array(
+                array( 'name' => 'outline', 'label' => 'Outline' ),
+                array( 'name' => 'ghost', 'label' => 'Ghost' ),
+                array( 'name' => 'pill', 'label' => 'Pill' ),
+            ),
+            'core/separator' => array(
+                array( 'name' => 'separator-dotted', 'label' => 'Dotted' ),
+                array( 'name' => 'separator-thin', 'label' => 'Thin' ),
+            ),
+            'core/image' => array(
+                array( 'name' => 'rounded', 'label' => 'Rounded' ),
+                array( 'name' => 'circle', 'label' => 'Circle' ),
+                array( 'name' => 'shadow', 'label' => 'Shadow' ),
+            ),
+            'core/group' => array(
+                array( 'name' => 'background-blur', 'label' => 'Background Blur' ),
+                array( 'name' => 'shadow-light', 'label' => 'Shadow Light' ),
+                array( 'name' => 'shadow-dark', 'label' => 'Shadow Dark' ),
+            ),
+            'core/columns' => array(
+                array( 'name' => 'column-box-shadow', 'label' => 'Box Shadow' ),
+            ),
+        );
 
-        register_block_style(
-            'core/details',
-            array(
-                'name' => 'arrow-icon-details',
-                'label' => 'Arrow icon',
-            )
-        );
-        register_block_style(
-            'core/post-terms',
-            array(
-                'name' => 'pill',
-                'label' => 'Pill',
-            )
-        );
-        register_block_style(
-            'core/list',
-            array(
-                'name' => 'checkmark-list',
-                'label' => 'Checkmark',
-            )
-        );
-    } 
+        foreach ( $block_styles as $block => $styles ) {
+            foreach ( $styles as $style ) {
+                register_block_style( $block, $style );
+            }
+        }
+    }
 endif;
 
 add_action( 'init', 'lexiadesign_block_styles' );
@@ -117,6 +134,10 @@ if (!function_exists( 'lexiadesign_pattern_categories' )):
             'lexiadesign/testimonial' => array(
                 'label'  => esc_html__( 'Testimonials', 'lexiadesign' ),
                 'description'  => esc_html__( 'A collection of testimonial layouts.', 'lexiadesign' ),
+            ),
+            'lexiadesign/atoms' => array(
+                'label'  => esc_html__( 'Atoms', 'lexiadesign' ),
+                'description'  => esc_html__( 'Atomic building blocks for the AI pattern assembler.', 'lexiadesign' ),
             ),
         );
 

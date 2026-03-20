@@ -9,6 +9,12 @@
  * Block Types:
  * Post Types:
  * Inserter: true
+ *
+ * @ai-section-type: hero
+ * @ai-color-scheme: dark
+ * @ai-layout: centered, full-width
+ * @ai-suggested-position: first
+ * @ai-slots: heading, subheading, primary_button_text, secondary_button_text, background_image_url
  */
 ?>
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/laptop-on-table.webp","id":1855,"dimRatio":70,"overlayColor":"brand-900","isUserOverlayColor":true,"minHeight":70,"minHeightUnit":"vh","align":"full","className":"is-style-blur-image is-style-default","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"bottom":"0","top":"0","right":"0","left":"0"}},"color":[]}} -->
@@ -32,7 +38,7 @@
 <!-- /wp:button -->
 
 <!-- wp:button {"textColor":"base-100","className":"is-style-outline","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-100"}}}}} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-base-100-color has-text-color has-link-color wp-element-button">Tell Me More</a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-base-100-color has-text-color has-link-color wp-element-button"><?php esc_html_e( 'Tell Me More', 'lexiadesign' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
